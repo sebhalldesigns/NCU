@@ -1789,6 +1789,48 @@
 		)
 	)
 	(sheet
+		(at 228.6 63.5)
+		(size 25.4 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9758cbcc-2ab2-405c-935d-3964f8470771")
+		(property "Sheetname" "Ethernet"
+			(at 228.6 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Ethernet.kicad_sch"
+			(at 228.6 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 38.1 38.1)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
