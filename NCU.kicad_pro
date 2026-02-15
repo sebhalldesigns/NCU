@@ -641,6 +641,10 @@
     [
       "9758cbcc-2ab2-405c-935d-3964f8470771",
       "Ethernet"
+    ],
+    [
+      "70b8fb88-9c19-46a8-95e3-6c05e68e24c9",
+      "MCU Power"
     ]
   ],
   "text_variables": {}
