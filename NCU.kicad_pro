@@ -632,7 +632,7 @@
     ],
     [
       "0cdbc80d-6682-4488-acea-b93c92a9f88d",
-      "Wireless Module"
+      "WiFi Bluetooth Module"
     ],
     [
       "8baea44c-feed-4f91-b7df-bd41d2704f11",
@@ -645,6 +645,10 @@
     [
       "70b8fb88-9c19-46a8-95e3-6c05e68e24c9",
       "MCU Power"
+    ],
+    [
+      "77f505d1-5a70-4b67-92f2-4570e0aae5e4",
+      "Cellular Module"
     ]
   ],
   "text_variables": {}
