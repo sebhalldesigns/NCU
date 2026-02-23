@@ -2194,6 +2194,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 119.38) (xy 139.7 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c00574-07f7-491c-b430-00f9d3d191f6")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df6ce00-2616-40f4-80e8-e4248f0ccef9")
+	)
+	(wire
+		(pts
 			(xy 50.8 139.7) (xy 63.5 139.7)
 		)
 		(stroke
@@ -2214,6 +2234,36 @@
 	)
 	(wire
 		(pts
+			(xy 127 121.92) (xy 139.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dfcf88d-3395-4026-8f9a-188a30ced9f0")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321f035c-93ea-4717-b560-5d620d8523cb")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 139.7 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33920213-fe08-4bfb-ab7b-9e4698b01882")
+	)
+	(wire
+		(pts
 			(xy 50.8 132.08) (xy 58.42 132.08)
 		)
 		(stroke
@@ -2221,6 +2271,16 @@
 			(type default)
 		)
 		(uuid "3b49214e-db19-42a3-b797-83e0e44c1e6f")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 139.7 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b154a6-4582-4bd4-a688-d1b311e7d422")
 	)
 	(wire
 		(pts
@@ -2244,6 +2304,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 109.22) (xy 139.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c95652-4e14-48b5-a301-f1d6452f8822")
+	)
+	(wire
+		(pts
 			(xy 43.18 147.32) (xy 43.18 149.86)
 		)
 		(stroke
@@ -2251,6 +2321,36 @@
 			(type default)
 		)
 		(uuid "84372131-4c6c-49c8-918a-6e58c4fcafbe")
+	)
+	(wire
+		(pts
+			(xy 172.72 129.54) (xy 172.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8cf74c-a940-4bb6-8d1d-0dec48b2635f")
+	)
+	(wire
+		(pts
+			(xy 127 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0e3e1f-4a8d-4294-8fdc-d9721da6d5b6")
+	)
+	(wire
+		(pts
+			(xy 172.72 127) (xy 170.18 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42160ef-8d37-43e8-b44e-5d5730bf79a8")
 	)
 	(wire
 		(pts
@@ -2438,6 +2538,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 172.72 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "548177a6-dfd9-4769-9637-9a2bdf9a855e")
+		(property "Reference" "#PWR048"
+			(at 172.72 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 172.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00c98e60-118d-4b1e-a301-49e9f89eef8c")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 58.42 129.54 0)
 		(unit 1)
@@ -2511,7 +2676,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6890705e-8dd1-4ab3-913a-9e751e2d94ef")
 		(property "Reference" "#PWR04"
 			(at 43.18 156.21 0)
@@ -2523,7 +2687,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 154.94 0)
+			(at 43.18 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +2878,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle")
-		(at 91.44 60.96 0)
+		(at 39.37 10.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2723,7 +2887,7 @@
 		(fields_autoplaced yes)
 		(uuid "f48cf283-5058-412d-bdbf-714e0676a3f5")
 		(property "Reference" "J4"
-			(at 91.44 27.94 0)
+			(at 39.37 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2895,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle"
-			(at 91.44 30.48 0)
+			(at 39.37 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +2903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 60.96 0)
+			(at 43.18 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2912,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 95.25 60.96 0)
+			(at 43.18 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2921,7 @@
 			)
 		)
 		(property "Description" "USB Full-Featured Type-C Receptacle connector"
-			(at 91.44 60.96 0)
+			(at 39.37 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3026,7 +3190,7 @@
 		)
 	)
 	(sheet
-		(at 167.64 49.53)
+		(at 167.64 36.83)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3042,7 +3206,7 @@
 		)
 		(uuid "8baea44c-feed-4f91-b7df-bd41d2704f11")
 		(property "Sheetname" "SD Card"
-			(at 167.64 48.8184 0)
+			(at 167.64 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3215,7 @@
 			)
 		)
 		(property "Sheetfile" "SDCard.kicad_sch"
-			(at 167.64 75.5146 0)
+			(at 167.64 62.8146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3068,8 +3232,8 @@
 		)
 	)
 	(sheet
-		(at 224.79 118.11)
-		(size 25.4 26.67)
+		(at 101.6 101.6)
+		(size 25.4 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3084,7 +3248,7 @@
 		)
 		(uuid "9758cbcc-2ab2-405c-935d-3964f8470771")
 		(property "Sheetname" "Ethernet"
-			(at 224.79 117.3984 0)
+			(at 101.6 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,12 +3257,92 @@
 			)
 		)
 		(property "Sheetfile" "Ethernet.kicad_sch"
-			(at 224.79 145.3646 0)
+			(at 101.6 126.3146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ETH_MDC" input
+			(at 127 121.92 0)
+			(uuid "bc2c8b77-2b9e-4096-8d76-e65ebff06bf4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TXEN" input
+			(at 127 109.22 0)
+			(uuid "4c6eecae-5c53-419d-826c-ced8c869598f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_CRS_DV" input
+			(at 127 116.84 0)
+			(uuid "d50decc3-c11f-4afc-9850-5f5f955138c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_RXD0" output
+			(at 127 111.76 0)
+			(uuid "c2597d4a-5d06-4a20-85f3-8b751274aa21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_RXD1" output
+			(at 127 114.3 0)
+			(uuid "f07f17c7-13f6-4940-830a-58b70780504b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TXD1" input
+			(at 127 106.68 0)
+			(uuid "e9561aac-5858-452b-9cec-9a0a101a6c12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_TXD0" input
+			(at 127 104.14 0)
+			(uuid "03d71ff2-29b8-46de-addc-7b1bb5359f45")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ETH_MDIO" input
+			(at 127 119.38 0)
+			(uuid "414b3751-ce1c-4242-9d7b-e67623b89c4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -3110,7 +3354,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 72.39)
+		(at 52.07 53.34)
 		(size 25.4 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3126,7 +3370,7 @@
 		)
 		(uuid "9be8b538-d844-48b8-8166-3cb7d05a381c")
 		(property "Sheetname" "CAN"
-			(at 124.46 71.6784 0)
+			(at 52.07 52.6284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3135,7 +3379,7 @@
 			)
 		)
 		(property "Sheetfile" "CAN.kicad_sch"
-			(at 124.46 98.3746 0)
+			(at 52.07 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +3388,7 @@
 			)
 		)
 		(pin "CAN0_TX" input
-			(at 149.86 78.74 0)
+			(at 77.47 59.69 0)
 			(uuid "b57592fb-06c6-4fc1-b5be-f2e2775bbf84")
 			(effects
 				(font
@@ -3154,7 +3398,7 @@
 			)
 		)
 		(pin "CAN0_HI" passive
-			(at 124.46 78.74 180)
+			(at 52.07 59.69 180)
 			(uuid "8949635f-e894-415a-bb98-f7185675297e")
 			(effects
 				(font
@@ -3164,7 +3408,7 @@
 			)
 		)
 		(pin "CAN0_LO" passive
-			(at 124.46 76.2 180)
+			(at 52.07 57.15 180)
 			(uuid "d09f6eec-b801-4323-8a90-a60e9cb4b370")
 			(effects
 				(font
@@ -3174,7 +3418,7 @@
 			)
 		)
 		(pin "3V3" passive
-			(at 149.86 74.93 0)
+			(at 77.47 55.88 0)
 			(uuid "fdb6e05a-6907-4e15-8cf2-9f9189f7c06d")
 			(effects
 				(font
@@ -3184,7 +3428,7 @@
 			)
 		)
 		(pin "CAN1_TX" input
-			(at 149.86 85.09 0)
+			(at 77.47 66.04 0)
 			(uuid "52fa6e34-6577-4c05-b05b-3719d1b10de5")
 			(effects
 				(font
@@ -3194,7 +3438,7 @@
 			)
 		)
 		(pin "CAN0_RX" output
-			(at 149.86 81.28 0)
+			(at 77.47 62.23 0)
 			(uuid "a9f58ec2-71e9-4703-8648-1e8bc325d371")
 			(effects
 				(font
@@ -3204,7 +3448,7 @@
 			)
 		)
 		(pin "CAN1_LO" passive
-			(at 124.46 82.55 180)
+			(at 52.07 63.5 180)
 			(uuid "519df0b9-763b-4cea-9afe-dd2113219259")
 			(effects
 				(font
@@ -3214,7 +3458,7 @@
 			)
 		)
 		(pin "CAN1_HI" passive
-			(at 124.46 85.09 180)
+			(at 52.07 66.04 180)
 			(uuid "33927376-3652-4d7a-a4c7-f9da92efb203")
 			(effects
 				(font
@@ -3224,7 +3468,7 @@
 			)
 		)
 		(pin "CAN1_RX" output
-			(at 149.86 87.63 0)
+			(at 77.47 68.58 0)
 			(uuid "0a184c44-2edc-45d7-9859-92af819fb539")
 			(effects
 				(font
@@ -3234,7 +3478,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 149.86 95.25 0)
+			(at 77.47 76.2 0)
 			(uuid "b38e62f1-b482-4ec5-9e9e-27e471fa0a5f")
 			(effects
 				(font
@@ -3354,8 +3598,8 @@
 		)
 	)
 	(sheet
-		(at 200.66 85.09)
-		(size 29.21 17.78)
+		(at 139.7 76.2)
+		(size 30.48 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3370,7 +3614,7 @@
 		)
 		(uuid "d2b1e1a0-8b64-49ff-b975-b40fa2d33dc6")
 		(property "Sheetname" "MCU"
-			(at 200.66 84.3784 0)
+			(at 139.7 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3623,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 200.66 103.4546 0)
+			(at 139.7 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3632,7 @@
 			)
 		)
 		(pin "CAN1_TX" output
-			(at 200.66 97.79 180)
+			(at 139.7 96.52 180)
 			(uuid "f3df9c65-1f34-41b5-9d62-655f73b84ddb")
 			(effects
 				(font
@@ -3398,7 +3642,7 @@
 			)
 		)
 		(pin "3V3" passive
-			(at 229.87 87.63 0)
+			(at 170.18 86.36 0)
 			(uuid "370d2aaf-6543-441a-ac29-f16e9f6a6071")
 			(effects
 				(font
@@ -3408,7 +3652,7 @@
 			)
 		)
 		(pin "CAN0_RX" input
-			(at 200.66 88.9 180)
+			(at 139.7 87.63 180)
 			(uuid "83b154e4-4b43-4dd5-a00e-a815ecc8e2a5")
 			(effects
 				(font
@@ -3418,7 +3662,7 @@
 			)
 		)
 		(pin "CAN0_TX" output
-			(at 200.66 91.44 180)
+			(at 139.7 90.17 180)
 			(uuid "d847fcdf-5ec2-48a2-8e29-471e85e0725d")
 			(effects
 				(font
@@ -3428,7 +3672,7 @@
 			)
 		)
 		(pin "CAN1_RX" input
-			(at 200.66 95.25 180)
+			(at 139.7 93.98 180)
 			(uuid "ee34bb68-320a-4e86-b200-fc611e68312e")
 			(effects
 				(font
@@ -3438,13 +3682,103 @@
 			)
 		)
 		(pin "GND" passive
-			(at 229.87 100.33 0)
+			(at 170.18 127 0)
 			(uuid "0cd9eeb5-e15f-4541-9f11-6d1f9a45808a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "ETH_RXD0" input
+			(at 139.7 111.76 180)
+			(uuid "3082d64d-527f-4a63-bd5e-c2cfdf394142")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_MDC" output
+			(at 139.7 121.92 180)
+			(uuid "adc8a4fb-3bb8-4984-aeb4-aa2bbd8ab7f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_RXD1" input
+			(at 139.7 114.3 180)
+			(uuid "735fc83e-1456-4f11-8ef9-5689d77d2370")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_TXD0" output
+			(at 139.7 104.14 180)
+			(uuid "a31d8869-5c88-4e2e-a6bb-ed43cb2d1f11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_MDIO" output
+			(at 139.7 119.38 180)
+			(uuid "40c890eb-c2a0-4bf9-8d26-874b42bf09c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_TXEN" output
+			(at 139.7 109.22 180)
+			(uuid "02450d56-60bd-410b-ae41-f418107b8a80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_TXD1" output
+			(at 139.7 106.68 180)
+			(uuid "172b247e-9b1e-42e6-bb0f-34484ce3103b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ETH_CRS_DV" output
+			(at 139.7 116.84 180)
+			(uuid "80504c86-9b26-4324-a9bc-7d8440531914")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_5V" passive
+			(at 139.7 78.74 180)
+			(uuid "01b77513-df26-4455-988c-a57a7218d32b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
