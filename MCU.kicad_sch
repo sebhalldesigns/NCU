@@ -5547,17 +5547,6 @@
 		)
 		(uuid "8dd1be73-e587-48ff-ae34-8b3df0a4a250")
 	)
-	(hierarchical_label "USB_5V"
-		(shape passive)
-		(at 25.4 20.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8f7147c9-53cd-4af3-b4ac-36f032a9103f")
-	)
 	(hierarchical_label "ETH_RXD0"
 		(shape input)
 		(at 25.4 92.71 180)

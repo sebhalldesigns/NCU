@@ -1,0 +1,39 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP LMR51460SQDRRRQ1
+D Switching Voltage Regulators Automotive, 36V, 5A Synchronous buck converter with low Iq
+K
+F https://www.ti.com/lit/ds/symlink/lmr51460-q1.pdf?ts=1736319311098&ref_url=https%253A%252F%252Fwww.mouser.in%252F
+$ENDCMP
+#
+$CMP TPS62810QWRWYRQ1
+D Automotive 2.75-V to 6-V, 4-A step-down converter in a 2mm x 3mm wettable-flanks QFN package
+K
+F http://www.ti.com/lit/gpn/TPS62810-Q1
+$ENDCMP
+#
+$CMP CSD25483F4T
+D MOSFET 20V,P-Ch FemtoFET MOSFET
+K
+F https://www.ti.com/lit/ds/symlink/csd25483f4.pdf?ts=1662025197086&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+$CMP 0624CDMCCDS-R47MC
+D Fixed Inductors 0.47uH 20% 5.1mOhms Metal Composite
+K
+F https://products.sumida.com/products/pdf/0624CDMCCDS%20(en).pdf?force_isolation=true
+$ENDCMP
+#
+$CMP TPS6286A06VBMR
+D Switching Voltage Regulators 2.4V-to-5.5V input, 6A high-frequency step-down converter
+K
+F https://www.ti.com/lit/ds/symlink/tps6286a06.pdf?ts=1736182134286&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS6286A06%252Fpart-details%252FTPS6286A06VBMR%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-app
+$ENDCMP
+#
+#End Doc Library
