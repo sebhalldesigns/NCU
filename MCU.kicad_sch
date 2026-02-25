@@ -4199,6 +4199,10 @@
 		(color 0 0 0 0)
 		(uuid "d36e8e67-d830-4e9c-b0af-e69cf67d216b")
 	)
+	(no_connect
+		(at 220.98 88.9)
+		(uuid "9dbd0422-7d04-4048-8e26-6f729cb1c63b")
+	)
 	(wire
 		(pts
 			(xy 146.05 54.61) (xy 146.05 55.88)
@@ -4278,6 +4282,16 @@
 			(type default)
 		)
 		(uuid "179a2103-b606-4ca5-b2e7-af6a8a3b0268")
+	)
+	(wire
+		(pts
+			(xy 31.75 114.3) (xy 25.4 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199b8e6e-9bb9-46b2-bb9c-0ffc8ba58e06")
 	)
 	(wire
 		(pts
@@ -4468,6 +4482,26 @@
 			(type default)
 		)
 		(uuid "48f28527-b2f9-43c1-baee-bbac23e8de1d")
+	)
+	(wire
+		(pts
+			(xy 228.6 91.44) (xy 220.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a23f95b-5469-47c4-a066-44d3ed2d9ccd")
+	)
+	(wire
+		(pts
+			(xy 228.6 96.52) (xy 220.98 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b92c553-8aad-4e98-8b78-8ce459b38163")
 	)
 	(wire
 		(pts
@@ -4821,6 +4855,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 116.84) (xy 25.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff3e5a0-bcce-46ac-a0f6-5f79aaf21141")
+	)
+	(wire
+		(pts
 			(xy 25.4 71.12) (xy 31.75 71.12)
 		)
 		(stroke
@@ -4901,6 +4945,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 119.38) (xy 25.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6004fd4-aa35-4fc4-804b-bcca38dfd281")
+	)
+	(wire
+		(pts
 			(xy 154.94 54.61) (xy 154.94 58.42)
 		)
 		(stroke
@@ -4908,6 +4962,16 @@
 			(type default)
 		)
 		(uuid "eadc3c68-1761-451e-bb15-acd5e041c9d5")
+	)
+	(wire
+		(pts
+			(xy 228.6 99.06) (xy 220.98 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec53015c-d25b-4c54-b0d1-6789e70e99fd")
 	)
 	(wire
 		(pts
@@ -5039,6 +5103,16 @@
 		)
 		(uuid "17f1658b-6e31-4851-8af7-1d6e64e77d3d")
 	)
+	(label "USB_OTG_FS_VBUS"
+		(at 228.6 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d3bb529-74db-47d6-9e97-99da55ebc591")
+	)
 	(label "ETH_MDIO"
 		(at 228.6 73.66 0)
 		(effects
@@ -5048,6 +5122,16 @@
 			(justify left bottom)
 		)
 		(uuid "2489583f-6b7c-4700-ad39-052f8a2c91e7")
+	)
+	(label "USB_OTG_FS_DP"
+		(at 228.6 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bc516a4-7a40-48b9-a195-c2157bc6b57e")
 	)
 	(label "ETH_MDC"
 		(at 228.6 157.48 0)
@@ -5149,6 +5233,16 @@
 		)
 		(uuid "a42a57ae-ed3e-4e81-98b7-171d194c70ad")
 	)
+	(label "USB_OTG_FS_DP"
+		(at 31.75 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aacc09f1-03cc-4b37-9d54-9582c1d669ba")
+	)
 	(label "FDCAN1_TX"
 		(at 228.6 200.66 0)
 		(effects
@@ -5189,6 +5283,16 @@
 		)
 		(uuid "bd1e56d1-9fc4-4650-a2e2-aa697aa261c4")
 	)
+	(label "USB_OTG_FS_DM"
+		(at 31.75 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c500cd76-d5fc-4677-813d-3608ee7c8bce")
+	)
 	(label "VREF+"
 		(at 146.05 55.88 270)
 		(effects
@@ -5218,6 +5322,16 @@
 			(justify left bottom)
 		)
 		(uuid "cd08f067-063b-4dd5-ac84-5eb6fb7ea3fd")
+	)
+	(label "USB_OTG_FS_VBUS"
+		(at 31.75 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d75726fa-10b6-4565-8ead-47543614228e")
 	)
 	(label "FDCAN2_TX"
 		(at 31.75 73.66 0)
@@ -5268,6 +5382,16 @@
 			(justify left bottom)
 		)
 		(uuid "e22d173e-6508-4628-a8f9-56106426ebf8")
+	)
+	(label "USB_OTG_FS_DM"
+		(at 228.6 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2c73d63-491f-47b7-816b-461e9768851c")
 	)
 	(hierarchical_label "CAN1_TX"
 		(shape output)
@@ -5335,6 +5459,28 @@
 		)
 		(uuid "4921c861-9b71-44f3-bfce-e75408fc84d4")
 	)
+	(hierarchical_label "USB_DP"
+		(shape bidirectional)
+		(at 25.4 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "52dde5ab-6f45-4af7-9176-9e11427aae38")
+	)
+	(hierarchical_label "USB_VBUS"
+		(shape passive)
+		(at 25.4 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53f9bf61-0bdd-4577-b4ce-295b9abd7364")
+	)
 	(hierarchical_label "ETH_TXEN"
 		(shape output)
 		(at 25.4 90.17 180)
@@ -5367,6 +5513,17 @@
 			(justify right)
 		)
 		(uuid "7a292ca6-fdc0-4687-bbc3-0500e58ac603")
+	)
+	(hierarchical_label "USB_DM"
+		(shape bidirectional)
+		(at 25.4 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7acad763-b01c-4252-9ea9-4306eeb68d72")
 	)
 	(hierarchical_label "ETH_MDC"
 		(shape output)
