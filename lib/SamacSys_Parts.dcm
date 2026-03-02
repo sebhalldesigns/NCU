@@ -36,4 +36,10 @@ K
 F https://www.ti.com/lit/ds/symlink/tps6286a06.pdf?ts=1736182134286&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS6286A06%252Fpart-details%252FTPS6286A06VBMR%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null-app
 $ENDCMP
 #
+$CMP 6437288-1
+D Body Features: Primary Product Color Black | Configuration Features: Number of Positions 34 | Number of Signal Positions 34 | Number of Sections 1 | Number of Rows 4 | PCB Mount Orientation Horizontal | Contact Features: Contact Size 1mm | Contact Type Pin | Mating Pin Diameter .039 INCH | Mating Pin Diameter 1 MM | Contact Mating Area Plating Material Gold | Dimensions: Profile Height from PCB 1.098 INCH | Connector Width 1.791 INCH | Connector Length 36.5 MM | Profile Height from PCB 27.9 MM | Connector W
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773950-7&DocType=Data%20Sheet&DocLang=English&PartCntxt=6437288-1&DocFormat=pdf
+$ENDCMP
+#
 #End Doc Library

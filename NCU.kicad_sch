@@ -5,6 +5,750 @@
 	(uuid "3aee14c3-5480-4f7c-989e-3fef81779034")
 	(paper "A4")
 	(lib_symbols
+		(symbol "0_SamacSys_Parts:6437288-1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "6437288-1"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "6437288-1"
+				(at 19.05 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773950-7&DocType=Data%20Sheet&DocLang=English&PartCntxt=6437288-1&DocFormat=pdf"
+				(at 19.05 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Body Features: Primary Product Color Black | Configuration Features: Number of Positions 34 | Number of Signal Positions 34 | Number of Sections 1 | Number of Rows 4 | PCB Mount Orientation Horizontal | Contact Features: Contact Size 1mm | Contact Type Pin | Mating Pin Diameter .039 INCH | Mating Pin Diameter 1 MM | Contact Mating Area Plating Material Gold | Dimensions: Profile Height from PCB 1.098 INCH | Connector Width 1.791 INCH | Connector Length 36.5 MM | Profile Height from PCB 27.9 MM | Connector W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Body Features: Primary Product Color Black | Configuration Features: Number of Positions 34 | Number of Signal Positions 34 | Number of Sections 1 | Number of Rows 4 | PCB Mount Orientation Horizontal | Contact Features: Contact Size 1mm | Contact Type Pin | Mating Pin Diameter .039 INCH | Mating Pin Diameter 1 MM | Contact Mating Area Plating Material Gold | Dimensions: Profile Height from PCB 1.098 INCH | Connector Width 1.791 INCH | Connector Length 36.5 MM | Profile Height from PCB 27.9 MM | Connector W"
+				(at 19.05 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" ""
+				(at 19.05 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "571-6437288-1"
+				(at 19.05 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6437288-1?qs=WBj8811fzwGYtKR8aBSJZw%3D%3D"
+				(at 19.05 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 19.05 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "6437288-1"
+				(at 19.05 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "6437288-1_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 0)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -20.32 180)
+					(length 5.08)
+					(name "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -22.86 180)
+					(length 5.08)
+					(name "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -25.4 180)
+					(length 5.08)
+					(name "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -27.94 180)
+					(length 5.08)
+					(name "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -30.48 180)
+					(length 5.08)
+					(name "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -33.02 180)
+					(length 5.08)
+					(name "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -35.56 180)
+					(length 5.08)
+					(name "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -38.1 180)
+					(length 5.08)
+					(name "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -40.64 180)
+					(length 5.08)
+					(name "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "6437288-1_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 17.78 2.54) (xy 17.78 -43.18) (xy 5.08 -43.18) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Micro_SD_Card"
 			(pin_names
 				(offset 1.016)
@@ -1602,7 +2346,7 @@
 	)
 	(symbol
 		(lib_id "Connector:RJ45")
-		(at 236.22 101.6 0)
+		(at 30.48 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1611,7 +2355,7 @@
 		(fields_autoplaced yes)
 		(uuid "1294f253-53d7-43ae-a77c-ffff3a50d62e")
 		(property "Reference" "J1"
-			(at 236.22 83.82 0)
+			(at 30.48 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1619,7 +2363,7 @@
 			)
 		)
 		(property "Value" "RJ45"
-			(at 236.22 86.36 0)
+			(at 30.48 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +2371,7 @@
 			)
 		)
 		(property "Footprint" "Connector_RJ:RJ45_Hanrun_HR911105A_Horizontal"
-			(at 236.22 100.965 90)
+			(at 30.48 93.345 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +2380,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 100.965 90)
+			(at 30.48 93.345 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1645,7 +2389,7 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected)"
-			(at 236.22 101.6 0)
+			(at 30.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1900,6 +2644,232 @@
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_SamacSys_Parts:6437288-1")
+		(at 31.75 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49f55fd2-6a91-49da-a2c3-c4fa598cf204")
+		(property "Reference" "J4"
+			(at 43.18 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "6437288-1"
+			(at 43.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "6437288-1"
+			(at 50.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773950-7&DocType=Data%20Sheet&DocLang=English&PartCntxt=6437288-1&DocFormat=pdf"
+			(at 50.8 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Body Features: Primary Product Color Black | Configuration Features: Number of Positions 34 | Number of Signal Positions 34 | Number of Sections 1 | Number of Rows 4 | PCB Mount Orientation Horizontal | Contact Features: Contact Size 1mm | Contact Type Pin | Mating Pin Diameter .039 INCH | Mating Pin Diameter 1 MM | Contact Mating Area Plating Material Gold | Dimensions: Profile Height from PCB 1.098 INCH | Connector Width 1.791 INCH | Connector Length 36.5 MM | Profile Height from PCB 27.9 MM | Connector W"
+			(at 31.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Body Features: Primary Product Color Black | Configuration Features: Number of Positions 34 | Number of Signal Positions 34 | Number of Sections 1 | Number of Rows 4 | PCB Mount Orientation Horizontal | Contact Features: Contact Size 1mm | Contact Type Pin | Mating Pin Diameter .039 INCH | Mating Pin Diameter 1 MM | Contact Mating Area Plating Material Gold | Dimensions: Profile Height from PCB 1.098 INCH | Connector Width 1.791 INCH | Connector Length 36.5 MM | Profile Height from PCB 27.9 MM | Connector W"
+			(at 50.8 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 50.8 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "571-6437288-1"
+			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6437288-1?qs=WBj8811fzwGYtKR8aBSJZw%3D%3D"
+			(at 50.8 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 50.8 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "6437288-1"
+			(at 50.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "11"
+			(uuid "2559cae3-6891-4c93-afb9-5642eb533fe7")
+		)
+		(pin "17"
+			(uuid "cfb72a2f-495a-4475-b2e8-0ceb937d6109")
+		)
+		(pin "1"
+			(uuid "c8ac5300-4845-4ded-95b1-a97a3ae13f3c")
+		)
+		(pin "4"
+			(uuid "0c0ad05c-6a47-46c7-8738-a515ce5e0d09")
+		)
+		(pin "12"
+			(uuid "913e91e4-619a-4b05-9d76-206a0c265475")
+		)
+		(pin "8"
+			(uuid "08dcabc9-2e68-497f-a788-27ac966cb997")
+		)
+		(pin "14"
+			(uuid "f1c8a810-650e-46b0-8d0a-4eb202553a2c")
+		)
+		(pin "16"
+			(uuid "6bacf52b-e420-4573-84a6-703ba5a87d11")
+		)
+		(pin "9"
+			(uuid "b9c22557-1f58-4a77-97d9-20c6e31287de")
+		)
+		(pin "13"
+			(uuid "0d57cdbc-3f09-4673-9688-b93c6b98067c")
+		)
+		(pin "7"
+			(uuid "a7901407-4b44-46d2-82b1-86bc8f15a601")
+		)
+		(pin "33"
+			(uuid "f3047af9-2111-4f54-a692-dc6123cbd4d2")
+		)
+		(pin "22"
+			(uuid "1ddafdd0-de6b-4c5a-8df9-b6a0b4c97b11")
+		)
+		(pin "6"
+			(uuid "428000e6-14af-49d1-99a2-96bf1b5de74b")
+		)
+		(pin "10"
+			(uuid "fdf4c2bc-c3f8-417c-9f62-10537f5bc42b")
+		)
+		(pin "15"
+			(uuid "d390666a-aa77-4a42-a4d1-c1b3631da3ab")
+		)
+		(pin "2"
+			(uuid "9edab442-944e-455c-8387-adb774f3523a")
+		)
+		(pin "3"
+			(uuid "3f8d1624-8aed-461d-9dcf-f11e3bfb9903")
+		)
+		(pin "5"
+			(uuid "505ca9fb-fd07-4d0b-a0a0-be8f61ddf4be")
+		)
+		(pin "23"
+			(uuid "8bab263c-69dc-49e6-8cd5-1686a2eed58e")
+		)
+		(pin "24"
+			(uuid "be752edd-b628-44e8-95a4-477f4a963732")
+		)
+		(pin "25"
+			(uuid "cb877d69-a0ed-4b85-b1ae-b052e65ba665")
+		)
+		(pin "26"
+			(uuid "b8cfc658-2113-4c6a-923e-8479e04b177a")
+		)
+		(pin "19"
+			(uuid "dc33ad05-c3e6-4281-922b-29fd1f09d348")
+		)
+		(pin "21"
+			(uuid "8382025d-44ca-423a-aaeb-0d73d6fbbd15")
+		)
+		(pin "27"
+			(uuid "cb55158e-550f-4fd2-a5f3-81d7eef4a1d6")
+		)
+		(pin "28"
+			(uuid "6783951d-58b9-4716-b0a6-03a89f52df83")
+		)
+		(pin "30"
+			(uuid "b18f9223-9f59-4934-9aef-54927995da6e")
+		)
+		(pin "18"
+			(uuid "ff5d2e6a-7822-4fa6-bfd3-ffb81b5d30cd")
+		)
+		(pin "20"
+			(uuid "e673491a-ed33-4f93-90e4-e5f4d3b37e82")
+		)
+		(pin "29"
+			(uuid "aaa87ba3-0e2d-46a3-bf52-69ab6f0d682b")
+		)
+		(pin "31"
+			(uuid "e1762169-2028-496c-b012-2976f7179b91")
+		)
+		(pin "32"
+			(uuid "abb5f513-f63c-4bb3-b587-9e4967540ce8")
+		)
+		(pin "34"
+			(uuid "42d2cb65-3c02-434c-851f-8ccc6bd9cd1e")
+		)
+		(instances
+			(project ""
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
+					(reference "J4")
 					(unit 1)
 				)
 			)

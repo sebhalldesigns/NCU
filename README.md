@@ -1,2 +1,47 @@
 # NCU
 NCU (Network Control Unit)
+
+## Main Connector Pinout
+
+GND
+12V
+
+CAN0_L
+CAN0_H
+CAN1_L
+CAN1_H
+
+ETH_TXP
+ETH_TXM
+ETH_RXP
+ETH_RXM
+
+USB_VBUS
+USB_DP
+USB_DM
+GND
+
+A5V
+AGND
+AIN_0
+AIN_1
+AIN_2
+AIN_3
+AIN_4
+AIN_5
+AIN_6
+AIN_7
+
+HSD_0
+HSD_1
+HSD_2
+HSD_3
+
+LSD_0
+LSD_1
+LSD_2
+LSD_3
+
+TOTAL:
+30
+
