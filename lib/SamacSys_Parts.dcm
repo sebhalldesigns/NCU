@@ -42,4 +42,22 @@ K
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773950-7&DocType=Data%20Sheet&DocLang=English&PartCntxt=6437288-1&DocFormat=pdf
 $ENDCMP
 #
+$CMP 6437288-4
+D Body Features: Primary Product Color Black | Configuration Features: Number of Rows 4 | Number of Sections 1 | Number of Signal Positions 26 | PCB Mount Orientation Horizontal | Number of Positions 26 | Contact Features: Contact Mating Area Plating Material Gold | Contact Type Pin | Contact Size 1mm | Mating Pin Diameter .039 INCH | Mating Pin Diameter 1 MM | Dimensions: Connector Length 36.5 MM | Profile Height from PCB 1.098 INCH | Connector Length 1.437 INCH | Connector Width 39.5 MM | Connector Width 1.
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773962-8&DocType=Data%20Sheet&DocLang=English&PartCntxt=6437288-4&DocFormat=pdf
+$ENDCMP
+#
+$CMP MSIM-11-C
+D Micro SIM Card Connectors, 6 Contacts, Hinged, Surface Mount, 1.50 mm Height Above Board, Gold Flash
+K
+F https://www.mouser.co.il/datasheet/3/6118/1/msim_11_c.pdf
+$ENDCMP
+#
+$CMP DM3AT-SF-PEJM5_41_
+D Memory Card Connectors SD R/A PUSH-PUSH SMD CONN MICRO
+K
+F https://www.mouser.kr/datasheet/3/731/1/DM3AT_SF_PEJM5_CL0609_0031_0_00_Catalog_D49662_en.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -631,10 +631,6 @@
       "WiFi Bluetooth Module"
     ],
     [
-      "8baea44c-feed-4f91-b7df-bd41d2704f11",
-      "SD Card"
-    ],
-    [
       "9758cbcc-2ab2-405c-935d-3964f8470771",
       "Ethernet"
     ],
@@ -649,6 +645,10 @@
     [
       "77f505d1-5a70-4b67-92f2-4570e0aae5e4",
       "Cellular Module"
+    ],
+    [
+      "9e564c38-7205-44f8-b5f6-41c7c4a47ab0",
+      "Connectors"
     ]
   ],
   "text_variables": {}
