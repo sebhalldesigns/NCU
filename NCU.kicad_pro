@@ -620,19 +620,27 @@
     ],
     [
       "9be8b538-d844-48b8-8166-3cb7d05a381c",
-      "CAN"
+      "PHY_CAN"
     ],
     [
       "05e3be97-98f6-4518-a1a7-240d4da327e6",
       "Power Supplies"
     ],
     [
+      "59880cb1-7ec0-4ddb-9063-a30a9ec86eac",
+      "CARD_SD"
+    ],
+    [
       "0cdbc80d-6682-4488-acea-b93c92a9f88d",
-      "WiFi Bluetooth Module"
+      "MOD_WLAN"
+    ],
+    [
+      "73e4b2ac-685d-401a-9fb0-7de0128a455e",
+      "INPUT_5V_1"
     ],
     [
       "9758cbcc-2ab2-405c-935d-3964f8470771",
-      "Ethernet"
+      "PHY_ETH"
     ],
     [
       "70b8fb88-9c19-46a8-95e3-6c05e68e24c9",
@@ -640,15 +648,63 @@
     ],
     [
       "85ee8b65-a216-46f6-943b-de278ee684a4",
-      "Analog Inputs"
+      "INPUTS"
     ],
     [
       "77f505d1-5a70-4b67-92f2-4570e0aae5e4",
-      "Cellular Module"
+      "MOD_PCIE"
+    ],
+    [
+      "76e9985e-671f-4dd1-8bb7-de1ef0777d71",
+      "CONN_A"
     ],
     [
       "9e564c38-7205-44f8-b5f6-41c7c4a47ab0",
-      "Connectors"
+      "CARD_SIM"
+    ],
+    [
+      "58530478-b11f-47ae-90e9-56fd185c9f38",
+      "CONN_B"
+    ],
+    [
+      "baadc183-c5ee-4419-984d-87724b599ce5",
+      "DRIVES"
+    ],
+    [
+      "cc997df9-87ce-41ac-9f91-f99587d0a3ba",
+      "GPIO"
+    ],
+    [
+      "46cdf4bd-eb06-4fd4-bce2-0f61839a668c",
+      "INPUT_5V_2"
+    ],
+    [
+      "4fcea559-da4d-4452-9558-3dc18d24153f",
+      "INPUT_5V_0"
+    ],
+    [
+      "b77bcd14-d70a-455e-a151-292dc157ad64",
+      "INPUT_5V_3"
+    ],
+    [
+      "cbff2910-c0ba-4cde-a418-46510c44232b",
+      "INPUT_20V_1"
+    ],
+    [
+      "2869d539-22c4-4480-8122-ab9cd72b0040",
+      "INPUT_20V_2"
+    ],
+    [
+      "7c3b6b2a-cf15-4178-82f9-855be6b189ee",
+      "INPUT_20V_0"
+    ],
+    [
+      "f052c42f-efba-4479-a996-a81957d88308",
+      "INPUT_20V_3"
+    ],
+    [
+      "4757f9cb-3fb4-41e9-974c-57ca237d2ce2",
+      "INPUT_20V_12V"
     ]
   ],
   "text_variables": {}

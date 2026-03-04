@@ -60,4 +60,22 @@ K
 F https://www.mouser.kr/datasheet/3/731/1/DM3AT_SF_PEJM5_CL0609_0031_0_00_Catalog_D49662_en.pdf
 $ENDCMP
 #
+$CMP GSD09002SEU
+D Micro SD and SD Card Sockets, Input Output Connectors, SD Socket,9 Position, Push Push,15uin Gold,  0.5A Max, 3.3V, -40C~ +90C
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsd09002seu.pdf
+$ENDCMP
+#
+$CMP LM4040A50IDCKR
+D Precision Micropower Shunt Voltage Reference
+K
+F http://www.ti.com/lit/gpn/lm4040
+$ENDCMP
+#
+$CMP LP2951-50DRG4
+D LDO Regulator Pos 1.235V to 30V5V 0.1A 8-Pin SOIC T/R
+K
+F https://www.arrow.com/en/products/lp2951-50drg4/texas-instruments
+$ENDCMP
+#
 #End Doc Library
