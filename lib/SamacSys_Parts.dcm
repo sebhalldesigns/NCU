@@ -90,4 +90,22 @@ K
 F https://www.st.com/resource/en/datasheet/vnd7e025aj.pdf
 $ENDCMP
 #
+$CMP CX3225FB25000F0FZZH1
+D Crystal, 25 MHz, SMD, 3.2mm x 2.5mm, 20 ppm, 10 pF, 10 ppm, CX3225FB Series
+K
+F https://ele.kyocera.com/assets/products/crystal-device/specification/CX3225FB_10pF.pdf
+$ENDCMP
+#
+$CMP LFXTAL071758Cutt
+D Crystals 25.0MHz AEC-Q200 3.2 x 2.5 x 0.8mm
+K
+F https://www.iqdfrequencyproducts.com/products/pn/LFXTAL071758Reel.pdf
+$ENDCMP
+#
+$CMP SP0503BAHTG
+D ESD Suppressors / TVS Diodes TVS AVAL DIODE SMT
+K
+F 
+$ENDCMP
+#
 #End Doc Library

@@ -4605,23 +4605,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 246.38) (xy 177.8 252.73)
+			(xy 177.8 246.38) (xy 177.8 257.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0e56c48b-301d-404b-889c-fa8b3b4dfc27")
-	)
-	(wire
-		(pts
-			(xy 170.18 250.19) (xy 175.26 250.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eaf63b6-b9f3-45da-8c14-092eafd884cc")
 	)
 	(wire
 		(pts
@@ -5225,7 +5215,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 250.19) (xy 170.18 252.73)
+			(xy 175.26 250.19) (xy 175.26 252.73)
 		)
 		(stroke
 			(width 0)
@@ -5784,7 +5774,7 @@
 		(uuid "e2c73d63-491f-47b7-816b-461e9768851c")
 	)
 	(hierarchical_label "CAN1_TX"
-		(shape output)
+		(shape passive)
 		(at 25.4 73.66 180)
 		(effects
 			(font
@@ -5806,7 +5796,7 @@
 		(uuid "01f678ac-b576-454c-a2ba-bf7c04c9f9a9")
 	)
 	(hierarchical_label "ETH_MDIO"
-		(shape output)
+		(shape passive)
 		(at 25.4 100.33 180)
 		(effects
 			(font
@@ -5815,6 +5805,17 @@
 			(justify right)
 		)
 		(uuid "09734acd-e429-4a0c-a9c5-66428c1863e1")
+	)
+	(hierarchical_label "ETH_INT"
+		(shape passive)
+		(at 25.4 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0d5aefad-a9f5-4326-a249-2cf42b6019b2")
 	)
 	(hierarchical_label "STM_SWDIO"
 		(shape passive)
@@ -5861,7 +5862,7 @@
 		(uuid "14a3abc8-9770-49a6-a004-1d46615769ca")
 	)
 	(hierarchical_label "CAN0_TX"
-		(shape output)
+		(shape passive)
 		(at 25.4 66.04 180)
 		(effects
 			(font
@@ -5904,6 +5905,17 @@
 		)
 		(uuid "2242a52a-ff33-4725-a0f4-9dcb234649b8")
 	)
+	(hierarchical_label "ETH_RST"
+		(shape passive)
+		(at 25.4 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23b34292-1a23-44a5-baa9-3bdf38bf8f6d")
+	)
 	(hierarchical_label "DIN0_IO"
 		(shape passive)
 		(at 31.75 203.2 180)
@@ -5938,7 +5950,7 @@
 		(uuid "27e014e5-35e2-4e8e-94c5-98207d0e5f2f")
 	)
 	(hierarchical_label "ETH_TXD1"
-		(shape output)
+		(shape passive)
 		(at 25.4 87.63 180)
 		(effects
 			(font
@@ -6015,7 +6027,7 @@
 		(uuid "5142763e-7919-4d73-a14f-c976f8a6c720")
 	)
 	(hierarchical_label "USB_DP"
-		(shape bidirectional)
+		(shape passive)
 		(at 25.4 114.3 180)
 		(effects
 			(font
@@ -6048,7 +6060,7 @@
 		(uuid "53f9bf61-0bdd-4577-b4ce-295b9abd7364")
 	)
 	(hierarchical_label "ETH_TXEN"
-		(shape output)
+		(shape passive)
 		(at 25.4 90.17 180)
 		(effects
 			(font
@@ -6059,7 +6071,7 @@
 		(uuid "576c21bd-74f3-4928-b1e7-3049c4ad8092")
 	)
 	(hierarchical_label "ETH_CRS_DV"
-		(shape output)
+		(shape passive)
 		(at 25.4 97.79 180)
 		(effects
 			(font
@@ -6125,7 +6137,7 @@
 		(uuid "78e0ef14-8b40-49a2-ac56-13bfa5e82f7e")
 	)
 	(hierarchical_label "CAN1_RX"
-		(shape input)
+		(shape passive)
 		(at 25.4 71.12 180)
 		(effects
 			(font
@@ -6136,7 +6148,7 @@
 		(uuid "7a292ca6-fdc0-4687-bbc3-0500e58ac603")
 	)
 	(hierarchical_label "USB_DM"
-		(shape bidirectional)
+		(shape passive)
 		(at 25.4 116.84 180)
 		(effects
 			(font
@@ -6158,7 +6170,7 @@
 		(uuid "83d89cec-cce5-4120-9ed0-25572a6945c6")
 	)
 	(hierarchical_label "ETH_MDC"
-		(shape output)
+		(shape passive)
 		(at 25.4 102.87 180)
 		(effects
 			(font
@@ -6180,7 +6192,7 @@
 		(uuid "8c7edb6a-d43f-45a4-a9b9-a4065cc3173d")
 	)
 	(hierarchical_label "ETH_RXD1"
-		(shape input)
+		(shape passive)
 		(at 25.4 95.25 180)
 		(effects
 			(font
@@ -6202,7 +6214,7 @@
 		(uuid "920c2941-e657-4447-b18c-06e15b1189b5")
 	)
 	(hierarchical_label "ETH_RXD0"
-		(shape input)
+		(shape passive)
 		(at 25.4 92.71 180)
 		(effects
 			(font
@@ -6312,7 +6324,7 @@
 		(uuid "e2b724bd-271f-4658-bb4a-9f7a26bae7af")
 	)
 	(hierarchical_label "ETH_TXD0"
-		(shape output)
+		(shape passive)
 		(at 25.4 85.09 180)
 		(effects
 			(font
@@ -6356,7 +6368,7 @@
 		(uuid "f3f92cd0-f758-476e-ab84-af5ce26ec0e3")
 	)
 	(hierarchical_label "CAN0_RX"
-		(shape input)
+		(shape passive)
 		(at 25.4 63.5 180)
 		(effects
 			(font
@@ -6457,7 +6469,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 252.73 0)
+		(at 175.26 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6465,7 +6477,7 @@
 		(dnp no)
 		(uuid "109fe671-ecf6-4aef-911c-4a8d18192b89")
 		(property "Reference" "#PWR037"
-			(at 170.18 259.08 0)
+			(at 175.26 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6474,7 +6486,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 256.794 0)
+			(at 175.26 256.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6482,7 +6494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 252.73 0)
+			(at 175.26 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 252.73 0)
+			(at 175.26 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +6512,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 252.73 0)
+			(at 175.26 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6860,7 +6872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 177.8 252.73 0)
+		(at 177.8 257.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6868,7 +6880,7 @@
 		(dnp no)
 		(uuid "65fd15e5-7282-4483-912b-beb2bd8ae550")
 		(property "Reference" "#PWR0181"
-			(at 177.8 259.08 0)
+			(at 177.8 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6877,7 +6889,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 177.8 256.794 0)
+			(at 177.8 261.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6885,7 +6897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 252.73 0)
+			(at 177.8 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,7 +6906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 252.73 0)
+			(at 177.8 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +6915,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 252.73 0)
+			(at 177.8 257.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
