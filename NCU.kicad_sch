@@ -1099,16 +1099,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 74.93) (xy 177.8 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8863cc0b-494e-4408-a48d-8e40536a71ef")
-	)
-	(wire
-		(pts
 			(xy 88.9 27.94) (xy 177.8 27.94)
 		)
 		(stroke
@@ -1286,16 +1276,6 @@
 			(type default)
 		)
 		(uuid "9d94fe70-f98e-4389-9016-4a9944f31e75")
-	)
-	(wire
-		(pts
-			(xy 127 77.47) (xy 177.8 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e986850-a4fd-4656-be27-49fdf3817f6b")
 	)
 	(wire
 		(pts
@@ -4164,7 +4144,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
-					(page "6")
+					(page "20")
 				)
 			)
 		)
@@ -4608,7 +4588,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
-					(page "5")
+					(page "15")
 				)
 			)
 		)
@@ -5031,7 +5011,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
-					(page "10")
+					(page "21")
 				)
 			)
 		)
@@ -5273,7 +5253,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
-					(page "10")
+					(page "8")
 				)
 			)
 		)
@@ -5455,7 +5435,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
-					(page "8")
+					(page "6")
 				)
 			)
 		)
@@ -5597,7 +5577,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
-					(page "3")
+					(page "5")
 				)
 			)
 		)
@@ -5689,7 +5669,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
-					(page "11")
+					(page "16")
 				)
 			)
 		)
@@ -5828,7 +5808,7 @@
 				(justify left)
 			)
 		)
-		(pin "HSD23_EN" input
+		(pin "HSD23_EN" passive
 			(at 127 57.15 0)
 			(uuid "9e053832-bdb7-46cd-98ea-0af258081273")
 			(effects
@@ -5838,7 +5818,7 @@
 				(justify right)
 			)
 		)
-		(pin "HSD01_EN" input
+		(pin "HSD01_EN" passive
 			(at 127 54.61 0)
 			(uuid "f4045d84-57f7-4c36-9a54-6621b9d3975a")
 			(effects
@@ -5848,7 +5828,7 @@
 				(justify right)
 			)
 		)
-		(pin "LSD3_CTRL" input
+		(pin "LSD3_CTRL" passive
 			(at 127 52.07 0)
 			(uuid "d8da20da-c608-4964-aafd-88da90e822a3")
 			(effects
@@ -5858,7 +5838,7 @@
 				(justify right)
 			)
 		)
-		(pin "LSD1_CTRL" input
+		(pin "LSD1_CTRL" passive
 			(at 127 46.99 0)
 			(uuid "bd167b4b-e59a-4dbb-aeeb-db8dbc46777d")
 			(effects
@@ -5868,7 +5848,7 @@
 				(justify right)
 			)
 		)
-		(pin "LSD2_CTRL" input
+		(pin "LSD2_CTRL" passive
 			(at 127 49.53 0)
 			(uuid "c8099e9c-f1e4-41f0-bf6b-e2b7ab88b2eb")
 			(effects
@@ -5878,7 +5858,7 @@
 				(justify right)
 			)
 		)
-		(pin "HSD3_CTRL" input
+		(pin "HSD3_CTRL" passive
 			(at 127 67.31 0)
 			(uuid "ef03f4d3-36e1-47e4-bb9d-323590e9f3ab")
 			(effects
@@ -5888,7 +5868,7 @@
 				(justify right)
 			)
 		)
-		(pin "HSD1_CTRL" input
+		(pin "HSD1_CTRL" passive
 			(at 127 62.23 0)
 			(uuid "608ef3c0-d1b1-4de7-832f-f8b5f26d7ba1")
 			(effects
@@ -5898,7 +5878,7 @@
 				(justify right)
 			)
 		)
-		(pin "HSD2_CTRL" input
+		(pin "HSD2_CTRL" passive
 			(at 127 64.77 0)
 			(uuid "1676208d-6de0-4bb3-9c90-57bfd23259a4")
 			(effects
@@ -5908,7 +5888,7 @@
 				(justify right)
 			)
 		)
-		(pin "HSD0_CTRL" input
+		(pin "HSD0_CTRL" passive
 			(at 127 59.69 0)
 			(uuid "53d3750a-dedc-4867-b23a-2406b509cd11")
 			(effects
@@ -5928,7 +5908,7 @@
 				(justify right)
 			)
 		)
-		(pin "LSD0_CTRL" input
+		(pin "LSD0_CTRL" passive
 			(at 127 44.45 0)
 			(uuid "15d74caa-1cec-4205-9dc8-1b8a36c2ed9e")
 			(effects
@@ -5938,17 +5918,7 @@
 				(justify right)
 			)
 		)
-		(pin "HSD3_ISEN" output
-			(at 127 77.47 0)
-			(uuid "c8e575cd-0307-472d-b52a-81380569e438")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HSD1_ISEN" output
+		(pin "HSD23_ISEN" passive
 			(at 127 72.39 0)
 			(uuid "f86818f4-6f91-434c-bd3a-da25de192825")
 			(effects
@@ -5958,17 +5928,7 @@
 				(justify right)
 			)
 		)
-		(pin "HSD2_ISEN" output
-			(at 127 74.93 0)
-			(uuid "13013fd7-59e4-4172-9134-d40bb44ca555")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HSD0_ISEN" output
+		(pin "HSD01_ISEN" passive
 			(at 127 69.85 0)
 			(uuid "f8c9e3b4-ad93-4780-92d0-35ad7606259a")
 			(effects
@@ -5981,7 +5941,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
-					(page "13")
+					(page "7")
 				)
 			)
 		)
@@ -6401,7 +6361,7 @@
 				(justify right)
 			)
 		)
-		(pin "HSD0_CTRL" output
+		(pin "HSD0_CTRL" passive
 			(at 177.8 59.69 180)
 			(uuid "08e8c27a-50c9-4a92-9d41-214f67ece3ea")
 			(effects
@@ -6411,7 +6371,7 @@
 				(justify left)
 			)
 		)
-		(pin "HSD0_ISEN" input
+		(pin "HSD01_ISEN" passive
 			(at 177.8 69.85 180)
 			(uuid "b2d6a4f8-523b-4cdf-8e8e-623ba4c9b420")
 			(effects
@@ -6421,7 +6381,7 @@
 				(justify left)
 			)
 		)
-		(pin "HSD01_EN" output
+		(pin "HSD01_EN" passive
 			(at 177.8 54.61 180)
 			(uuid "983e7ddd-323c-407d-8005-c282c3dffa75")
 			(effects
@@ -6431,7 +6391,7 @@
 				(justify left)
 			)
 		)
-		(pin "LSD2_CTRL" output
+		(pin "LSD2_CTRL" passive
 			(at 177.8 49.53 180)
 			(uuid "f8665d6b-5b77-4215-86f0-eaa62cf2e55c")
 			(effects
@@ -6441,7 +6401,7 @@
 				(justify left)
 			)
 		)
-		(pin "HSD3_CTRL" output
+		(pin "HSD3_CTRL" passive
 			(at 177.8 67.31 180)
 			(uuid "c566a8df-648d-4efe-a10b-c5bf625d58ce")
 			(effects
@@ -6451,7 +6411,7 @@
 				(justify left)
 			)
 		)
-		(pin "HSD1_CTRL" output
+		(pin "HSD1_CTRL" passive
 			(at 177.8 62.23 180)
 			(uuid "8dcebe7a-d71a-4a14-a0a6-6a261c9d7040")
 			(effects
@@ -6461,7 +6421,7 @@
 				(justify left)
 			)
 		)
-		(pin "LSD3_CTRL" output
+		(pin "LSD3_CTRL" passive
 			(at 177.8 52.07 180)
 			(uuid "15b89f4e-4524-4acf-84bf-886b80d7675c")
 			(effects
@@ -6471,7 +6431,7 @@
 				(justify left)
 			)
 		)
-		(pin "LSD1_CTRL" output
+		(pin "LSD1_CTRL" passive
 			(at 177.8 46.99 180)
 			(uuid "467bd762-1fd3-40a6-9346-2b56a29a083a")
 			(effects
@@ -6481,7 +6441,7 @@
 				(justify left)
 			)
 		)
-		(pin "HSD2_CTRL" output
+		(pin "HSD2_CTRL" passive
 			(at 177.8 64.77 180)
 			(uuid "80efa5fd-f662-4d72-92dd-fb1dbd428e1b")
 			(effects
@@ -6491,7 +6451,7 @@
 				(justify left)
 			)
 		)
-		(pin "HSD23_EN" output
+		(pin "HSD23_EN" passive
 			(at 177.8 57.15 180)
 			(uuid "5831ffa6-e0af-47a4-a511-927ee048496f")
 			(effects
@@ -6501,17 +6461,7 @@
 				(justify left)
 			)
 		)
-		(pin "HSD3_ISEN" input
-			(at 177.8 77.47 180)
-			(uuid "84c7a133-9690-445b-b1a7-c05dd8753479")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HSD1_ISEN" input
+		(pin "HSD23_ISEN" passive
 			(at 177.8 72.39 180)
 			(uuid "7b6f606b-4eba-4eb9-8c9b-936effed5e29")
 			(effects
@@ -6521,17 +6471,7 @@
 				(justify left)
 			)
 		)
-		(pin "HSD2_ISEN" input
-			(at 177.8 74.93 180)
-			(uuid "edbaa9b2-afcd-4789-80e5-3b17bb23502b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LSD0_CTRL" output
+		(pin "LSD0_CTRL" passive
 			(at 177.8 44.45 180)
 			(uuid "a6301799-f09d-44ad-ad78-15947f7f0d5b")
 			(effects
@@ -6554,7 +6494,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034"
-					(page "2")
+					(page "50")
 				)
 			)
 		)

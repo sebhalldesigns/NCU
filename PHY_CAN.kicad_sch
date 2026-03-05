@@ -1027,12 +1027,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 26.67 19.05 0)
+		(property "Value" "3V3"
+			(at 29.21 22.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1163,12 +1164,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 139.7 58.42 0)
+		(property "Value" "3V3"
+			(at 142.24 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1945,12 +1947,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 139.7 109.22 0)
+		(property "Value" "3V3"
+			(at 142.24 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""

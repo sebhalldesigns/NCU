@@ -78,4 +78,10 @@ K
 F https://www.arrow.com/en/products/lp2951-50drg4/texas-instruments
 $ENDCMP
 #
+$CMP STS5DNF60L
+D Automotive-grade dual N-channel 60 V, 35 m typ., 5 A STripFET II Power MOSFET in an SO-8 package
+K
+F https://componentsearchengine.com/Datasheets/1/STS5DNF60L.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -1888,7 +1888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "12V"
 			(at 27.686 20.066 0)
 			(effects
 				(font
@@ -2291,7 +2291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "12V"
 			(at 54.356 58.674 0)
 			(effects
 				(font

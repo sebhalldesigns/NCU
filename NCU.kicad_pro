@@ -619,56 +619,40 @@
       "CONN_A"
     ],
     [
-      "d2b1e1a0-8b64-49ff-b975-b40fa2d33dc6",
-      "MCU"
-    ],
-    [
       "58530478-b11f-47ae-90e9-56fd185c9f38",
       "CONN_B"
-    ],
-    [
-      "9be8b538-d844-48b8-8166-3cb7d05a381c",
-      "PHY_CAN"
     ],
     [
       "05e3be97-98f6-4518-a1a7-240d4da327e6",
       "PWR"
     ],
     [
-      "59880cb1-7ec0-4ddb-9063-a30a9ec86eac",
-      "CARD_SD"
-    ],
-    [
-      "0cdbc80d-6682-4488-acea-b93c92a9f88d",
-      "MOD_WLAN"
-    ],
-    [
-      "71eaebc5-839d-463f-8de3-2de83db6e3a3",
-      "INPUT_5V_1"
+      "9be8b538-d844-48b8-8166-3cb7d05a381c",
+      "PHY_CAN"
     ],
     [
       "9758cbcc-2ab2-405c-935d-3964f8470771",
       "PHY_ETH"
     ],
     [
-      "70b8fb88-9c19-46a8-95e3-6c05e68e24c9",
-      "MCU Power"
+      "71eaebc5-839d-463f-8de3-2de83db6e3a3",
+      "INPUT_5V_1"
+    ],
+    [
+      "baadc183-c5ee-4419-984d-87724b599ce5",
+      "DRIVES"
     ],
     [
       "85ee8b65-a216-46f6-943b-de278ee684a4",
       "INPUTS"
     ],
     [
-      "77f505d1-5a70-4b67-92f2-4570e0aae5e4",
-      "MOD_PCIE"
+      "70b8fb88-9c19-46a8-95e3-6c05e68e24c9",
+      "MCU Power"
     ],
     [
-      "9e564c38-7205-44f8-b5f6-41c7c4a47ab0",
-      "CARD_SIM"
-    ],
-    [
-      "baadc183-c5ee-4419-984d-87724b599ce5",
-      "DRIVES"
+      "332149bf-f2de-48eb-b330-2ea3477331d0",
+      "LSD_23"
     ],
     [
       "cc997df9-87ce-41ac-9f91-f99587d0a3ba",
@@ -679,8 +663,16 @@
       "INPUT_5V_2"
     ],
     [
+      "59880cb1-7ec0-4ddb-9063-a30a9ec86eac",
+      "CARD_SD"
+    ],
+    [
       "4fcea559-da4d-4452-9558-3dc18d24153f",
       "INPUT_5V_0"
+    ],
+    [
+      "9e564c38-7205-44f8-b5f6-41c7c4a47ab0",
+      "CARD_SIM"
     ],
     [
       "1e4c2615-47b7-407c-9ec1-cc6c8c6ad1cb",
@@ -699,12 +691,28 @@
       "INPUT_20V_0"
     ],
     [
+      "0cdbc80d-6682-4488-acea-b93c92a9f88d",
+      "MOD_WLAN"
+    ],
+    [
       "5718bb82-c29e-4f64-a1cd-9c871d68f96a",
       "INPUT_20V_3"
     ],
     [
+      "77f505d1-5a70-4b67-92f2-4570e0aae5e4",
+      "MOD_PCIE"
+    ],
+    [
       "7146af3d-2638-4af5-9f89-9866af690ea2",
       "INPUT_20V_12V"
+    ],
+    [
+      "5c853e22-0665-4cc1-bec5-af762ca92e20",
+      "LSD_01"
+    ],
+    [
+      "d2b1e1a0-8b64-49ff-b975-b40fa2d33dc6",
+      "MCU"
     ]
   ],
   "text_variables": {}

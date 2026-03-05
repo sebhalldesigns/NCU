@@ -5816,8 +5816,8 @@
 		)
 		(uuid "0eb5db25-41a0-4251-8324-0c3f6a190078")
 	)
-	(hierarchical_label "HSD0_ISEN"
-		(shape input)
+	(hierarchical_label "HSD01_ISEN"
+		(shape passive)
 		(at 76.2 63.5 180)
 		(effects
 			(font
@@ -5861,7 +5861,7 @@
 		(uuid "1e5c8572-8be2-4179-80b9-528dff885473")
 	)
 	(hierarchical_label "LSD2_CTRL"
-		(shape output)
+		(shape passive)
 		(at 76.2 43.18 180)
 		(effects
 			(font
@@ -5872,7 +5872,7 @@
 		(uuid "2242a52a-ff33-4725-a0f4-9dcb234649b8")
 	)
 	(hierarchical_label "LSD3_CTRL"
-		(shape output)
+		(shape passive)
 		(at 76.2 45.72 180)
 		(effects
 			(font
@@ -5926,17 +5926,6 @@
 		)
 		(uuid "33982279-6a0f-40ed-9f3c-a7f697fe36aa")
 	)
-	(hierarchical_label "HSD2_ISEN"
-		(shape input)
-		(at 76.2 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3963e845-76a0-444f-b12a-6832d9b309a1")
-	)
 	(hierarchical_label "STM_NRST"
 		(shape passive)
 		(at 38.1 135.89 180)
@@ -5982,7 +5971,7 @@
 		(uuid "52dde5ab-6f45-4af7-9176-9e11427aae38")
 	)
 	(hierarchical_label "HSD1_CTRL"
-		(shape output)
+		(shape passive)
 		(at 76.2 50.8 180)
 		(effects
 			(font
@@ -6036,19 +6025,8 @@
 		)
 		(uuid "6350256d-2ec0-4c66-83ec-2dd2f0146e5e")
 	)
-	(hierarchical_label "HSD3_ISEN"
-		(shape input)
-		(at 76.2 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "649554ad-1b37-4653-8d46-50b45ce2ea63")
-	)
 	(hierarchical_label "HSD3_CTRL"
-		(shape output)
+		(shape passive)
 		(at 76.2 55.88 180)
 		(effects
 			(font
@@ -6059,7 +6037,7 @@
 		(uuid "67ee76f1-0e9d-4344-ba46-64c2897d8ad8")
 	)
 	(hierarchical_label "HSD23_EN"
-		(shape output)
+		(shape passive)
 		(at 76.2 60.96 180)
 		(effects
 			(font
@@ -6102,8 +6080,8 @@
 		)
 		(uuid "7acad763-b01c-4252-9ea9-4306eeb68d72")
 	)
-	(hierarchical_label "HSD1_ISEN"
-		(shape input)
+	(hierarchical_label "HSD23_ISEN"
+		(shape passive)
 		(at 76.2 66.04 180)
 		(effects
 			(font
@@ -6191,7 +6169,7 @@
 		(uuid "b5929465-9696-4c71-bf81-1bb151a68cec")
 	)
 	(hierarchical_label "LSD1_CTRL"
-		(shape output)
+		(shape passive)
 		(at 76.2 40.64 180)
 		(effects
 			(font
@@ -6202,7 +6180,7 @@
 		(uuid "bfb5f065-78c8-48e6-933e-41c2e8625e4d")
 	)
 	(hierarchical_label "LSD0_CTRL"
-		(shape output)
+		(shape passive)
 		(at 76.2 38.1 180)
 		(effects
 			(font
@@ -6213,7 +6191,7 @@
 		(uuid "e1433e2e-5cc1-417b-86b6-9d372705cc6b")
 	)
 	(hierarchical_label "HSD0_CTRL"
-		(shape output)
+		(shape passive)
 		(at 76.2 48.26 180)
 		(effects
 			(font
@@ -6235,7 +6213,7 @@
 		(uuid "e7a76885-5a6a-4068-8a25-d5720b45f159")
 	)
 	(hierarchical_label "HSD2_CTRL"
-		(shape output)
+		(shape passive)
 		(at 76.2 53.34 180)
 		(effects
 			(font
@@ -6246,7 +6224,7 @@
 		(uuid "f159a987-ba4f-4f67-bfd5-379b2872c24e")
 	)
 	(hierarchical_label "HSD01_EN"
-		(shape output)
+		(shape passive)
 		(at 76.2 58.42 180)
 		(effects
 			(font

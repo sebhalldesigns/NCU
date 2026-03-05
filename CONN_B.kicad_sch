@@ -2983,7 +2983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 26.416 20.066 0)
 			(effects
 				(font
@@ -3402,7 +3402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 180.086 46.736 0)
 			(effects
 				(font
