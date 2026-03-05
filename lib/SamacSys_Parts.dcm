@@ -84,4 +84,10 @@ K
 F https://componentsearchengine.com/Datasheets/1/STS5DNF60L.pdf
 $ENDCMP
 #
+$CMP VND7E025AJTR
+D Double channel high-side driver with CurrentSense analog feedback for automotive applications
+K
+F https://www.st.com/resource/en/datasheet/vnd7e025aj.pdf
+$ENDCMP
+#
 #End Doc Library
