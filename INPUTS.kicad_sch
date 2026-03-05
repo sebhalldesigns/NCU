@@ -234,7 +234,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 54.61) (xy 82.55 54.61)
+			(xy 46.99 69.85) (xy 50.8 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0429bdb1-fcaa-443e-afce-9ce7e6d721cb")
+	)
+	(wire
+		(pts
+			(xy 76.2 66.04) (xy 82.55 66.04)
 		)
 		(stroke
 			(width 0)
@@ -254,13 +264,23 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 36.83) (xy 50.8 36.83)
+			(xy 44.45 40.64) (xy 50.8 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0c7f1a3a-8ec1-4455-8dc1-c09e23f55237")
+	)
+	(wire
+		(pts
+			(xy 123.19 31.75) (xy 127 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219b54e1-42bc-4934-8d2a-8ba9b35bf07c")
 	)
 	(wire
 		(pts
@@ -274,7 +294,27 @@
 	)
 	(wire
 		(pts
-			(xy 120.7062 54.61) (xy 127.0562 54.61)
+			(xy 123.19 44.45) (xy 127 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddcb10d-73ef-423a-801d-f3409623f836")
+	)
+	(wire
+		(pts
+			(xy 25.4 34.29) (xy 25.4 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6e02d4-3a64-4822-8684-79d52e1c8849")
+	)
+	(wire
+		(pts
+			(xy 120.65 66.04) (xy 127 66.04)
 		)
 		(stroke
 			(width 0)
@@ -324,7 +364,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4562 54.61) (xy 158.8062 54.61)
+			(xy 152.4 66.04) (xy 158.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -344,7 +384,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 36.83) (xy 82.55 36.83)
+			(xy 76.2 40.64) (xy 82.55 40.64)
 		)
 		(stroke
 			(width 0)
@@ -354,7 +394,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 63.5) (xy 127 63.5)
+			(xy 116.84 78.74) (xy 127 78.74)
 		)
 		(stroke
 			(width 0)
@@ -374,7 +414,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 54.61) (xy 50.8 54.61)
+			(xy 44.45 66.04) (xy 50.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -384,7 +424,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 45.72) (xy 82.55 45.72)
+			(xy 25.4 34.29) (xy 24.13 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7923342-b3c4-49ae-aa6c-82f0d5243641")
+	)
+	(wire
+		(pts
+			(xy 123.19 82.55) (xy 127 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e55583-7562-485b-a1e8-d6d13d237300")
+	)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 82.55 53.34)
 		)
 		(stroke
 			(width 0)
@@ -394,7 +454,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 36.83) (xy 127 36.83)
+			(xy 120.65 40.64) (xy 127 40.64)
 		)
 		(stroke
 			(width 0)
@@ -404,7 +464,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 45.72) (xy 158.75 45.72)
+			(xy 152.4 53.34) (xy 158.75 53.34)
 		)
 		(stroke
 			(width 0)
@@ -414,7 +474,27 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 45.72) (xy 127 45.72)
+			(xy 46.99 57.15) (xy 50.8 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c321c435-1045-40be-b5d7-ee65e3385198")
+	)
+	(wire
+		(pts
+			(xy 123.19 69.85) (xy 127 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c638ed6c-e02e-4377-b1eb-de1d3c29af80")
+	)
+	(wire
+		(pts
+			(xy 120.65 53.34) (xy 127 53.34)
 		)
 		(stroke
 			(width 0)
@@ -424,7 +504,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 45.72) (xy 50.8 45.72)
+			(xy 44.45 53.34) (xy 50.8 53.34)
 		)
 		(stroke
 			(width 0)
@@ -434,7 +514,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 158.75 63.5)
+			(xy 46.99 44.45) (xy 50.8 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1baa0d6-194b-494b-b6ee-2f155af463ea")
+	)
+	(wire
+		(pts
+			(xy 152.4 78.74) (xy 158.75 78.74)
 		)
 		(stroke
 			(width 0)
@@ -444,7 +534,27 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 36.83) (xy 158.75 36.83)
+			(xy 123.19 57.15) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d45264e8-6381-445c-aed7-2a167b2256e6")
+	)
+	(wire
+		(pts
+			(xy 46.99 31.75) (xy 50.8 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3853f9c-aa3e-460b-88e5-ceaf90aa213a")
+	)
+	(wire
+		(pts
+			(xy 152.4 40.64) (xy 158.75 40.64)
 		)
 		(stroke
 			(width 0)
@@ -452,7 +562,7 @@
 		)
 		(uuid "fba88e8e-3700-4a87-a9a0-7d436ce550e8")
 	)
-	(hierarchical_label "DIN0_RAW"
+	(hierarchical_label "AIN0_RAW"
 		(shape passive)
 		(at 44.45 27.94 180)
 		(effects
@@ -463,9 +573,9 @@
 		)
 		(uuid "03c25c1d-28e7-4929-9407-292f5a86427a")
 	)
-	(hierarchical_label "DIN1_RAW"
+	(hierarchical_label "AIN1_RAW"
 		(shape passive)
-		(at 44.45 36.83 180)
+		(at 44.45 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -474,18 +584,7 @@
 		)
 		(uuid "0e220bf9-df07-4336-afd4-e94ee6ed0245")
 	)
-	(hierarchical_label "AIN_5V"
-		(shape passive)
-		(at 24.13 34.29 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "39a7494a-1aa0-4b8c-bef5-4cd2383d418c")
-	)
-	(hierarchical_label "AIN0_IO"
+	(hierarchical_label "DIN0_IO"
 		(shape passive)
 		(at 158.75 27.94 0)
 		(effects
@@ -496,9 +595,9 @@
 		)
 		(uuid "5120b2e0-33c3-41e9-82dd-e72b8c8c3f9c")
 	)
-	(hierarchical_label "AIN3_RAW"
+	(hierarchical_label "DIN3_RAW"
 		(shape passive)
-		(at 120.7062 54.61 180)
+		(at 120.65 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -507,7 +606,7 @@
 		)
 		(uuid "58c81537-7b44-40e3-b137-aac129052185")
 	)
-	(hierarchical_label "DIN0_IO"
+	(hierarchical_label "AIN0_IO"
 		(shape passive)
 		(at 82.55 27.94 0)
 		(effects
@@ -540,20 +639,20 @@
 		)
 		(uuid "6e626d6a-74e6-4e74-9f27-340f6c6e3384")
 	)
-	(hierarchical_label "AIN_0V"
+	(hierarchical_label "AGND"
 		(shape passive)
-		(at 24.13 38.1 180)
+		(at 24.13 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "73741b89-fc5c-4881-a5c5-8b2f01b8cdcf")
+		(uuid "7b147199-d26d-404e-bbed-80ae04cc4b1e")
 	)
-	(hierarchical_label "AIN3_IO"
+	(hierarchical_label "DIN3_IO"
 		(shape passive)
-		(at 158.8062 54.61 0)
+		(at 158.75 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -562,9 +661,9 @@
 		)
 		(uuid "7e18f0e4-b644-4dd5-a486-9fab0dd195cb")
 	)
-	(hierarchical_label "DIN3_IO"
+	(hierarchical_label "AIN3_IO"
 		(shape passive)
-		(at 82.55 54.61 0)
+		(at 82.55 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -573,9 +672,9 @@
 		)
 		(uuid "82c0236c-7704-4ff2-939d-c2274976927d")
 	)
-	(hierarchical_label "DIN2_IO"
+	(hierarchical_label "AIN2_IO"
 		(shape passive)
-		(at 82.55 45.72 0)
+		(at 82.55 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -584,9 +683,9 @@
 		)
 		(uuid "860c6e65-cc10-4858-bd2f-3e215b7e3d58")
 	)
-	(hierarchical_label "DIN1_IO"
+	(hierarchical_label "AIN1_IO"
 		(shape passive)
-		(at 82.55 36.83 0)
+		(at 82.55 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -595,9 +694,9 @@
 		)
 		(uuid "a37317b5-0729-4bab-9495-f5c18cc235ef")
 	)
-	(hierarchical_label "AIN2_RAW"
+	(hierarchical_label "DIN2_RAW"
 		(shape passive)
-		(at 120.65 45.72 180)
+		(at 120.65 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -606,9 +705,9 @@
 		)
 		(uuid "a6d7e332-877d-42ff-a877-c86f815ef8b2")
 	)
-	(hierarchical_label "AIN1_RAW"
+	(hierarchical_label "DIN1_RAW"
 		(shape passive)
-		(at 120.65 36.83 180)
+		(at 120.65 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -617,9 +716,9 @@
 		)
 		(uuid "a9345d9b-6399-4485-a7ab-4bc1c4b4edd3")
 	)
-	(hierarchical_label "DIN3_RAW"
+	(hierarchical_label "AIN3_RAW"
 		(shape passive)
-		(at 44.45 54.61 180)
+		(at 44.45 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -628,7 +727,7 @@
 		)
 		(uuid "b251dbde-6f46-4b1e-a8b0-196a71afba7b")
 	)
-	(hierarchical_label "AIN0_RAW"
+	(hierarchical_label "DIN0_RAW"
 		(shape passive)
 		(at 120.65 27.94 180)
 		(effects
@@ -639,9 +738,9 @@
 		)
 		(uuid "ced9032c-9f41-4180-8a23-13c68bc162ca")
 	)
-	(hierarchical_label "AIN2_IO"
+	(hierarchical_label "DIN2_IO"
 		(shape passive)
-		(at 158.75 45.72 0)
+		(at 158.75 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -650,9 +749,9 @@
 		)
 		(uuid "d272d78b-db5d-4b6b-9026-fe078fcb62fc")
 	)
-	(hierarchical_label "DIN2_RAW"
+	(hierarchical_label "AIN2_RAW"
 		(shape passive)
-		(at 44.45 45.72 180)
+		(at 44.45 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -663,7 +762,7 @@
 	)
 	(hierarchical_label "12V_IO"
 		(shape passive)
-		(at 158.75 63.5 0)
+		(at 158.75 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -672,9 +771,9 @@
 		)
 		(uuid "f4c077dc-045f-46e1-8125-e7bd4d477381")
 	)
-	(hierarchical_label "AIN1_IO"
+	(hierarchical_label "DIN1_IO"
 		(shape passive)
-		(at 158.75 36.83 0)
+		(at 158.75 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -682,6 +781,71 @@
 			(justify left)
 		)
 		(uuid "f4f0211f-255b-4e8a-a9dc-d9489d44edd4")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16c1f6fa-6291-4198-a24d-bf6bc91818d9")
+		(property "Reference" "#PWR0162"
+			(at 123.19 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecae15fb-8481-4213-885f-2f0fe48ce180")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -744,6 +908,201 @@
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1dab08b9-fe95-425c-9cde-e0dd06949c07")
+		(property "Reference" "#PWR0165"
+			(at 123.19 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb8f0fa5-d232-4021-8526-7125878cf41d")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "265e8fe4-81dd-4a9f-96d9-0bc2ccaf4cc7")
+		(property "Reference" "#PWR0174"
+			(at 46.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 46.99 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "373acd97-4a3c-4bd2-b765-48bb78659882")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b5505b0-25af-4858-a2df-4acd2c543702")
+		(property "Reference" "#PWR0179"
+			(at 123.19 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00123744-b333-437e-ac04-449d77ef2f7f")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -815,17 +1174,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 120.65 63.5 0)
+		(lib_id "power:GND")
+		(at 25.4 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98029c78-a969-449a-b86a-e8b56be3d356")
-		(property "Reference" "#PWR072"
-			(at 120.65 67.31 0)
+		(uuid "634f3c75-79da-4fc3-9f2d-ad7476789bfd")
+		(property "Reference" "#PWR0170"
+			(at 25.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,8 +1191,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 120.65 58.42 0)
+		(property "Value" "AGND"
+			(at 25.4 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +1200,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 63.5 0)
+			(at 25.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +1209,203 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 63.5 0)
+			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ade80750-1b75-42df-88fc-17fc372b5306")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88dcc38a-0848-4a4c-b915-893b848f6ed0")
+		(property "Reference" "#PWR0167"
+			(at 46.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd9ee5b3-94b7-48aa-ba88-f5336873708f")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96ab1a8d-349d-49e7-90bb-4c9794140588")
+		(property "Reference" "#PWR0148"
+			(at 46.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 46.99 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6490b47c-dffe-479f-853f-a9c7a9ffe14b")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 116.84 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98029c78-a969-449a-b86a-e8b56be3d356")
+		(property "Reference" "#PWR072"
+			(at 116.84 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -860,7 +1414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 120.65 63.5 0)
+			(at 116.84 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,72 +1434,204 @@
 			)
 		)
 	)
-	(sheet
-		(at 127 43.18)
-		(size 25.4 5.08)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 31.75 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2869d539-22c4-4480-8122-ab9cd72b0040")
-		(property "Sheetname" "INPUT_20V_2"
-			(at 127 42.4684 0)
+		(uuid "bf0436a1-9c3f-4de7-96ee-2978cd119aec")
+		(property "Reference" "#PWR0171"
+			(at 46.99 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "INPUT_20V.kicad_sch"
-			(at 127 48.8446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(pin "INPUT" input
-			(at 127 45.72 180)
-			(uuid "cd59aa0e-f889-4aa6-9eb9-aacb0707d664")
+		(property "Value" "AGND"
+			(at 46.99 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(pin "OUTPUT" output
-			(at 152.4 45.72 0)
-			(uuid "20aa307b-472b-40b9-b2a9-5c2d4e4528be")
+		(property "Footprint" ""
+			(at 46.99 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(hide yes)
 			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e878845-0042-464a-8ed8-b420e5a1535b")
 		)
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
-					(page "19")
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d609aa30-32e3-4887-a822-d5b9ace5ca2b")
+		(property "Reference" "#PWR0164"
+			(at 123.19 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b84ed792-c3aa-4d4a-948c-a33995dcb565")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4b3cf74-c66f-406a-81bf-81f127ce6f57")
+		(property "Reference" "#PWR0175"
+			(at 123.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eac312e0-0bc1-4578-894d-62828787dc31")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(reference "#PWR0175")
+					(unit 1)
 				)
 			)
 		)
 	)
 	(sheet
-		(at 50.8 43.18)
-		(size 25.4 5.08)
+		(at 50.8 63.5)
+		(size 25.4 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -958,9 +1644,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "46cdf4bd-eb06-4fd4-bce2-0f61839a668c")
-		(property "Sheetname" "INPUT_5V_2"
-			(at 50.8 42.4684 0)
+		(uuid "1e4c2615-47b7-407c-9ec1-cc6c8c6ad1cb")
+		(property "Sheetname" "INPUT_5V_3"
+			(at 50.8 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +1655,7 @@
 			)
 		)
 		(property "Sheetfile" "INPUT_5V.kicad_sch"
-			(at 50.8 48.8446 0)
+			(at 50.8 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,9 +1664,9 @@
 				(hide yes)
 			)
 		)
-		(pin "INPUT" input
-			(at 50.8 45.72 180)
-			(uuid "e19acb2b-4e66-432c-bd62-2c308926bf14")
+		(pin "INPUT" passive
+			(at 50.8 66.04 180)
+			(uuid "210d1828-28a0-4967-82cc-7953ab215be5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,14 +1674,97 @@
 				(justify left)
 			)
 		)
-		(pin "OUTPUT" output
-			(at 76.2 45.72 0)
-			(uuid "6b5e1483-3caa-4ec0-9c8e-392a8c976218")
+		(pin "OUTPUT" passive
+			(at 76.2 66.04 0)
+			(uuid "eda372ab-b26f-451c-a940-1a74721644ee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "AGND" passive
+			(at 50.8 69.85 180)
+			(uuid "d20d58d1-9a81-487b-84f8-fb422125adcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 50.8)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f0bd6e9-104e-47c6-baf1-84ea344a99fd")
+		(property "Sheetname" "INPUT_5V_2"
+			(at 50.8 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INPUT_5V.kicad_sch"
+			(at 50.8 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "INPUT" passive
+			(at 50.8 53.34 180)
+			(uuid "662423af-18f7-45b2-92b7-52227c6e10e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT" passive
+			(at 76.2 53.34 0)
+			(uuid "b0d54349-7861-4831-b19c-7742466411f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AGND" passive
+			(at 50.8 57.15 180)
+			(uuid "a8c85058-f450-4dcf-9a44-ece9fb37a858")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1007,71 +1776,8 @@
 		)
 	)
 	(sheet
-		(at 127 60.96)
-		(size 25.4 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4757f9cb-3fb4-41e9-974c-57ca237d2ce2")
-		(property "Sheetname" "INPUT_20V_12V"
-			(at 127 60.2484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "INPUT_20V.kicad_sch"
-			(at 127 66.6246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "INPUT" input
-			(at 127 63.5 180)
-			(uuid "6dc1258b-285e-4e6c-a7b5-8a373feb3f89")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUTPUT" output
-			(at 152.4 63.5 0)
-			(uuid "8b9c667f-08dc-4e7b-bcf1-770b4e0b8714")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "NCU"
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
-					(page "22")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 50.8 25.4)
-		(size 25.4 5.08)
+		(size 25.4 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1095,7 +1801,7 @@
 			)
 		)
 		(property "Sheetfile" "INPUT_5V.kicad_sch"
-			(at 50.8 31.0646 0)
+			(at 50.8 34.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1104,7 +1810,7 @@
 				(hide yes)
 			)
 		)
-		(pin "INPUT" input
+		(pin "INPUT" passive
 			(at 50.8 27.94 180)
 			(uuid "665c97e2-8234-42bd-97d3-cf262a8d854a")
 			(effects
@@ -1114,7 +1820,7 @@
 				(justify left)
 			)
 		)
-		(pin "OUTPUT" output
+		(pin "OUTPUT" passive
 			(at 76.2 27.94 0)
 			(uuid "4592fd79-8086-40c2-be9a-c56a8b8965d1")
 			(effects
@@ -1122,6 +1828,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "AGND" passive
+			(at 50.8 31.75 180)
+			(uuid "65b86eaf-d5bb-4bfd-8889-4aada35ae992")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1133,8 +1849,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 34.29)
-		(size 25.4 5.08)
+		(at 127 63.5)
+		(size 25.4 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1147,9 +1863,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "73e4b2ac-685d-401a-9fb0-7de0128a455e")
-		(property "Sheetname" "INPUT_5V_1"
-			(at 50.8 33.5784 0)
+		(uuid "5718bb82-c29e-4f64-a1cd-9c871d68f96a")
+		(property "Sheetname" "INPUT_20V_3"
+			(at 127 62.7884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1157,8 +1873,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "INPUT_5V.kicad_sch"
-			(at 50.8 39.9546 0)
+		(property "Sheetfile" "INPUT_20V.kicad_sch"
+			(at 127 72.9746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,9 +1883,9 @@
 				(hide yes)
 			)
 		)
-		(pin "INPUT" input
-			(at 50.8 36.83 180)
-			(uuid "d74c1643-91d1-4e85-aad8-746556eac843")
+		(pin "INPUT" passive
+			(at 127 66.04 180)
+			(uuid "851eba08-d378-4c53-9390-983ffd8037cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,14 +1893,170 @@
 				(justify left)
 			)
 		)
-		(pin "OUTPUT" output
-			(at 76.2 36.83 0)
-			(uuid "c78e7b27-38ef-4528-8e42-14f38b31dc5f")
+		(pin "OUTPUT" passive
+			(at 152.4 66.04 0)
+			(uuid "ed43d100-a323-446f-8fff-936626a101fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 127 69.85 180)
+			(uuid "1ea79768-38ec-46b0-95cb-8b0be5eb89f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 76.2)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7146af3d-2638-4af5-9f89-9866af690ea2")
+		(property "Sheetname" "INPUT_20V_12V"
+			(at 127 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INPUT_20V.kicad_sch"
+			(at 127 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "INPUT" passive
+			(at 127 78.74 180)
+			(uuid "c7389c04-bbe4-4979-89bc-7b729c805bc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT" passive
+			(at 152.4 78.74 0)
+			(uuid "cde47ad8-2a12-4677-952f-e29c8a27b22f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 127 82.55 180)
+			(uuid "4cdf3b90-0072-4e99-b9f2-6041c7e1b241")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 38.1)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "71eaebc5-839d-463f-8de3-2de83db6e3a3")
+		(property "Sheetname" "INPUT_5V_1"
+			(at 50.8 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INPUT_5V.kicad_sch"
+			(at 50.8 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "INPUT" passive
+			(at 50.8 40.64 180)
+			(uuid "3c591b79-eeaa-4712-966d-94dec9760ad5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT" passive
+			(at 76.2 40.64 0)
+			(uuid "a7d5fab9-d63b-4e17-a2fb-8cf403fde9fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AGND" passive
+			(at 50.8 44.45 180)
+			(uuid "c578dc58-4275-4b2b-940e-9870b7a7721e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1197,7 +2069,7 @@
 	)
 	(sheet
 		(at 127 25.4)
-		(size 25.4 5.08)
+		(size 25.4 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1221,7 +2093,7 @@
 			)
 		)
 		(property "Sheetfile" "INPUT_20V.kicad_sch"
-			(at 127 31.0646 0)
+			(at 127 34.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,7 +2102,7 @@
 				(hide yes)
 			)
 		)
-		(pin "INPUT" input
+		(pin "INPUT" passive
 			(at 127 27.94 180)
 			(uuid "d4f1a716-9efd-4cec-bd89-7edd38c96954")
 			(effects
@@ -1240,7 +2112,7 @@
 				(justify left)
 			)
 		)
-		(pin "OUTPUT" output
+		(pin "OUTPUT" passive
 			(at 152.4 27.94 0)
 			(uuid "41f2c30d-0186-4316-8d38-22efb4cc4dd2")
 			(effects
@@ -1248,6 +2120,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 127 31.75 180)
+			(uuid "feb9ac75-2704-49ce-9e47-98eb6511e89b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1259,8 +2141,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 52.07)
-		(size 25.4 5.08)
+		(at 127 50.8)
+		(size 25.4 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1273,72 +2155,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "b77bcd14-d70a-455e-a151-292dc157ad64")
-		(property "Sheetname" "INPUT_5V_3"
-			(at 50.8 51.3584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "INPUT_5V.kicad_sch"
-			(at 50.8 57.7346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "INPUT" input
-			(at 50.8 54.61 180)
-			(uuid "2bfae3ea-9532-461c-94b5-91f21df616e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUTPUT" output
-			(at 76.2 54.61 0)
-			(uuid "6f1f88ba-ffef-4520-b2e6-da0ff00b6923")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "NCU"
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
-					(page "17")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 127 34.29)
-		(size 25.4 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "cbff2910-c0ba-4cde-a418-46510c44232b")
-		(property "Sheetname" "INPUT_20V_1"
-			(at 127 33.5784 0)
+		(uuid "8e14295d-c2d8-4bfa-8cf3-33fbd9389511")
+		(property "Sheetname" "INPUT_20V_2"
+			(at 127 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,7 +2166,7 @@
 			)
 		)
 		(property "Sheetfile" "INPUT_20V.kicad_sch"
-			(at 127 39.9546 0)
+			(at 127 60.2746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,9 +2175,9 @@
 				(hide yes)
 			)
 		)
-		(pin "INPUT" input
-			(at 127 36.83 180)
-			(uuid "85ee1079-e745-482c-aeaf-c78468716542")
+		(pin "INPUT" passive
+			(at 127 53.34 180)
+			(uuid "07cc79d8-2e15-4553-8576-29bf7c347348")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,83 +2185,103 @@
 				(justify left)
 			)
 		)
-		(pin "OUTPUT" output
-			(at 152.4 36.83 0)
-			(uuid "b67d232a-e8c2-4a65-8163-3b43758c077c")
+		(pin "OUTPUT" passive
+			(at 152.4 53.34 0)
+			(uuid "736115cb-41d4-4240-993e-3b0566df4282")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 127 57.15 180)
+			(uuid "eac9bd29-3535-4293-9c36-bca140f54338")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 38.1)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f06c2997-e69b-4682-9ae8-78f4bd637aad")
+		(property "Sheetname" "INPUT_20V_1"
+			(at 127 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INPUT_20V.kicad_sch"
+			(at 127 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "INPUT" passive
+			(at 127 40.64 180)
+			(uuid "8153e5c4-5b73-4f6a-8386-c2ca78d8f929")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUTPUT" passive
+			(at 152.4 40.64 0)
+			(uuid "ebb7635c-4854-42f4-95d9-59c1fa76e41c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" passive
+			(at 127 44.45 180)
+			(uuid "c24aaa74-8ea9-49e7-9338-bccf6428e798")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
 					(page "18")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 127.0562 52.07)
-		(size 25.4 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f052c42f-efba-4479-a996-a81957d88308")
-		(property "Sheetname" "INPUT_20V_3"
-			(at 127.0562 51.3584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "INPUT_20V.kicad_sch"
-			(at 127.0562 57.7346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "INPUT" input
-			(at 127.0562 54.61 180)
-			(uuid "74291f9b-db19-4d56-b3d5-3dd404ba362c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "OUTPUT" output
-			(at 152.4562 54.61 0)
-			(uuid "ac66cb9b-c83f-4c37-b96a-1f2ad0a609ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "NCU"
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4"
-					(page "21")
 				)
 			)
 		)
