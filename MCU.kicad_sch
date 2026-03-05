@@ -5794,6 +5794,17 @@
 		)
 		(uuid "000a0d47-9a22-43d1-9aa4-118ac797afbd")
 	)
+	(hierarchical_label "GPIO2_IO"
+		(shape passive)
+		(at 31.75 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01f678ac-b576-454c-a2ba-bf7c04c9f9a9")
+	)
 	(hierarchical_label "ETH_MDIO"
 		(shape output)
 		(at 25.4 100.33 180)
@@ -5815,6 +5826,17 @@
 			(justify right)
 		)
 		(uuid "0eb5db25-41a0-4251-8324-0c3f6a190078")
+	)
+	(hierarchical_label "AIN3_IO"
+		(shape passive)
+		(at 31.75 199.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12527dfd-cbe4-46c2-acd5-68ed96758f2b")
 	)
 	(hierarchical_label "HSD01_ISEN"
 		(shape passive)
@@ -5849,6 +5871,17 @@
 		)
 		(uuid "174c5b23-e775-4b3e-8898-a2e7c0154edb")
 	)
+	(hierarchical_label "GPIO0_IO"
+		(shape passive)
+		(at 31.75 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e2e33cf-131c-4d54-8e89-4af648392331")
+	)
 	(hierarchical_label "SD_CLK"
 		(shape passive)
 		(at 31.75 156.21 180)
@@ -5870,6 +5903,17 @@
 			(justify right)
 		)
 		(uuid "2242a52a-ff33-4725-a0f4-9dcb234649b8")
+	)
+	(hierarchical_label "DIN0_IO"
+		(shape passive)
+		(at 31.75 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "254ad00b-e44c-4a8c-a2d7-49ff41063165")
 	)
 	(hierarchical_label "LSD3_CTRL"
 		(shape passive)
@@ -5925,6 +5969,17 @@
 			(justify right)
 		)
 		(uuid "33982279-6a0f-40ed-9f3c-a7f697fe36aa")
+	)
+	(hierarchical_label "12V_IO"
+		(shape passive)
+		(at 31.75 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36acaff4-f335-45c3-a228-bf918a7f0a7e")
 	)
 	(hierarchical_label "STM_NRST"
 		(shape passive)
@@ -6035,6 +6090,17 @@
 			(justify right)
 		)
 		(uuid "67ee76f1-0e9d-4344-ba46-64c2897d8ad8")
+	)
+	(hierarchical_label "AIN0_IO"
+		(shape passive)
+		(at 31.75 191.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c709b0c-1337-41a1-9de4-bc4dd49898fb")
 	)
 	(hierarchical_label "HSD23_EN"
 		(shape passive)
@@ -6157,6 +6223,17 @@
 		)
 		(uuid "9bbaa615-6ba5-49b8-bc14-83ac1b182f2d")
 	)
+	(hierarchical_label "AIN2_IO"
+		(shape passive)
+		(at 31.75 196.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4e97c29-6620-47e9-9cdf-55baa8125b0a")
+	)
 	(hierarchical_label "SD_WP"
 		(shape passive)
 		(at 31.75 173.99 180)
@@ -6178,6 +6255,28 @@
 			(justify right)
 		)
 		(uuid "bfb5f065-78c8-48e6-933e-41c2e8625e4d")
+	)
+	(hierarchical_label "DIN1_IO"
+		(shape passive)
+		(at 31.75 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bfc552b4-98bb-48e5-83a0-e67b001bcf3c")
+	)
+	(hierarchical_label "GPIO3_IO"
+		(shape passive)
+		(at 31.75 187.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c42ca7d5-7f6e-4705-9d2f-2839c7bcf6b2")
 	)
 	(hierarchical_label "LSD0_CTRL"
 		(shape passive)
@@ -6201,6 +6300,17 @@
 		)
 		(uuid "e1a97108-5b88-4ce1-81a9-b8e5cbb34168")
 	)
+	(hierarchical_label "AIN1_IO"
+		(shape passive)
+		(at 31.75 194.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2b724bd-271f-4658-bb4a-9f7a26bae7af")
+	)
 	(hierarchical_label "ETH_TXD0"
 		(shape output)
 		(at 25.4 85.09 180)
@@ -6211,6 +6321,17 @@
 			(justify right)
 		)
 		(uuid "e7a76885-5a6a-4068-8a25-d5720b45f159")
+	)
+	(hierarchical_label "GPIO1_IO"
+		(shape passive)
+		(at 31.75 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec606a6e-a07d-4865-88bd-688d78430d73")
 	)
 	(hierarchical_label "HSD2_CTRL"
 		(shape passive)
@@ -6244,6 +6365,28 @@
 			(justify right)
 		)
 		(uuid "f61a02c9-9a5c-4edd-adfc-9f5d313fcd67")
+	)
+	(hierarchical_label "DIN3_IO"
+		(shape passive)
+		(at 31.75 210.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb0b2a22-9185-435a-9d8e-8ba2f042a646")
+	)
+	(hierarchical_label "DIN2_IO"
+		(shape passive)
+		(at 31.75 208.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc933aa9-f436-4298-ab84-1374bc1709fb")
 	)
 	(symbol
 		(lib_id "Device:R")

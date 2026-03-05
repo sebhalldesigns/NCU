@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "caf65d91-8b72-4a80-b701-9f4af0f2e20d")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
 		(symbol "0_SamacSys_Parts:6437288-4"
 			(pin_names
@@ -869,8 +869,8 @@
 		)
 	)
 	(rectangle
-		(start 38.1 38.1)
-		(end 106.68 101.6)
+		(start 36.83 25.4)
+		(end 105.41 88.9)
 		(stroke
 			(width 0)
 			(type default)
@@ -882,7 +882,7 @@
 	)
 	(text_box "NCU_A\nECU Functionality"
 		(exclude_from_sim no)
-		(at 38.1 38.1 0)
+		(at 36.83 25.4 0)
 		(size 30.48 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -902,19 +902,19 @@
 		(uuid "af89d188-9f26-46bd-8a8a-0f5116421f7e")
 	)
 	(junction
-		(at 91.44 86.36)
+		(at 90.17 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af82a7e7-fb8e-4eb8-bff0-09c9afdd2873")
 	)
 	(junction
-		(at 59.69 53.34)
+		(at 58.42 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b67f66ce-f372-4f55-aad2-39e1d136b180")
 	)
 	(junction
-		(at 59.69 58.42)
+		(at 58.42 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdca010a-af23-4b0a-9826-ecef61395b80")
@@ -931,7 +931,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 58.42) (xy 59.69 60.96)
+			(xy 58.42 45.72) (xy 58.42 48.26)
 		)
 		(stroke
 			(width 0)
@@ -941,7 +941,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 66.04) (xy 91.44 66.04)
+			(xy 83.82 53.34) (xy 90.17 53.34)
 		)
 		(stroke
 			(width 0)
@@ -951,7 +951,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 83.82) (xy 59.69 83.82)
+			(xy 52.07 71.12) (xy 58.42 71.12)
 		)
 		(stroke
 			(width 0)
@@ -971,7 +971,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 58.42) (xy 59.69 58.42)
+			(xy 57.15 45.72) (xy 58.42 45.72)
 		)
 		(stroke
 			(width 0)
@@ -981,7 +981,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 66.04) (xy 59.69 66.04)
+			(xy 52.07 53.34) (xy 58.42 53.34)
 		)
 		(stroke
 			(width 0)
@@ -991,7 +991,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 81.28) (xy 91.44 81.28)
+			(xy 83.82 68.58) (xy 90.17 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1001,7 +1001,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 60.96) (xy 91.44 60.96)
+			(xy 83.82 48.26) (xy 90.17 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1011,7 +1011,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 78.74) (xy 91.44 78.74)
+			(xy 83.82 66.04) (xy 90.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1021,7 +1021,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 68.58) (xy 91.44 68.58)
+			(xy 83.82 55.88) (xy 90.17 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1031,7 +1031,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 78.74) (xy 59.69 78.74)
+			(xy 52.07 66.04) (xy 58.42 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1041,7 +1041,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 91.44 87.63)
+			(xy 90.17 73.66) (xy 90.17 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1051,7 +1051,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 71.12) (xy 59.69 71.12)
+			(xy 52.07 58.42) (xy 58.42 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1061,7 +1061,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 63.5) (xy 91.44 63.5)
+			(xy 83.82 50.8) (xy 90.17 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1071,7 +1071,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 86.36) (xy 91.44 86.36)
+			(xy 83.82 73.66) (xy 90.17 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1081,7 +1081,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 55.88) (xy 91.44 55.88)
+			(xy 83.82 43.18) (xy 90.17 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1091,7 +1091,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 55.88) (xy 59.69 53.34)
+			(xy 58.42 43.18) (xy 58.42 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1101,7 +1101,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 71.12) (xy 91.44 71.12)
+			(xy 83.82 58.42) (xy 90.17 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1111,7 +1111,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 53.34) (xy 59.69 53.34)
+			(xy 57.15 40.64) (xy 58.42 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1121,7 +1121,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 63.5) (xy 59.69 63.5)
+			(xy 52.07 50.8) (xy 58.42 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1131,7 +1131,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 76.2) (xy 59.69 76.2)
+			(xy 52.07 63.5) (xy 58.42 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1151,7 +1151,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 53.34) (xy 91.44 53.34)
+			(xy 83.82 40.64) (xy 90.17 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1161,7 +1161,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 83.82) (xy 91.44 83.82)
+			(xy 83.82 71.12) (xy 90.17 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1171,7 +1171,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 83.82) (xy 91.44 86.36)
+			(xy 90.17 71.12) (xy 90.17 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1181,7 +1181,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 76.2) (xy 91.44 76.2)
+			(xy 83.82 63.5) (xy 90.17 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1191,7 +1191,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 73.66) (xy 59.69 73.66)
+			(xy 52.07 60.96) (xy 58.42 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1211,7 +1211,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 86.36) (xy 59.69 86.36)
+			(xy 52.07 73.66) (xy 58.42 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1221,7 +1221,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 73.66) (xy 91.44 73.66)
+			(xy 83.82 60.96) (xy 90.17 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1231,7 +1231,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 58.42) (xy 91.44 58.42)
+			(xy 83.82 45.72) (xy 90.17 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1241,7 +1241,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 68.58) (xy 59.69 68.58)
+			(xy 52.07 55.88) (xy 58.42 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1251,7 +1251,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 81.28) (xy 59.69 81.28)
+			(xy 52.07 68.58) (xy 58.42 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1260,7 +1260,7 @@
 		(uuid "fb567e9f-afd6-4dd1-9bf1-1de74c6dfc88")
 	)
 	(image
-		(at 134.62 69.85)
+		(at 134.62 57.15)
 		(scale 1.28456)
 		(uuid "c66f8076-5294-4ba6-95e3-c0972faa45dd")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAXcAAAJHCAIAAADkMIGZAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
@@ -1608,7 +1608,7 @@
 	)
 	(hierarchical_label "AIN_1"
 		(shape passive)
-		(at 91.44 71.12 0)
+		(at 90.17 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1619,7 +1619,7 @@
 	)
 	(hierarchical_label "HSD_3"
 		(shape passive)
-		(at 91.44 55.88 0)
+		(at 90.17 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1630,7 +1630,7 @@
 	)
 	(hierarchical_label "HSD_1"
 		(shape passive)
-		(at 53.34 86.36 180)
+		(at 52.07 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1641,7 +1641,7 @@
 	)
 	(hierarchical_label "DIN_0"
 		(shape passive)
-		(at 91.44 58.42 0)
+		(at 90.17 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1652,7 +1652,7 @@
 	)
 	(hierarchical_label "AIN_0V"
 		(shape passive)
-		(at 91.44 81.28 0)
+		(at 90.17 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1663,7 +1663,7 @@
 	)
 	(hierarchical_label "HSD_0"
 		(shape passive)
-		(at 53.34 83.82 180)
+		(at 52.07 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1674,7 +1674,7 @@
 	)
 	(hierarchical_label "DIN_3"
 		(shape passive)
-		(at 91.44 66.04 0)
+		(at 90.17 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1685,7 +1685,7 @@
 	)
 	(hierarchical_label "CAN1_L"
 		(shape passive)
-		(at 53.34 68.58 180)
+		(at 52.07 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1707,7 +1707,7 @@
 	)
 	(hierarchical_label "LSD_3"
 		(shape passive)
-		(at 53.34 81.28 180)
+		(at 52.07 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1718,7 +1718,7 @@
 	)
 	(hierarchical_label "HSD_2"
 		(shape passive)
-		(at 91.44 53.34 0)
+		(at 90.17 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1729,7 +1729,7 @@
 	)
 	(hierarchical_label "CAN0_H"
 		(shape passive)
-		(at 53.34 66.04 180)
+		(at 52.07 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1740,7 +1740,7 @@
 	)
 	(hierarchical_label "LSD_1"
 		(shape passive)
-		(at 53.34 76.2 180)
+		(at 52.07 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1751,7 +1751,7 @@
 	)
 	(hierarchical_label "CAN1_H"
 		(shape passive)
-		(at 53.34 71.12 180)
+		(at 52.07 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1773,7 +1773,7 @@
 	)
 	(hierarchical_label "DIN_1"
 		(shape passive)
-		(at 91.44 60.96 0)
+		(at 90.17 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1784,7 +1784,7 @@
 	)
 	(hierarchical_label "AIN_2"
 		(shape passive)
-		(at 91.44 73.66 0)
+		(at 90.17 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1795,7 +1795,7 @@
 	)
 	(hierarchical_label "LSD_0"
 		(shape passive)
-		(at 53.34 73.66 180)
+		(at 52.07 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1806,7 +1806,7 @@
 	)
 	(hierarchical_label "LSD_2"
 		(shape passive)
-		(at 53.34 78.74 180)
+		(at 52.07 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1817,7 +1817,7 @@
 	)
 	(hierarchical_label "AIN_3"
 		(shape passive)
-		(at 91.44 76.2 0)
+		(at 90.17 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1828,7 +1828,7 @@
 	)
 	(hierarchical_label "AIN_5V"
 		(shape passive)
-		(at 91.44 78.74 0)
+		(at 90.17 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1839,7 +1839,7 @@
 	)
 	(hierarchical_label "DIN_2"
 		(shape passive)
-		(at 91.44 63.5 0)
+		(at 90.17 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1850,7 +1850,7 @@
 	)
 	(hierarchical_label "AIN_0"
 		(shape passive)
-		(at 91.44 68.58 0)
+		(at 90.17 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1861,7 +1861,7 @@
 	)
 	(hierarchical_label "CAN0_L"
 		(shape passive)
-		(at 53.34 63.5 180)
+		(at 52.07 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1937,7 +1937,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 87.63 0)
+		(at 90.17 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1945,7 +1945,7 @@
 		(dnp no)
 		(uuid "200a638e-0268-413b-9be5-63347ea04e5c")
 		(property "Reference" "#PWR084"
-			(at 91.44 93.98 0)
+			(at 90.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +1954,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 91.948 0)
+			(at 90.17 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +1962,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 87.63 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +1971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 87.63 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1980,7 +1980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 87.63 0)
+			(at 90.17 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2002,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 53.34 270)
+		(at 57.15 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2010,7 +2010,7 @@
 		(dnp no)
 		(uuid "33e82331-576a-49eb-8645-c74dee9b98c2")
 		(property "Reference" "#PWR085"
-			(at 52.07 53.34 0)
+			(at 50.8 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2019,7 +2019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.356 53.34 0)
+			(at 53.086 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2027,7 +2027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 53.34 0)
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +2036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 53.34 0)
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2045,7 +2045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 53.34 0)
+			(at 57.15 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2067,7 @@
 	)
 	(symbol
 		(lib_id "0_SamacSys_Parts:6437288-4")
-		(at 59.69 53.34 0)
+		(at 58.42 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2076,7 +2076,7 @@
 		(fields_autoplaced yes)
 		(uuid "53fe8142-6040-46ba-9ff4-44860e088564")
 		(property "Reference" "J4"
-			(at 72.39 45.72 0)
+			(at 71.12 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2084,7 +2084,7 @@
 			)
 		)
 		(property "Value" "6437288-4"
-			(at 72.39 48.26 0)
+			(at 71.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2092,7 +2092,7 @@
 			)
 		)
 		(property "Footprint" "64372884"
-			(at 81.28 50.8 0)
+			(at 80.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2102,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773962-8&DocType=Data%20Sheet&DocLang=English&PartCntxt=6437288-4&DocFormat=pdf"
-			(at 81.28 53.34 0)
+			(at 80.01 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2112,7 @@
 			)
 		)
 		(property "Description" "Body Features: Primary Product Color Black | Configuration Features: Number of Rows 4 | Number of Sections 1 | Number of Signal Positions 26 | PCB Mount Orientation Horizontal | Number of Positions 26 | Contact Features: Contact Mating Area Plating Material Gold | Contact Type Pin | Contact Size 1mm | Mating Pin Diameter .039 INCH | Mating Pin Diameter 1 MM | Dimensions: Connector Length 36.5 MM | Profile Height from PCB 1.098 INCH | Connector Length 1.437 INCH | Connector Width 39.5 MM | Connector Width 1."
-			(at 59.69 53.34 0)
+			(at 58.42 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2121,7 @@
 			)
 		)
 		(property "Description_1" "Body Features: Primary Product Color Black | Configuration Features: Number of Rows 4 | Number of Sections 1 | Number of Signal Positions 26 | PCB Mount Orientation Horizontal | Number of Positions 26 | Contact Features: Contact Mating Area Plating Material Gold | Contact Type Pin | Contact Size 1mm | Mating Pin Diameter .039 INCH | Mating Pin Diameter 1 MM | Dimensions: Connector Length 36.5 MM | Profile Height from PCB 1.098 INCH | Connector Length 1.437 INCH | Connector Width 39.5 MM | Connector Width 1."
-			(at 81.28 55.88 0)
+			(at 80.01 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2131,7 +2131,7 @@
 			)
 		)
 		(property "Height" "27.9"
-			(at 81.28 58.42 0)
+			(at 80.01 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2141,7 +2141,7 @@
 			)
 		)
 		(property "Mouser Part Number" "571-6437288-4"
-			(at 81.28 60.96 0)
+			(at 80.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2151,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/6437288-4?qs=WBj8811fzwFJQoUvEBOh8Q%3D%3D"
-			(at 81.28 63.5 0)
+			(at 80.01 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2161,7 +2161,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TE Connectivity"
-			(at 81.28 66.04 0)
+			(at 80.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2171,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "6437288-4"
-			(at 81.28 68.58 0)
+			(at 80.01 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2275,7 +2275,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 58.42 58.42 90)
+		(at 57.15 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2283,7 +2283,7 @@
 		(dnp no)
 		(uuid "9b20df78-375e-4201-85d3-7eb297cd8339")
 		(property "Reference" "#PWR0106"
-			(at 62.23 58.42 0)
+			(at 60.96 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2292,7 +2292,7 @@
 			)
 		)
 		(property "Value" "12V"
-			(at 54.356 58.674 0)
+			(at 53.086 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 58.42 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 58.42 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 58.42 58.42 0)
+			(at 57.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

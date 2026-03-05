@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "c5b8a55f-35ca-48a7-b695-31c3a92da50d")
-	(paper "A4")
+	(paper "A5")
 	(lib_symbols
 		(symbol "power:GND"
 			(power)
@@ -119,6 +119,66 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 85.09) (xy 105.41 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15caceaf-9750-40a0-a195-4efba0bdb2aa")
+	)
+	(wire
+		(pts
+			(xy 72.39 67.31) (xy 76.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2028f667-c4fc-4a49-af8a-9e659f5b56f5")
+	)
+	(wire
+		(pts
+			(xy 101.6 49.53) (xy 105.41 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32123e7f-f5a2-4264-a50a-4dfa4f35b598")
+	)
+	(wire
+		(pts
+			(xy 73.66 54.61) (xy 73.66 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e0b714-64ca-48de-970f-d009b60d4ad7")
+	)
+	(wire
+		(pts
+			(xy 73.66 88.9) (xy 76.2 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec04dcc-0278-479a-ac65-61a05039975e")
+	)
+	(wire
+		(pts
+			(xy 72.39 31.75) (xy 76.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65344672-3f38-4e1e-8587-6f0f18cb58fd")
+	)
+	(wire
+		(pts
 			(xy 29.21 25.4) (xy 27.94 25.4)
 		)
 		(stroke
@@ -127,27 +187,116 @@
 		)
 		(uuid "8542afff-c26b-4486-bf8d-091a6bdb0fc4")
 	)
-	(hierarchical_label "GPIO_3"
-		(shape passive)
-		(at 64.77 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
+	(wire
+		(pts
+			(xy 101.6 67.31) (xy 105.41 67.31)
 		)
-		(uuid "48b6dcfc-5996-4643-a53a-48919e2c59c4")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aca944f-bda8-4c27-93b0-7e07f151894a")
 	)
-	(hierarchical_label "GPIO_1"
+	(wire
+		(pts
+			(xy 73.66 53.34) (xy 76.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa7bb6c-15db-434c-ac8a-a5c871f87b81")
+	)
+	(wire
+		(pts
+			(xy 73.66 90.17) (xy 73.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91e9b148-41f0-415e-b3d4-5093f3069e7c")
+	)
+	(wire
+		(pts
+			(xy 73.66 35.56) (xy 76.2 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a72d1a0b-c39c-45f8-91d0-f4bc830620ea")
+	)
+	(wire
+		(pts
+			(xy 72.39 85.09) (xy 76.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5dd3aa-b2b7-4f7c-9d6a-ef2ba80bb7ad")
+	)
+	(wire
+		(pts
+			(xy 101.6 31.75) (xy 105.41 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7b6499-de94-4075-b852-d0d01926d29d")
+	)
+	(wire
+		(pts
+			(xy 73.66 71.12) (xy 76.2 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c843b2c6-e2d2-465a-805a-1f382220348b")
+	)
+	(wire
+		(pts
+			(xy 73.66 36.83) (xy 73.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df931c56-393e-4c35-954c-1e57f59f778f")
+	)
+	(wire
+		(pts
+			(xy 73.66 72.39) (xy 73.66 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12f7b73-bbac-4a18-b36d-a0c6ce07035a")
+	)
+	(wire
+		(pts
+			(xy 72.39 49.53) (xy 76.2 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5af5dd-7e11-4147-8551-26b5ed749071")
+	)
+	(hierarchical_label "GPIO_2"
 		(shape passive)
-		(at 64.77 91.44 180)
+		(at 72.39 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "589fd792-6279-4268-8839-48a3ccd7a7e2")
+		(uuid "3abd03cc-e588-4921-b0e6-a4a200685e04")
 	)
 	(hierarchical_label "GND"
 		(shape passive)
@@ -160,9 +309,53 @@
 		)
 		(uuid "6128c13a-e1bc-452b-8af5-1af11f291d65")
 	)
+	(hierarchical_label "GPIO1_IO"
+		(shape passive)
+		(at 105.41 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88725c39-e08b-47bc-81e3-583dd8590e0d")
+	)
+	(hierarchical_label "GPIO2_IO"
+		(shape passive)
+		(at 105.41 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8ca01f79-3eb5-4be8-b5a5-4dbc05768545")
+	)
+	(hierarchical_label "GPIO_1"
+		(shape passive)
+		(at 72.39 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "916182b9-bd87-4ee2-bcf1-26102c9f60d5")
+	)
+	(hierarchical_label "GPIO0_IO"
+		(shape passive)
+		(at 105.41 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4370bb0-8025-436f-8270-21cf5f07ab11")
+	)
 	(hierarchical_label "GPIO_0"
 		(shape passive)
-		(at 64.77 88.9 180)
+		(at 72.39 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -171,16 +364,27 @@
 		)
 		(uuid "bced063e-d83d-4cda-877b-9c3d14efc3aa")
 	)
-	(hierarchical_label "GPIO_2"
+	(hierarchical_label "GPIO_3"
 		(shape passive)
-		(at 64.77 93.98 180)
+		(at 72.39 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "e4ec7de7-ddf7-4fe8-86f7-855d2c3653f0")
+		(uuid "c86df2fe-fd56-4b89-b757-7b70da7d21d3")
+	)
+	(hierarchical_label "GPIO3_IO"
+		(shape passive)
+		(at 105.41 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db9e3a8a-74fc-4ab6-8a2c-d4becb77ec76")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -243,6 +447,554 @@
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/cc997df9-87ce-41ac-9f91-f99587d0a3ba"
 					(reference "#PWR0126")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53cd646f-9047-4a47-96e2-85eebd1db36a")
+		(property "Reference" "#PWR0231"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d73445e6-d846-436e-bbc2-6c9bb0c4ce95")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/cc997df9-87ce-41ac-9f91-f99587d0a3ba"
+					(reference "#PWR0231")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61b5c5b8-5dd2-4636-8696-2b30dd62b81b")
+		(property "Reference" "#PWR0230"
+			(at 73.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "560ffc77-e122-4d12-adbb-a1bae4db7cfc")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/cc997df9-87ce-41ac-9f91-f99587d0a3ba"
+					(reference "#PWR0230")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f58b510-8aa2-4af9-9912-bc48c36f3f36")
+		(property "Reference" "#PWR0223"
+			(at 73.66 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "758c85e7-5d2a-449d-ad0e-d5e3c864025b")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/cc997df9-87ce-41ac-9f91-f99587d0a3ba"
+					(reference "#PWR0223")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7380848-9a75-4cd1-8097-c49f9d295571")
+		(property "Reference" "#PWR0227"
+			(at 73.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dca5acd-b302-4cd7-a96a-2c70f00afd5c")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/cc997df9-87ce-41ac-9f91-f99587d0a3ba"
+					(reference "#PWR0227")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 64.77)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1ff2a418-0502-41ce-a944-c34eeb1f8dd3")
+		(property "Sheetname" "INPUT_3V3_2"
+			(at 76.2 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INPUT_3V3.kicad_sch"
+			(at 76.2 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 76.2 71.12 180)
+			(uuid "fd23f8c1-49e4-45ca-a2d4-45fd5486cbae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RAW" passive
+			(at 76.2 67.31 180)
+			(uuid "ac2bb34c-5367-44e3-b649-b62c07cbe665")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO" passive
+			(at 101.6 67.31 0)
+			(uuid "9f5fc63e-ecb2-40f1-992a-96851b83b0cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/cc997df9-87ce-41ac-9f91-f99587d0a3ba"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 29.21)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8349b2b4-bb6e-4977-8ad0-8673fa6e8690")
+		(property "Sheetname" "INPUT_3V3_0"
+			(at 76.2 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INPUT_3V3.kicad_sch"
+			(at 76.2 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 76.2 35.56 180)
+			(uuid "c68652cb-ab11-4151-bcbd-483e6c4e4813")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RAW" passive
+			(at 76.2 31.75 180)
+			(uuid "db9641d6-ed27-4e2c-9eae-f6d2cf404989")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO" passive
+			(at 101.6 31.75 0)
+			(uuid "9593c2d5-a50c-41f5-b8d6-30f484e004d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/cc997df9-87ce-41ac-9f91-f99587d0a3ba"
+					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 82.55)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "901b76bf-7cf9-4caa-a7a4-13e1918a1e45")
+		(property "Sheetname" "INPUT_3V3_3"
+			(at 76.2 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INPUT_3V3.kicad_sch"
+			(at 76.2 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 76.2 88.9 180)
+			(uuid "718bcafc-d9e7-43f4-bf13-0a71c5c51dec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RAW" passive
+			(at 76.2 85.09 180)
+			(uuid "4b964a45-e071-4027-8f2f-75948150f27c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO" passive
+			(at 101.6 85.09 0)
+			(uuid "f0eeacff-639b-47db-98db-a09eaefc05ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/cc997df9-87ce-41ac-9f91-f99587d0a3ba"
+					(page "23")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 46.99)
+		(size 25.4 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c04eb7e9-4d6a-4342-82ea-b2612a59e00a")
+		(property "Sheetname" "INPUT_3V3_1"
+			(at 76.2 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "INPUT_3V3.kicad_sch"
+			(at 76.2 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" passive
+			(at 76.2 53.34 180)
+			(uuid "80f795d0-ae03-420f-a1aa-7b9524b8acb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RAW" passive
+			(at 76.2 49.53 180)
+			(uuid "edfff62a-845b-4743-8eec-b940371405a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IO" passive
+			(at 101.6 49.53 0)
+			(uuid "ce126926-2a66-48e5-a55b-43c50af4360a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/cc997df9-87ce-41ac-9f91-f99587d0a3ba"
+					(page "12")
 				)
 			)
 		)
