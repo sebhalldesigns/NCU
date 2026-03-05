@@ -743,6 +743,22 @@
       "CAN_BUS_0"
     ],
     [
+      "55c548c3-ff9a-4db1-af94-bd7e8aa4e38e",
+      "PWR_LV_5V"
+    ],
+    [
+      "c5136008-5582-44d5-9c96-36b624677ffa",
+      "PWR_3V3"
+    ],
+    [
+      "bd2125f3-b038-4fbf-8844-7722167ed0b9",
+      "PWR_A5V"
+    ],
+    [
+      "d1a8c66e-d7c5-4f43-8cdd-a3ddabbe33e6",
+      "PWR_MUX"
+    ],
+    [
       "d2b1e1a0-8b64-49ff-b975-b40fa2d33dc6",
       "MCU"
     ]

@@ -6224,6 +6224,17 @@
 		)
 		(uuid "960ab8f1-26f6-4253-927a-4f312d54959e")
 	)
+	(hierarchical_label "A5V_PG"
+		(shape passive)
+		(at 24.13 224.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "982f44b3-f9b4-4db4-9526-36f1c393b635")
+	)
 	(hierarchical_label "SD_DAT0"
 		(shape passive)
 		(at 31.75 161.29 180)
@@ -6256,6 +6267,17 @@
 			(justify right)
 		)
 		(uuid "b5929465-9696-4c71-bf81-1bb151a68cec")
+	)
+	(hierarchical_label "3V3_PG"
+		(shape passive)
+		(at 24.13 222.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b96e681e-e00f-4139-a697-7d589b76239c")
 	)
 	(hierarchical_label "LSD1_CTRL"
 		(shape passive)
@@ -6333,6 +6355,17 @@
 			(justify right)
 		)
 		(uuid "e7a76885-5a6a-4068-8a25-d5720b45f159")
+	)
+	(hierarchical_label "12V_PG"
+		(shape passive)
+		(at 24.13 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8144484-b35c-46ec-b463-2ee2a970cbbd")
 	)
 	(hierarchical_label "GPIO1_IO"
 		(shape passive)
