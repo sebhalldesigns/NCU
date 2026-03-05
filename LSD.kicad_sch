@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c038c367-4a6f-4e86-b07e-a68a83b99ccd")
+	(uuid "ef1093a3-c332-4822-8c02-17753e672f43")
 	(paper "A5")
 	(lib_symbols
 		(symbol "0_SamacSys_Parts:STS5DNF60L"

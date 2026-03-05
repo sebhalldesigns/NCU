@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ed9abdb1-b86a-4bff-b784-b74fe0e33496")
+	(uuid "adea5a37-738a-4e4e-bc84-49ddb0b0d966")
 	(paper "A5")
 	(lib_symbols
 		(symbol "0_SamacSys_Parts:TPS2121RUXT"

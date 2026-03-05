@@ -6842,7 +6842,7 @@
 			)
 		)
 		(pin "STM_SWDCLK" passive
-			(at 139.7 137.16 180)
+			(at 139.7 149.86 180)
 			(uuid "9102cde6-9f12-4fbf-879b-c8b58a09818d")
 			(effects
 				(font
