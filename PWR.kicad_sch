@@ -1092,13 +1092,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 31.75) (xy 123.19 33.02)
+			(xy 123.19 26.67) (xy 123.19 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7eb58ff2-fdb6-47ec-bd8d-194a7536c5da")
+	)
+	(wire
+		(pts
+			(xy 123.19 34.29) (xy 123.19 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814d2290-1b1c-4a2d-b38c-c4d5f8a04d26")
 	)
 	(wire
 		(pts
@@ -1112,7 +1122,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 31.75) (xy 156.21 33.02)
+			(xy 156.21 26.67) (xy 156.21 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1129,6 +1139,16 @@
 			(type default)
 		)
 		(uuid "87cb0cd9-8c0e-4069-b7ce-f6c0cc7b3c75")
+	)
+	(wire
+		(pts
+			(xy 123.19 35.56) (xy 127 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890fa320-a7b2-4f74-ba4e-11b01c670927")
 	)
 	(wire
 		(pts
@@ -1202,7 +1222,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 33.02) (xy 152.4 33.02)
+			(xy 156.21 27.94) (xy 152.4 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 33.02) (xy 127 33.02)
+			(xy 123.19 27.94) (xy 127 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1269,6 +1289,16 @@
 			(type default)
 		)
 		(uuid "dc43d2bf-f512-4927-a8e2-3c55218a9d22")
+	)
+	(wire
+		(pts
+			(xy 152.4 36.83) (xy 154.94 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e167acc4-2b17-4e67-9333-f8a30a8be5d9")
 	)
 	(wire
 		(pts
@@ -1351,6 +1381,17 @@
 			(justify left)
 		)
 		(uuid "1e7cb2b7-6df5-41b2-b45d-ebd152d2133c")
+	)
+	(hierarchical_label "USB_PWR_ST"
+		(shape passive)
+		(at 154.94 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4054a1dc-73c4-41cc-9ffe-c78df5137b92")
 	)
 	(hierarchical_label "5V"
 		(shape passive)
@@ -2184,6 +2225,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 123.19 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ec0a7a8-9bf9-45d0-b08f-cb5c176ae14e")
+		(property "Reference" "#PWR0310"
+			(at 123.19 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 123.19 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 123.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4f94dd7-b757-4b29-be4f-3682d265a061")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6"
+					(reference "#PWR0310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 30.48 55.88 0)
 		(unit 1)
@@ -2315,7 +2421,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 156.21 31.75 0)
+		(at 156.21 26.67 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2324,7 +2430,7 @@
 		(dnp no)
 		(uuid "88d92016-ac0e-4ff5-9076-84f1b82a9e71")
 		(property "Reference" "#PWR0295"
-			(at 156.21 35.56 0)
+			(at 156.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2333,7 +2439,7 @@
 			)
 		)
 		(property "Value" "5V"
-			(at 156.21 27.94 0)
+			(at 156.21 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2341,7 +2447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 31.75 0)
+			(at 156.21 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2350,7 +2456,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 31.75 0)
+			(at 156.21 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2359,7 +2465,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 156.21 31.75 0)
+			(at 156.21 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2448,7 +2554,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 123.19 31.75 0)
+		(at 123.19 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2456,7 +2562,7 @@
 		(dnp no)
 		(uuid "8d0eb500-afbc-43ff-9e7f-5df6ba5361eb")
 		(property "Reference" "#PWR0297"
-			(at 123.19 35.56 0)
+			(at 123.19 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2465,7 +2571,7 @@
 			)
 		)
 		(property "Value" "USB_5V"
-			(at 123.19 27.94 0)
+			(at 123.19 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 31.75 0)
+			(at 123.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2482,7 +2588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 31.75 0)
+			(at 123.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 123.19 31.75 0)
+			(at 123.19 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,8 +3938,8 @@
 		)
 	)
 	(sheet
-		(at 127 30.48)
-		(size 25.4 17.78)
+		(at 127 25.4)
+		(size 25.4 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3848,7 +3954,7 @@
 		)
 		(uuid "d1a8c66e-d7c5-4f43-8cdd-a3ddabbe33e6")
 		(property "Sheetname" "PWR_MUX"
-			(at 127 29.7684 0)
+			(at 127 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,7 +3992,7 @@
 			)
 		)
 		(pin "5V" passive
-			(at 152.4 33.02 0)
+			(at 152.4 27.94 0)
 			(uuid "3bed5587-4e18-448a-bf22-9ea6ecc2a27a")
 			(effects
 				(font
@@ -3896,13 +4002,33 @@
 			)
 		)
 		(pin "USB_5V" passive
-			(at 127 33.02 180)
+			(at 127 27.94 180)
 			(uuid "a1304c98-784c-4d62-9d32-ec5cf85f6095")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "3V3" passive
+			(at 127 35.56 180)
+			(uuid "843ac7f5-6c7c-4a9f-acaf-2fce4a6d2f71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_PWR_ST" passive
+			(at 152.4 36.83 0)
+			(uuid "14109e1b-7dfa-4774-84d0-2d611f0b2d2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

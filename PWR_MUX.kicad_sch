@@ -975,6 +975,12 @@
 		(uuid "7739fa83-bddf-4baa-a7a3-bbf0dcb9d802")
 	)
 	(junction
+		(at 101.6 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bb4f949-554e-4fec-8ce6-1f5e9d182e66")
+	)
+	(junction
 		(at 82.55 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1078,6 +1084,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 45.72) (xy 105.41 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278b7a33-3cb3-452c-b2d7-003887945b29")
+	)
+	(wire
+		(pts
 			(xy 81.28 71.12) (xy 83.82 71.12)
 		)
 		(stroke
@@ -1128,6 +1144,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 21.59) (xy 49.53 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca4fc9a-18a2-4c99-bd37-6fb0e58d2852")
+	)
+	(wire
+		(pts
 			(xy 81.28 86.36) (xy 81.28 71.12)
 		)
 		(stroke
@@ -1155,6 +1181,16 @@
 			(type default)
 		)
 		(uuid "771ff81b-b6b3-4ffb-8ff7-95266ffe617d")
+	)
+	(wire
+		(pts
+			(xy 101.6 33.02) (xy 101.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778ac8b5-8ba8-418d-8eb9-d110562aca60")
 	)
 	(wire
 		(pts
@@ -1228,6 +1264,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 43.18) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7b7486f-035f-4dad-b20b-0dab2e44bea9")
+	)
+	(wire
+		(pts
 			(xy 81.28 86.36) (xy 83.82 86.36)
 		)
 		(stroke
@@ -1275,6 +1321,16 @@
 			(type default)
 		)
 		(uuid "c9e9ccc4-164e-420d-94dc-0777393d34c3")
+	)
+	(wire
+		(pts
+			(xy 49.53 22.86) (xy 48.26 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d72888df-2f48-452d-b5a2-a2b91c5ad6da")
 	)
 	(wire
 		(pts
@@ -1335,6 +1391,28 @@
 			(type default)
 		)
 		(uuid "fc7efca4-54ac-4150-9593-6b2b79c893c3")
+	)
+	(hierarchical_label "USB_PWR_ST"
+		(shape passive)
+		(at 105.41 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31616986-dfb6-4308-ae9e-5fc3d2873f38")
+	)
+	(hierarchical_label "3V3"
+		(shape passive)
+		(at 48.26 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ebfec78-dc04-48bd-a32a-b0d1b0dd0dcd")
 	)
 	(hierarchical_label "5V"
 		(shape passive)
@@ -1444,6 +1522,76 @@
 			(project ""
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6/d1a8c66e-d7c5-4f43-8cdd-a3ddabbe33e6"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ea7365f-1844-4b1c-900d-89b1ef9fe84b")
+		(property "Reference" "R47"
+			(at 104.14 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18k"
+			(at 104.14 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 99.822 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1d14dcb5-e132-4161-8a4c-f947a977d62e")
+		)
+		(pin "1"
+			(uuid "88a39416-8f2f-43fc-870b-74a5c90569aa")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6/d1a8c66e-d7c5-4f43-8cdd-a3ddabbe33e6"
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -1704,6 +1852,71 @@
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6/d1a8c66e-d7c5-4f43-8cdd-a3ddabbe33e6"
 					(reference "#PWR0294")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 101.6 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32dc81ad-a453-47c1-906e-040ab75896c7")
+		(property "Reference" "#PWR0309"
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 101.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 101.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7285e8c7-6d3d-44b8-bc8b-ec44e93cfbf9")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6/d1a8c66e-d7c5-4f43-8cdd-a3ddabbe33e6"
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -2038,6 +2251,71 @@
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6/d1a8c66e-d7c5-4f43-8cdd-a3ddabbe33e6"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82841888-3b41-4e08-b8cc-a7f25f83c2e5")
+		(property "Reference" "#PWR090"
+			(at 49.53 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 49.53 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b78792c9-37cc-417a-a4c3-7f1cd3bf277e")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6/d1a8c66e-d7c5-4f43-8cdd-a3ddabbe33e6"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)

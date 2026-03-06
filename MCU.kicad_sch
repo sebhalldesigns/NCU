@@ -5145,6 +5145,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 227.33) (xy 29.21 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b08a1202-d16f-43a1-b5bd-5e8d4a7e6a43")
+	)
+	(wire
+		(pts
 			(xy 200.66 54.61) (xy 200.66 58.42)
 		)
 		(stroke
@@ -5872,6 +5882,17 @@
 		)
 		(uuid "14a3abc8-9770-49a6-a004-1d46615769ca")
 	)
+	(hierarchical_label "PCIE_UART_TX"
+		(shape passive)
+		(at 57.15 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14c9e782-8da6-448b-ae49-174516319806")
+	)
 	(hierarchical_label "CAN0_TX"
 		(shape passive)
 		(at 25.4 66.04 180)
@@ -6290,6 +6311,17 @@
 		)
 		(uuid "a4e97c29-6620-47e9-9cdf-55baa8125b0a")
 	)
+	(hierarchical_label "PCIE_UART_CTS"
+		(shape passive)
+		(at 57.15 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abda5770-b9d1-4c58-a788-b9d3a5994949")
+	)
 	(hierarchical_label "SD_WP"
 		(shape passive)
 		(at 31.75 173.99 180)
@@ -6301,6 +6333,17 @@
 		)
 		(uuid "b5929465-9696-4c71-bf81-1bb151a68cec")
 	)
+	(hierarchical_label "PCIE_UART_RTS"
+		(shape passive)
+		(at 57.15 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8cd8eca-9f39-40fd-ba91-436737d6354c")
+	)
 	(hierarchical_label "3V3_PG"
 		(shape passive)
 		(at 24.13 222.25 180)
@@ -6311,6 +6354,17 @@
 			(justify right)
 		)
 		(uuid "b96e681e-e00f-4139-a697-7d589b76239c")
+	)
+	(hierarchical_label "PCIE_UART_RX"
+		(shape passive)
+		(at 57.15 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc83e816-0385-4265-aea4-b2f9db2fdb18")
 	)
 	(hierarchical_label "LSD1_CTRL"
 		(shape passive)
@@ -6345,6 +6399,17 @@
 		)
 		(uuid "c42ca7d5-7f6e-4705-9d2f-2839c7bcf6b2")
 	)
+	(hierarchical_label "USB_PWR_ST"
+		(shape passive)
+		(at 24.13 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cb6d1a2c-8ad7-4c9c-8861-89e23d14bf28")
+	)
 	(hierarchical_label "ESP_SPI_CLK"
 		(shape passive)
 		(at 55.88 140.97 180)
@@ -6366,6 +6431,17 @@
 			(justify right)
 		)
 		(uuid "d200d2ce-4c4e-4567-b5f6-f055c0aca2fa")
+	)
+	(hierarchical_label "PCIE_W_DISABLE"
+		(shape passive)
+		(at 29.21 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3b99f26-5a07-4bed-b3e5-11249fb8e86d")
 	)
 	(hierarchical_label "LSD0_CTRL"
 		(shape passive)
@@ -6411,7 +6487,7 @@
 		)
 		(uuid "e7a76885-5a6a-4068-8a25-d5720b45f159")
 	)
-	(hierarchical_label "12V_PG"
+	(hierarchical_label "LV_PG"
 		(shape passive)
 		(at 24.13 219.71 180)
 		(effects
