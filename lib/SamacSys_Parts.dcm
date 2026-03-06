@@ -138,4 +138,16 @@ K
 F https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_vls3015cx-h_en.pdf
 $ENDCMP
 #
+$CMP NX2016SA-25.000M-STD-CZS-1
+D Crystals CRYSTAL 25MHZ 8PF SMD
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-17/332064.pdf
+$ENDCMP
+#
+$CMP NX3215SA-32.768K-STD-MUS-2
+D Crystals CRYSTAL 32.768KHZ 12.5PF SMD
+K
+F 
+$ENDCMP
+#
 #End Doc Library
