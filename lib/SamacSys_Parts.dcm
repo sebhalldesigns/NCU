@@ -126,4 +126,10 @@ K
 F https://www.espressif.com/sites/default/files/documentation/esp32-c6-wroom-1_datasheet_en.pdf
 $ENDCMP
 #
+$CMP 2041262-1
+D Body Features: Primary Product Color Black | Configuration Features: Number of Rows 2 | Number of Keys 1 | PCB Mount Orientation Horizontal | Number of Positions 52 | Contact Features: Contact Current Rating (Max) .5 AMP | Contact Underplating Material Nickel | Contact Mating Area Plating Material Gold Flash | PCB Contact Termination Area Plating Material Gold Flash | Contact Base Material Copper Alloy | PCB Contact Termination Area Plating Material Finish Bright | Dimensions: Row-to-Row Spacing .8 MM | Pro
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2041262%7FC%7Fpdf%7FEnglish%7FENG_CD_2041262_C.pdf%7F2041262-1
+$ENDCMP
+#
 #End Doc Library
