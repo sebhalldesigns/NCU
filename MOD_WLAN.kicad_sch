@@ -1630,10 +1630,6 @@
 		(uuid "6b52d185-5d74-4d3f-82b4-f3b28e37b8ed")
 	)
 	(no_connect
-		(at 109.22 74.93)
-		(uuid "725a2926-b029-48dc-b6ff-e66581179d41")
-	)
-	(no_connect
 		(at 109.22 92.71)
 		(uuid "9b90fb59-742a-43b6-bab5-2354fdb7c87d")
 	)
@@ -1644,6 +1640,14 @@
 	(no_connect
 		(at 109.22 57.15)
 		(uuid "a6f3f850-6a87-4cd0-809c-d67d3ff934b1")
+	)
+	(no_connect
+		(at 109.22 72.39)
+		(uuid "cc277427-ebfb-463f-ae94-b01019b3f7c9")
+	)
+	(no_connect
+		(at 109.22 74.93)
+		(uuid "d457b36f-7ae9-42c6-a8ff-5f972398b5aa")
 	)
 	(no_connect
 		(at 142.24 49.53)
@@ -1696,16 +1700,6 @@
 			(type default)
 		)
 		(uuid "0d9d4614-2ad6-4f81-a378-711e39991246")
-	)
-	(wire
-		(pts
-			(xy 91.44 72.39) (xy 109.22 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f98ef9b-1347-4f36-b2bd-5bda7f457839")
 	)
 	(wire
 		(pts
@@ -2236,17 +2230,6 @@
 			(type default)
 		)
 		(uuid "f7fcc48e-3a67-44b2-bb87-fb23a3cfc8ec")
-	)
-	(hierarchical_label "ESP_SPI_HS"
-		(shape passive)
-		(at 91.44 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0345eef8-bcd9-4b8f-8bc0-c6e0f22a47ee")
 	)
 	(hierarchical_label "ESP_SPI_CLK"
 		(shape passive)

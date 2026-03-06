@@ -569,6 +569,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 77.47) (xy 139.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a070b1d-3462-4ae4-b159-4b088a2f1bed")
+	)
+	(wire
+		(pts
 			(xy 88.9 205.74) (xy 139.7 205.74)
 		)
 		(stroke
@@ -616,16 +626,6 @@
 			(type default)
 		)
 		(uuid "1d9f09bd-b962-4a83-898c-8948d2d3f2a4")
-	)
-	(wire
-		(pts
-			(xy 88.9 213.36) (xy 139.7 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "201dfb6e-1028-48f7-a6a4-686d2026a3f9")
 	)
 	(wire
 		(pts
@@ -1196,6 +1196,16 @@
 			(type default)
 		)
 		(uuid "74c8dd0a-717d-452c-9c51-aeb487d4e732")
+	)
+	(wire
+		(pts
+			(xy 127 74.93) (xy 139.7 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76e61a57-360c-4cc1-94c5-fdb6f23ef090")
 	)
 	(wire
 		(pts
@@ -4791,16 +4801,6 @@
 				(justify left)
 			)
 		)
-		(pin "ESP_SPI_HS" passive
-			(at 88.9 213.36 0)
-			(uuid "4f2730d0-78c7-40c1-a594-df7f0fdc4492")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "ESP_SPI_CS" passive
 			(at 88.9 210.82 0)
 			(uuid "564fbaf6-3e1b-4cae-a8db-a4d8a03e44da")
@@ -7530,16 +7530,6 @@
 				(justify left)
 			)
 		)
-		(pin "ESP_SPI_HS" passive
-			(at 139.7 213.36 180)
-			(uuid "2e33eb42-e469-431c-ab11-414acf8bfa40")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "ESP_SPI_CS" passive
 			(at 139.7 210.82 180)
 			(uuid "33eebcc1-ba19-46a6-8261-3436dba36492")
@@ -7623,6 +7613,26 @@
 		(pin "PCIE_UART_RTS" passive
 			(at 139.7 257.81 180)
 			(uuid "c9c5fa49-a470-46a1-907c-10bd97845ecc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HSD01_SEL" passive
+			(at 139.7 74.93 180)
+			(uuid "056b2785-5e42-4f21-a5dd-07898861abdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HSD23_SEL" passive
+			(at 139.7 77.47 180)
+			(uuid "362c9f0d-7b94-4455-9f26-7ba540fb0b55")
 			(effects
 				(font
 					(size 1.27 1.27)
