@@ -1023,7 +1023,7 @@
 	)
 	(text_box "3V3 Supply\nPlace away from 12V supply"
 		(exclude_from_sim no)
-		(at 36.83 13.97 0)
+		(at 90.17 104.14 0)
 		(size 30.48 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke

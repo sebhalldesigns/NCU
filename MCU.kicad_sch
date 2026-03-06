@@ -5828,6 +5828,17 @@
 		)
 		(uuid "0eb5db25-41a0-4251-8324-0c3f6a190078")
 	)
+	(hierarchical_label "ESP_SPI_MOSI"
+		(shape passive)
+		(at 55.88 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10ad4102-a227-4f55-a085-b682775f8784")
+	)
 	(hierarchical_label "AIN3_IO"
 		(shape passive)
 		(at 31.75 199.39 180)
@@ -6070,6 +6081,17 @@
 		)
 		(uuid "576c21bd-74f3-4928-b1e7-3049c4ad8092")
 	)
+	(hierarchical_label "ESP_SPI_HS"
+		(shape passive)
+		(at 55.88 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57bbf82d-d0c7-4e9d-888c-3f1f6b07bc1a")
+	)
 	(hierarchical_label "ETH_CRS_DV"
 		(shape passive)
 		(at 25.4 97.79 180)
@@ -6235,6 +6257,17 @@
 		)
 		(uuid "982f44b3-f9b4-4db4-9526-36f1c393b635")
 	)
+	(hierarchical_label "ESP_SPI_MISO"
+		(shape passive)
+		(at 55.88 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "991a62c4-1d4b-4e04-af25-d1c8280e9549")
+	)
 	(hierarchical_label "SD_DAT0"
 		(shape passive)
 		(at 31.75 161.29 180)
@@ -6311,6 +6344,28 @@
 			(justify right)
 		)
 		(uuid "c42ca7d5-7f6e-4705-9d2f-2839c7bcf6b2")
+	)
+	(hierarchical_label "ESP_SPI_CLK"
+		(shape passive)
+		(at 55.88 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd8b5248-370f-4d9b-b2df-4a810d5e52cf")
+	)
+	(hierarchical_label "ESP_SPI_CS"
+		(shape passive)
+		(at 55.88 152.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d200d2ce-4c4e-4567-b5f6-f055c0aca2fa")
 	)
 	(hierarchical_label "LSD0_CTRL"
 		(shape passive)

@@ -861,21 +861,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 46.99 30.48)
-		(end 182.88 80.01)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid cad058b5-e77c-4276-ba00-7788b4a4ec67)
-	)
 	(text_box "Micro SD\nStorage"
 		(exclude_from_sim no)
-		(at 46.99 30.48 0)
+		(at 90.17 104.14 0)
 		(size 12.7 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke

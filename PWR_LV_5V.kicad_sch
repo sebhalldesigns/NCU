@@ -1276,7 +1276,7 @@
 	)
 	(text_box "12V-5V Supply\nPlace near to 12V input"
 		(exclude_from_sim no)
-		(at 13.97 35.56 0)
+		(at 90.17 104.14 0)
 		(size 30.48 6.35)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
