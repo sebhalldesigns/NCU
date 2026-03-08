@@ -765,7 +765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22cf1419-c245-4f27-aaef-8514b539b2e8")
-		(property "Reference" "R21"
+		(property "Reference" "R43"
 			(at 90.678 62.23 0)
 			(effects
 				(font
@@ -819,23 +819,23 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/5718bb82-c29e-4f64-a1cd-9c871d68f96a"
-					(reference "R32")
+					(reference "R55")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7146af3d-2638-4af5-9f89-9866af690ea2"
-					(reference "R37")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7c3b6b2a-cf15-4178-82f9-855be6b189ee"
-					(reference "R58")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/8e14295d-c2d8-4bfa-8cf3-33fbd9389511"
-					(reference "R24")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/f06c2997-e69b-4682-9ae8-78f4bd637aad"
-					(reference "R21")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -850,7 +850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45f89cbb-502e-41d6-99a4-e11012f9c146")
-		(property "Reference" "C44"
+		(property "Reference" "C46"
 			(at 104.648 62.23 0)
 			(effects
 				(font
@@ -904,23 +904,23 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/5718bb82-c29e-4f64-a1cd-9c871d68f96a"
-					(reference "C47")
-					(unit 1)
-				)
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7146af3d-2638-4af5-9f89-9866af690ea2"
 					(reference "C56")
 					(unit 1)
 				)
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7146af3d-2638-4af5-9f89-9866af690ea2"
+					(reference "C57")
+					(unit 1)
+				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7c3b6b2a-cf15-4178-82f9-855be6b189ee"
-					(reference "C59")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/8e14295d-c2d8-4bfa-8cf3-33fbd9389511"
-					(reference "C45")
+					(reference "C47")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/f06c2997-e69b-4682-9ae8-78f4bd637aad"
-					(reference "C44")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -935,7 +935,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5929c071-849c-44b9-b020-c62c1a8606a1")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0205"
 			(at 107.95 78.74 0)
 			(effects
 				(font
@@ -985,23 +985,23 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/5718bb82-c29e-4f64-a1cd-9c871d68f96a"
-					(reference "#PWR0161")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7146af3d-2638-4af5-9f89-9866af690ea2"
-					(reference "#PWR0178")
+					(reference "#PWR0233")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7c3b6b2a-cf15-4178-82f9-855be6b189ee"
-					(reference "#PWR0152")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/8e14295d-c2d8-4bfa-8cf3-33fbd9389511"
-					(reference "#PWR076")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/f06c2997-e69b-4682-9ae8-78f4bd637aad"
-					(reference "#PWR070")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -1017,7 +1017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac14ebf6-0455-4c7f-acc8-6e4875a93560")
-		(property "Reference" "D3"
+		(property "Reference" "D14"
 			(at 116.84 62.2299 90)
 			(effects
 				(font
@@ -1071,23 +1071,23 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/5718bb82-c29e-4f64-a1cd-9c871d68f96a"
-					(reference "D6")
+					(reference "D17")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7146af3d-2638-4af5-9f89-9866af690ea2"
-					(reference "D8")
+					(reference "D19")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7c3b6b2a-cf15-4178-82f9-855be6b189ee"
-					(reference "D13")
+					(reference "D16")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/8e14295d-c2d8-4bfa-8cf3-33fbd9389511"
-					(reference "D4")
+					(reference "D15")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/f06c2997-e69b-4682-9ae8-78f4bd637aad"
-					(reference "D3")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -1102,7 +1102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc161da4-0939-4b97-b263-e02d38080100")
-		(property "Reference" "R19"
+		(property "Reference" "R41"
 			(at 80.01 39.878 90)
 			(effects
 				(font
@@ -1154,23 +1154,23 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/5718bb82-c29e-4f64-a1cd-9c871d68f96a"
-					(reference "R28")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7146af3d-2638-4af5-9f89-9866af690ea2"
-					(reference "R35")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7c3b6b2a-cf15-4178-82f9-855be6b189ee"
-					(reference "R59")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/8e14295d-c2d8-4bfa-8cf3-33fbd9389511"
-					(reference "R22")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/f06c2997-e69b-4682-9ae8-78f4bd637aad"
-					(reference "R19")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -1185,7 +1185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c261b195-5dfb-4266-b72d-920296d1b064")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0203"
 			(at 26.67 33.02 0)
 			(effects
 				(font
@@ -1235,23 +1235,23 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/5718bb82-c29e-4f64-a1cd-9c871d68f96a"
-					(reference "#PWR0153")
+					(reference "#PWR0222")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7146af3d-2638-4af5-9f89-9866af690ea2"
-					(reference "#PWR0176")
+					(reference "#PWR0231")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7c3b6b2a-cf15-4178-82f9-855be6b189ee"
-					(reference "#PWR0163")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/8e14295d-c2d8-4bfa-8cf3-33fbd9389511"
-					(reference "#PWR071")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/f06c2997-e69b-4682-9ae8-78f4bd637aad"
-					(reference "#PWR068")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -1266,7 +1266,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0a6bfdc-a72a-4169-b243-d5b0a492a456")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0204"
 			(at 88.9 78.74 0)
 			(effects
 				(font
@@ -1316,23 +1316,23 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/5718bb82-c29e-4f64-a1cd-9c871d68f96a"
-					(reference "#PWR0154")
+					(reference "#PWR0226")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7146af3d-2638-4af5-9f89-9866af690ea2"
-					(reference "#PWR0177")
+					(reference "#PWR0232")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7c3b6b2a-cf15-4178-82f9-855be6b189ee"
-					(reference "#PWR0151")
+					(reference "#PWR0215")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/8e14295d-c2d8-4bfa-8cf3-33fbd9389511"
-					(reference "#PWR074")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/f06c2997-e69b-4682-9ae8-78f4bd637aad"
-					(reference "#PWR069")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -1347,7 +1347,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1509e44-5e4c-4990-ab89-51addae2a9e9")
-		(property "Reference" "R20"
+		(property "Reference" "R42"
 			(at 90.678 49.53 0)
 			(effects
 				(font
@@ -1401,23 +1401,23 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/5718bb82-c29e-4f64-a1cd-9c871d68f96a"
-					(reference "R29")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7146af3d-2638-4af5-9f89-9866af690ea2"
-					(reference "R36")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/7c3b6b2a-cf15-4178-82f9-855be6b189ee"
-					(reference "R57")
+					(reference "R51")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/8e14295d-c2d8-4bfa-8cf3-33fbd9389511"
-					(reference "R23")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/85ee8b65-a216-46f6-943b-de278ee684a4/f06c2997-e69b-4682-9ae8-78f4bd637aad"
-					(reference "R20")
+					(reference "R42")
 					(unit 1)
 				)
 			)

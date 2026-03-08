@@ -150,4 +150,10 @@ K
 F 
 $ENDCMP
 #
+$CMP DS01-254-L-01BE
+D DS01-254-L-01BE - 1 Position, Through Hole, 2.54 mm Pitch, Raised Slide Actuator, Flat Bottom, Long Pin, DIP Switch
+K
+F https://www.sameskydevices.com/product/resource/DS01-254-L-01BE.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -735,7 +735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18f5bdb2-17f0-4484-bde5-560510fae87e")
-		(property "Reference" "J1"
+		(property "Reference" "J6"
 			(at 109.22 45.72 0)
 			(effects
 				(font
@@ -867,7 +867,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/9e564c38-7205-44f8-b5f6-41c7c4a47ab0"
-					(reference "J1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -882,7 +882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6c84ff72-e0d1-4b36-86f4-fe0c5d0d6e7d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR0197"
 			(at 90.17 53.34 0)
 			(effects
 				(font
@@ -932,7 +932,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/9e564c38-7205-44f8-b5f6-41c7c4a47ab0"
-					(reference "#PWR042")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -947,7 +947,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ce7456d-4f71-41c9-b4a0-7f7790c99eda")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR0199"
 			(at 124.46 64.77 0)
 			(effects
 				(font
@@ -997,7 +997,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/9e564c38-7205-44f8-b5f6-41c7c4a47ab0"
-					(reference "#PWR028")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -1012,7 +1012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e1e3e2d-8c48-494a-80bf-4248e11dcb8a")
-		(property "Reference" "#PWR0298"
+		(property "Reference" "#PWR0193"
 			(at 26.67 27.94 0)
 			(effects
 				(font
@@ -1062,7 +1062,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/9e564c38-7205-44f8-b5f6-41c7c4a47ab0"
-					(reference "#PWR0298")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -1077,7 +1077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e288e656-3551-4bf7-8c08-165bf302247f")
-		(property "Reference" "#PWR0299"
+		(property "Reference" "#PWR0194"
 			(at 26.67 35.56 0)
 			(effects
 				(font
@@ -1127,7 +1127,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/9e564c38-7205-44f8-b5f6-41c7c4a47ab0"
-					(reference "#PWR0299")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
