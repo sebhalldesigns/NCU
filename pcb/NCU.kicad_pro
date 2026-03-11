@@ -821,6 +821,10 @@
       "PWR_MUX"
     ],
     [
+      "8dbaa3b5-05a2-4c92-8247-baeb1ffbc2d0",
+      "PWR_PRT"
+    ],
+    [
       "d2b1e1a0-8b64-49ff-b975-b40fa2d33dc6",
       "MCU"
     ]

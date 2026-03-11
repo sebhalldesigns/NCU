@@ -162,4 +162,16 @@ K
 F https://componentsearchengine.com/Datasheets/2/BTS3050EJXUMA1.pdf
 $ENDCMP
 #
+$CMP SBR2065D1-13
+D Diode 65 V 20A Surface Mount TO-252-3 , 630 mV , 400 A , -55C ~ 150C
+K
+F https://www.diodes.com//assets/Datasheets/SBR2065D1.pdf
+$ENDCMP
+#
+$CMP XFL4015-471MEC
+D Fixed Inductors 0.47uH 20% 11.2A 8.36mOhms AEC-Q200
+K
+F https://www.coilcraft.com/pdfs/xfl4015.pdf
+$ENDCMP
+#
 #End Doc Library
