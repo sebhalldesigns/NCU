@@ -5,15 +5,15 @@
 	(uuid "7abc6380-2b0c-4f01-90d2-b11f662d3086")
 	(paper "A5")
 	(lib_symbols
-		(symbol "0_SamacSys_Parts:SP0503BAHTG"
+		(symbol "0_SamacSys_Parts:ESD2CAN24DBZRQ1"
 			(pin_names
 				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 29.21 7.62 0)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -21,8 +21,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SP0503BAHTG"
-				(at 29.21 5.08 0)
+			(property "Value" "ESD2CAN24DBZRQ1"
+				(at 24.13 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -30,18 +30,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "SP0503BAHTG"
-				(at 29.21 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 29.21 0 0)
+			(property "Footprint" "SOT95P237X112-3N"
+				(at 24.13 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -50,7 +40,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ESD Suppressors / TVS Diodes TVS AVAL DIODE SMT"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd2can24-q1.pdf?ts=1669637432096&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FESD2CAN24-Q1"
+				(at 24.13 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Suppressors / TVS Diodes Automotive, dual, 3-pF, +/-24-V, +/-30-kV ESD protection diode for CAN and in-vehicle networks 3-SOT-23 -55 to 150"
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,8 +59,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "ESD Suppressors / TVS Diodes TVS AVAL DIODE SMT"
-				(at 29.21 -2.54 0)
+			(property "Description_1" "ESD Suppressors / TVS Diodes Automotive, dual, 3-pF, +/-24-V, +/-30-kV ESD protection diode for CAN and in-vehicle networks 3-SOT-23 -55 to 150"
+				(at 24.13 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -69,8 +69,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.22"
-				(at 29.21 -5.08 0)
+			(property "Height" "1.12"
+				(at 24.13 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -79,8 +79,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "576-SP0503BAHTG"
-				(at 29.21 -7.62 0)
+			(property "Mouser Part Number" "595-ESD2CAN24DBZRQ1"
+				(at 24.13 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -89,8 +89,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SP0503BAHTG?qs=uD%2FdkN7XIa0NTYXwHdELYA%3D%3D"
-				(at 29.21 -10.16 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD2CAN24DBZRQ1?qs=Y0Uzf4wQF3knJz9mU6BNuw%3D%3D"
+				(at 24.13 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -99,8 +99,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "LITTELFUSE"
-				(at 29.21 -12.7 0)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -109,8 +109,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SP0503BAHTG"
-				(at 29.21 -15.24 0)
+			(property "Manufacturer_Part_Number" "ESD2CAN24DBZRQ1"
+				(at 24.13 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -119,11 +119,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "SP0503BAHTG_0_0"
+			(symbol "ESD2CAN24DBZRQ1_0_0"
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "COMMON_A"
+					(name "IO_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -141,7 +141,7 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "K_1"
+					(name "IO_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -157,27 +157,9 @@
 					)
 				)
 				(pin passive line
-					(at 33.02 0 180)
+					(at 27.94 0 180)
 					(length 5.08)
-					(name "K_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 33.02 -2.54 180)
-					(length 5.08)
-					(name "K_2"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -193,10 +175,10 @@
 					)
 				)
 			)
-			(symbol "SP0503BAHTG_0_1"
+			(symbol "ESD2CAN24DBZRQ1_0_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 27.94 2.54) (xy 27.94 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -1077,7 +1059,7 @@
 		(at 85.09 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6a9e5ca7-324c-4f0c-8b24-b2ca99bdccf6")
+		(uuid "793361fd-483a-409f-b40d-f095b8055ac4")
 	)
 	(junction
 		(at 101.6 66.04)
@@ -1102,10 +1084,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e37e6c40-6ba2-46a6-b272-6e6ff5ae1896")
-	)
-	(no_connect
-		(at 118.11 86.36)
-		(uuid "45ed340a-6e41-49d2-b89e-4e643b398d54")
 	)
 	(no_connect
 		(at 111.76 58.42)
@@ -1173,7 +1151,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 120.65 87.63)
+			(xy 118.11 83.82) (xy 118.11 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1200,16 +1178,6 @@
 			(type default)
 		)
 		(uuid "517d2e2c-ac77-4892-a4e2-e62555793c4c")
-	)
-	(wire
-		(pts
-			(xy 85.09 60.96) (xy 88.9 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "585d7224-73d4-437d-bb1e-d4556d8fc769")
 	)
 	(wire
 		(pts
@@ -1273,7 +1241,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 83.82) (xy 120.65 83.82)
+			(xy 115.57 83.82) (xy 118.11 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1343,7 +1311,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 86.36) (xy 82.55 86.36)
+			(xy 87.63 86.36) (xy 82.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1390,6 +1358,26 @@
 			(type default)
 		)
 		(uuid "f43cb6c7-1b51-406b-ba4f-45a9920895ca")
+	)
+	(wire
+		(pts
+			(xy 85.09 60.96) (xy 88.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5f8ee3c-7e66-45a3-8b49-349148716984")
+	)
+	(wire
+		(pts
+			(xy 85.09 83.82) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9a7287-0c77-4a8f-9ba1-12f408dec5bc")
 	)
 	(hierarchical_label "LO"
 		(shape passive)
@@ -1602,7 +1590,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 120.65 87.63 0)
+		(at 118.11 87.63 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1611,7 +1599,7 @@
 		(dnp no)
 		(uuid "1ac4e28f-89e8-4dad-a1ce-03a8ee6eb9f1")
 		(property "Reference" "#PWR0241"
-			(at 120.65 93.98 0)
+			(at 118.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1608,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 91.694 0)
+			(at 118.11 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 87.63 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 87.63 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1634,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 87.63 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,6 +1722,143 @@
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/9be8b538-d844-48b8-8166-3cb7d05a381c/e0dbc6bc-1e73-41c8-9910-a38105ce9a35"
 					(reference "#PWR0261")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "0_SamacSys_Parts:ESD2CAN24DBZRQ1")
+		(at 87.63 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57be954b-f421-477d-abe1-94dcb53ec117")
+		(property "Reference" "IC8"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESD2CAN24DBZRQ1"
+			(at 101.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P237X112-3N"
+			(at 111.76 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/esd2can24-q1.pdf?ts=1669637432096&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FESD2CAN24-Q1"
+			(at 111.76 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Suppressors / TVS Diodes Automotive, dual, 3-pF, +/-24-V, +/-30-kV ESD protection diode for CAN and in-vehicle networks 3-SOT-23 -55 to 150"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "ESD Suppressors / TVS Diodes Automotive, dual, 3-pF, +/-24-V, +/-30-kV ESD protection diode for CAN and in-vehicle networks 3-SOT-23 -55 to 150"
+			(at 111.76 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 111.76 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-ESD2CAN24DBZRQ1"
+			(at 111.76 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ESD2CAN24DBZRQ1?qs=Y0Uzf4wQF3knJz9mU6BNuw%3D%3D"
+			(at 111.76 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 111.76 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ESD2CAN24DBZRQ1"
+			(at 111.76 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec612f04-a25b-4f26-819f-bc82bf6548b9")
+		)
+		(pin "2"
+			(uuid "f05dc242-8a6d-404f-b4fa-e7b0e78e711c")
+		)
+		(pin "3"
+			(uuid "49d79319-3d22-46dc-8bd4-3a64c73a0776")
+		)
+		(instances
+			(project ""
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/9be8b538-d844-48b8-8166-3cb7d05a381c/4bfedfbb-7ec6-4f71-829f-70c8eaa097f0"
+					(reference "IC8")
+					(unit 1)
+				)
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/9be8b538-d844-48b8-8166-3cb7d05a381c/e0dbc6bc-1e73-41c8-9910-a38105ce9a35"
+					(reference "IC9")
 					(unit 1)
 				)
 			)
@@ -2109,146 +2234,6 @@
 				)
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/9be8b538-d844-48b8-8166-3cb7d05a381c/e0dbc6bc-1e73-41c8-9910-a38105ce9a35"
 					(reference "#PWR0260")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0_SamacSys_Parts:SP0503BAHTG")
-		(at 118.11 83.82 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb4c0613-02a3-4707-8ef8-803dda956126")
-		(property "Reference" "D21"
-			(at 101.6 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SP0503BAHTG"
-			(at 101.6 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SP0503BAHTG"
-			(at 88.9 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD Suppressors / TVS Diodes TVS AVAL DIODE SMT"
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "ESD Suppressors / TVS Diodes TVS AVAL DIODE SMT"
-			(at 88.9 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.22"
-			(at 88.9 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "576-SP0503BAHTG"
-			(at 88.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SP0503BAHTG?qs=uD%2FdkN7XIa0NTYXwHdELYA%3D%3D"
-			(at 88.9 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 88.9 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SP0503BAHTG"
-			(at 88.9 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "402d6f7e-2273-433f-9b6d-d2885e9ef507")
-		)
-		(pin "3"
-			(uuid "af347b79-1729-40ab-96e7-ba9f32e76505")
-		)
-		(pin "2"
-			(uuid "e4360380-657c-48ce-917e-1fbb6f912f49")
-		)
-		(pin "1"
-			(uuid "5a098f31-e67c-4cab-b691-064534beca0f")
-		)
-		(instances
-			(project "NCU"
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/9be8b538-d844-48b8-8166-3cb7d05a381c/4bfedfbb-7ec6-4f71-829f-70c8eaa097f0"
-					(reference "D21")
-					(unit 1)
-				)
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/9be8b538-d844-48b8-8166-3cb7d05a381c/e0dbc6bc-1e73-41c8-9910-a38105ce9a35"
-					(reference "D26")
 					(unit 1)
 				)
 			)
