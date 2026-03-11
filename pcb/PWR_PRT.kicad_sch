@@ -889,7 +889,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Vishay_SMPA"
+		(property "Footprint" "Diode_SMD:D_SOD-128"
 			(at 118.11 62.2299 90)
 			(effects
 				(font
