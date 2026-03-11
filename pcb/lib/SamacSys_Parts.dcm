@@ -180,4 +180,10 @@ K
 F https://www.ti.com/lit/ds/symlink/esd2can24-q1.pdf?ts=1669637432096&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FESD2CAN24-Q1
 $ENDCMP
 #
+$CMP 2454985-2
+D DIP & SIP Switches, Gold Flash, Black, PA9T, 2 Switch, -40  85 C, DIP, Extended Actuator Style, 24A Contact Current Rating, Alcoswitch DIP ADE
+K
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2454985%7F1%7Fpdf%7FEnglish%7FENG_CD_2454985_1.pdf%7F2454985-2
+$ENDCMP
+#
 #End Doc Library

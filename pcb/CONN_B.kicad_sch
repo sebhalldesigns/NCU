@@ -1301,7 +1301,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
+		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1320,7 +1320,7 @@
 					)
 				)
 			)
-			(property "Value" "SolderJumper_2_Open"
+			(property "Value" "SolderJumper_2_Bridged"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1346,7 +1346,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Solder Jumper, 2-pole, open"
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1364,7 +1364,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1373,7 +1373,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "SolderJumper_2_Open_0_1"
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy -0.254 1.016) (xy -0.254 -1.016)
@@ -1447,7 +1458,7 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Open_1_1"
+			(symbol "SolderJumper_2_Bridged_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -2256,6 +2267,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 49.53) (xy 132.08 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031cb48a-d90a-48a7-a11c-ca2bcb5b8ee3")
+	)
+	(wire
+		(pts
 			(xy 147.32 57.15) (xy 151.13 57.15)
 		)
 		(stroke
@@ -2263,16 +2284,6 @@
 			(type default)
 		)
 		(uuid "052b6e91-48a4-4b37-99ec-c9f9419ac2a4")
-	)
-	(wire
-		(pts
-			(xy 114.3 57.15) (xy 147.32 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "070f76c6-8dc4-44aa-b7f2-f57e74d23cee")
 	)
 	(wire
 		(pts
@@ -2543,6 +2554,16 @@
 			(type default)
 		)
 		(uuid "5a7aec39-1f03-467e-902c-c42da1874d0c")
+	)
+	(wire
+		(pts
+			(xy 121.92 57.15) (xy 147.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd89e11-8d4e-43ab-9266-0659c690a882")
 	)
 	(wire
 		(pts
@@ -2826,6 +2847,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 52.07) (xy 137.16 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd07129a-241e-4250-802f-9156d2a2524c")
+	)
+	(wire
+		(pts
 			(xy 147.32 41.91) (xy 147.32 57.15)
 		)
 		(stroke
@@ -2843,6 +2874,16 @@
 			(type default)
 		)
 		(uuid "caae5999-9303-409e-bb80-58b685b701d8")
+	)
+	(wire
+		(pts
+			(xy 121.92 54.61) (xy 142.24 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6f20c3-dc53-4a02-9a92-3b588233d099")
 	)
 	(wire
 		(pts
@@ -2873,26 +2914,6 @@
 			(type default)
 		)
 		(uuid "e139ee95-3d70-4b44-b3bb-a136f5260ed9")
-	)
-	(wire
-		(pts
-			(xy 114.3 54.61) (xy 142.24 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e45f715d-a7a9-4d0e-9bb7-41409b03fcac")
-	)
-	(wire
-		(pts
-			(xy 114.3 52.07) (xy 137.16 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea3bffe1-acd0-44e9-a1d7-0dd122bb2f4c")
 	)
 	(wire
 		(pts
@@ -2953,16 +2974,6 @@
 			(type default)
 		)
 		(uuid "fa01a508-42dd-49e1-8430-1cd6e8477e91")
-	)
-	(wire
-		(pts
-			(xy 114.3 49.53) (xy 132.08 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fca88956-e2c1-4a2a-8f08-c5ac8c725df3")
 	)
 	(image
 		(at 30.48 104.14)
@@ -3646,6 +3657,74 @@
 		(uuid "ff4408df-524d-49ac-a070-a6136ec3b360")
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 118.11 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c11032b-3a52-4957-ac69-a9d75459b745")
+		(property "Reference" "JP2"
+			(at 115.062 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 118.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 118.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff61853c-6d2c-4337-8c8c-c96626d95a65")
+		)
+		(pin "2"
+			(uuid "1415522c-e77a-4820-9081-30a18ca39586")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 175.26 45.72 0)
 		(unit 1)
@@ -3723,7 +3802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d3b5aca-50b0-4415-b6f7-5ee8eee17209")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR050"
 			(at 82.55 46.99 0)
 			(effects
 				(font
@@ -3773,7 +3852,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "#PWR046")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3788,7 +3867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ac94b14-037a-41a2-9294-f4fab458e6d8")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 20.32 24.13 0)
 			(effects
 				(font
@@ -3838,7 +3917,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -3853,7 +3932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4278f88f-d17f-4c85-af2c-aa83441bc822")
-		(property "Reference" "#PWR0347"
+		(property "Reference" "#PWR049"
 			(at 85.09 44.45 0)
 			(effects
 				(font
@@ -3903,7 +3982,75 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "#PWR0347")
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 168.91 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "47b3d08e-ca84-4f0e-80f4-8e68763aa884")
+		(property "Reference" "JP5"
+			(at 165.862 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 168.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 168.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "965eeba5-6e63-4ed9-99f5-92a4692c6628")
+		)
+		(pin "2"
+			(uuid "25b0b659-9037-44d3-99fd-5e1fc331b64e")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -3918,7 +4065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5053716f-fce5-47fa-b4eb-552ee6a185bf")
-		(property "Reference" "#PWR0348"
+		(property "Reference" "#PWR048"
 			(at 54.61 73.66 0)
 			(effects
 				(font
@@ -3968,7 +4115,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "#PWR0348")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4065,7 +4212,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6890705e-8dd1-4ab3-913a-9e751e2d94ef")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR047"
 			(at 41.91 54.61 0)
 			(effects
 				(font
@@ -4115,7 +4262,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "#PWR045")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77d4b643-6379-45a7-84e3-738d225a652d")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR046"
 			(at 20.32 31.75 0)
 			(effects
 				(font
@@ -4180,31 +4327,31 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "#PWR044")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 168.91 40.64 0)
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 118.11 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "94d01ee7-68d9-4b57-9031-611f99174030")
-		(property "Reference" "JP2"
-			(at 168.91 37.338 0)
+		(uuid "8d519e71-85ed-4a97-987f-e9efc04c1043")
+		(property "Reference" "JP1"
+			(at 115.062 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 168.91 36.83 0)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 118.11 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,8 +4359,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 168.91 40.64 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 118.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4222,7 +4369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 40.64 0)
+			(at 118.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4230,8 +4377,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 168.91 40.64 0)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 118.11 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4240,15 +4387,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6537faf3-b29d-442c-8067-0996c4e5bcb2")
+			(uuid "94f967e2-8adf-448a-a288-86cdf1fd4f49")
 		)
 		(pin "2"
-			(uuid "7459d367-3385-4047-89b4-9462a88f33d9")
+			(uuid "dc169e58-14dc-4a1e-ad76-5bb309416718")
 		)
 		(instances
 			(project ""
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -4340,7 +4487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba73043c-6a24-43f9-8b83-47d017a2b245")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR052"
 			(at 163.83 68.58 0)
 			(effects
 				(font
@@ -4390,7 +4537,143 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "#PWR048")
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 118.11 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0ca337b-2805-45b4-b05b-336b146aa5e8")
+		(property "Reference" "JP3"
+			(at 115.062 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 118.11 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "542bc86f-12e5-471f-9d4c-38ab31ca750b")
+		)
+		(pin "2"
+			(uuid "ece484ba-b8f4-41b2-8d4f-df3b195e29f7")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
+					(reference "JP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 118.11 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d28baa50-845a-4dc3-9b39-b8bf9ce59ee7")
+		(property "Reference" "JP4"
+			(at 115.062 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 118.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 118.11 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 118.11 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bda5e0bb-e0f8-4bd2-aad3-72faeedd5192")
+		)
+		(pin "2"
+			(uuid "9ae1837a-a662-41ce-b67f-451dfc7a5fb8")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -4405,7 +4688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df5de1a7-716f-4a50-aa07-1270e6d88a77")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 79.502 29.21 90)
 			(effects
 				(font
@@ -4474,7 +4757,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4489,7 +4772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0e8ab8e-8ebb-4fe2-bd81-b9287b2dff30")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR053"
 			(at 175.26 41.91 0)
 			(effects
 				(font
@@ -4539,7 +4822,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "#PWR049")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4554,7 +4837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e32feecc-6d4e-4187-9ac0-8c0df0c92d78")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR051"
 			(at 120.65 87.63 0)
 			(effects
 				(font
@@ -4604,7 +4887,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "#PWR047")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -4826,7 +5109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcd408b2-e230-44c5-a3e2-715e1d8417c2")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR054"
 			(at 175.26 57.15 0)
 			(effects
 				(font
@@ -4876,7 +5159,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "#PWR050")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -4891,7 +5174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd3e0496-85f8-43fb-850f-e678ac4ba7bd")
-		(property "Reference" "U7"
+		(property "Reference" "U1"
 			(at 49.022 61.722 0)
 			(effects
 				(font
@@ -4960,7 +5243,7 @@
 		(instances
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "U7")
+					(reference "U1")
 					(unit 1)
 				)
 			)
