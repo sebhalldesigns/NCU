@@ -486,7 +486,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
@@ -705,8 +705,8 @@
       "MCU Power"
     ],
     [
-      "332149bf-f2de-48eb-b330-2ea3477331d0",
-      "LSD_23"
+      "aae9188c-35ef-4aa9-894b-a139f70721be",
+      "LSD_1"
     ],
     [
       "55e0c46c-7cb3-4413-aa7a-f68df9f84bf1",
@@ -782,11 +782,19 @@
     ],
     [
       "5c853e22-0665-4cc1-bec5-af762ca92e20",
-      "LSD_01"
+      "LSD_0"
+    ],
+    [
+      "cb258f95-3a0b-454c-9977-6ea590c95750",
+      "LSD_2"
     ],
     [
       "c79831b4-300a-4255-af8b-5f17d86aa032",
       "HSD_01"
+    ],
+    [
+      "c0da046b-b48b-4cba-ab83-9675601f6381",
+      "LSD_3"
     ],
     [
       "8349b2b4-bb6e-4977-8ad0-8673fa6e8690",

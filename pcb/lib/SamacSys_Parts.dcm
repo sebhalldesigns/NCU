@@ -156,4 +156,10 @@ K
 F https://www.sameskydevices.com/product/resource/DS01-254-L-01BE.pdf
 $ENDCMP
 #
+$CMP BTS3050EJXUMA1
+D INFINEON - BTS3050EJXUMA1 - POWER LOAD SW, AEC-Q100, 5.5V, TSSOP-8
+K
+F https://componentsearchengine.com/Datasheets/2/BTS3050EJXUMA1.pdf
+$ENDCMP
+#
 #End Doc Library

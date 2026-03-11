@@ -5115,6 +5115,102 @@
 		(color 0 0 0 0)
 		(uuid "e945ad50-7d25-4f46-89ab-8ef41575dd57")
 	)
+	(no_connect
+		(at 134.62 121.92)
+		(uuid "115e157f-42fb-4dbf-b1a8-db8297b9c94a")
+	)
+	(no_connect
+		(at 220.98 116.84)
+		(uuid "13d21dc2-3ecf-4ec8-91ea-ef7d8f60c5a7")
+	)
+	(no_connect
+		(at 134.62 157.48)
+		(uuid "14de80c2-4414-45a2-9fe9-e0ce52d088d6")
+	)
+	(no_connect
+		(at 220.98 187.96)
+		(uuid "15a21631-5aff-4788-8eb0-aab7af11573e")
+	)
+	(no_connect
+		(at 220.98 172.72)
+		(uuid "1856c360-8794-462f-a75a-0de7b8f7a73a")
+	)
+	(no_connect
+		(at 134.62 109.22)
+		(uuid "357f7bfa-f3fe-496b-b56c-4cb1a6317f03")
+	)
+	(no_connect
+		(at 220.98 223.52)
+		(uuid "3fa01f1d-48f2-45b9-966a-199e65c10db8")
+	)
+	(no_connect
+		(at 220.98 170.18)
+		(uuid "41e120c8-2de7-4c4a-9a5e-87b32e2bea53")
+	)
+	(no_connect
+		(at 134.62 111.76)
+		(uuid "4ed43c44-2b0e-4589-b1e4-72690caf0559")
+	)
+	(no_connect
+		(at 134.62 116.84)
+		(uuid "65ea0cd1-9f4f-414b-bb92-c1bf9645dcae")
+	)
+	(no_connect
+		(at 220.98 149.86)
+		(uuid "66a7be67-1d2d-4a1f-aa3e-5d1666b1b842")
+	)
+	(no_connect
+		(at 134.62 119.38)
+		(uuid "67489a12-21b0-4045-add1-44a363468b8e")
+	)
+	(no_connect
+		(at 134.62 187.96)
+		(uuid "6b5c859c-602a-4ab5-9fec-37f13204ebff")
+	)
+	(no_connect
+		(at 134.62 106.68)
+		(uuid "6f25ed8f-4066-4501-8e83-dccb280b5efe")
+	)
+	(no_connect
+		(at 220.98 215.9)
+		(uuid "7b39e88a-816b-4079-a74b-a8ef678ad8d4")
+	)
+	(no_connect
+		(at 220.98 220.98)
+		(uuid "7dd735f8-e0ce-4216-8f8e-92b58fa8d453")
+	)
+	(no_connect
+		(at 134.62 104.14)
+		(uuid "910f9f2f-2c30-47c8-bf2a-2d1873e1aee7")
+	)
+	(no_connect
+		(at 134.62 144.78)
+		(uuid "b812e3c1-2f45-42e6-b7c6-492cfb33e9de")
+	)
+	(no_connect
+		(at 134.62 114.3)
+		(uuid "ba09e202-5e51-4b58-984e-5346d52e0a6b")
+	)
+	(no_connect
+		(at 220.98 218.44)
+		(uuid "dd06f021-801f-4495-9ff0-d703b4dd28c4")
+	)
+	(no_connect
+		(at 220.98 147.32)
+		(uuid "e8937fdf-cd9a-444d-8343-5b13c7d61aea")
+	)
+	(no_connect
+		(at 220.98 121.92)
+		(uuid "f135ce85-a47c-4f1e-af92-69324b6d76a0")
+	)
+	(no_connect
+		(at 220.98 137.16)
+		(uuid "f80a0cbe-daf7-4323-8e14-8105d7c58a69")
+	)
+	(no_connect
+		(at 134.62 101.6)
+		(uuid "fce125ca-1a33-401f-9313-f1aa249205a4")
+	)
 	(wire
 		(pts
 			(xy 339.09 38.1) (xy 330.2 38.1)
@@ -5394,6 +5490,16 @@
 			(type default)
 		)
 		(uuid "28ec10b5-f539-49e4-8524-f1697a803a04")
+	)
+	(wire
+		(pts
+			(xy 127 175.26) (xy 134.62 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c71e902-fc84-4529-b2b7-a1f0411eb90b")
 	)
 	(wire
 		(pts
@@ -5917,6 +6023,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 170.18) (xy 134.62 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a1deceb-9095-41a7-83d1-ddb56e5ae328")
+	)
+	(wire
+		(pts
 			(xy 228.6 144.78) (xy 220.98 144.78)
 		)
 		(stroke
@@ -6064,6 +6180,16 @@
 			(type default)
 		)
 		(uuid "908937a7-9ca1-445d-ad40-deea417e39fc")
+	)
+	(wire
+		(pts
+			(xy 127 167.64) (xy 134.62 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930b1010-e649-41c7-a6a5-2e9728e03852")
 	)
 	(wire
 		(pts
@@ -6454,6 +6580,16 @@
 			(type default)
 		)
 		(uuid "d46ec603-a163-491a-9598-3344355e9062")
+	)
+	(wire
+		(pts
+			(xy 127 180.34) (xy 134.62 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d689dd42-e5ee-48ee-b29c-47d951d0509b")
 	)
 	(wire
 		(pts
@@ -6969,6 +7105,17 @@
 			(justify left)
 		)
 		(uuid "0eb5db25-41a0-4251-8324-0c3f6a190078")
+	)
+	(hierarchical_label "LSD1_STAT"
+		(shape passive)
+		(at 127 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ecd1557-63d8-407c-ac88-f0bb9ff9666e")
 	)
 	(hierarchical_label "ETH_TXD0"
 		(shape passive)
@@ -7509,6 +7656,28 @@
 		)
 		(uuid "a4e97c29-6620-47e9-9cdf-55baa8125b0a")
 	)
+	(hierarchical_label "LSD3_STAT"
+		(shape passive)
+		(at 127 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7af1dcd-b69a-4cbe-aa57-028e4f97370c")
+	)
+	(hierarchical_label "LSD0_STAT"
+		(shape passive)
+		(at 127 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa0d38d9-1126-44e2-b288-1464650c9b0a")
+	)
 	(hierarchical_label "SD_WP"
 		(shape passive)
 		(at 228.6 88.9 0)
@@ -7585,6 +7754,17 @@
 			(justify left)
 		)
 		(uuid "cf2c1e8e-b8e5-43d3-ad62-cadc72e8fbce")
+	)
+	(hierarchical_label "LSD2_STAT"
+		(shape passive)
+		(at 127 167.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d335f7b0-53c1-44ec-823e-6addd3256d1a")
 	)
 	(hierarchical_label "PCIE_W_DISABLE"
 		(shape passive)
