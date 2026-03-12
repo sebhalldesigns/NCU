@@ -910,24 +910,6 @@
 		(uuid "20a503aa-5fed-49c1-80e0-4741747b7b44")
 	)
 	(junction
-		(at 175.26 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39f41737-953d-4a4c-af29-6a74965b0802")
-	)
-	(junction
-		(at 110.49 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55e2869f-a7f1-46a9-a78d-281133902f7d")
-	)
-	(junction
-		(at 175.26 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d4d7768-6889-4e37-b8ff-f4f42846d45b")
-	)
-	(junction
 		(at 111.76 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -944,12 +926,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ceb0f43-cc6e-4486-ad54-c172f0b8b7a1")
-	)
-	(junction
-		(at 124.46 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7fe11c6-1263-4970-83ae-6deeb8ab24e9")
 	)
 	(junction
 		(at 78.74 53.34)
@@ -1028,16 +1004,6 @@
 			(type default)
 		)
 		(uuid "107acf32-138d-4f4c-bf66-7ce93cf5288a")
-	)
-	(wire
-		(pts
-			(xy 175.26 44.45) (xy 180.34 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "119eeef9-0056-4013-8b7b-1a0945f572fa")
 	)
 	(wire
 		(pts
@@ -1131,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 83.82) (xy 127 83.82)
+			(xy 107.95 83.82) (xy 127 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1248,16 +1214,6 @@
 			(type default)
 		)
 		(uuid "3c2d2c24-c82f-46f3-ae84-ab9ba3377466")
-	)
-	(wire
-		(pts
-			(xy 110.49 43.18) (xy 111.76 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40732e6f-18e4-411c-a890-f15e49c5fcb2")
 	)
 	(wire
 		(pts
@@ -1571,27 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 40.64) (xy 110.49 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a75e5a29-c671-468b-99e2-7c9ce7d8b909")
-	)
-	(wire
-		(pts
-			(xy 175.26 82.55) (xy 180.34 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaf30af7-2d15-4273-9c2f-2f20861947dc")
-	)
-	(wire
-		(pts
-			(xy 107.95 43.18) (xy 110.49 43.18)
+			(xy 107.95 43.18) (xy 111.76 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1618,16 +1554,6 @@
 			(type default)
 		)
 		(uuid "b05a5c67-d390-40d2-99e9-d83c59dbb1e9")
-	)
-	(wire
-		(pts
-			(xy 175.26 43.18) (xy 175.26 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5a9e0e0-2987-4c9a-a0e1-f6b2fcaa77b4")
 	)
 	(wire
 		(pts
@@ -1671,16 +1597,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 82.55) (xy 175.26 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d34707-2c76-42ec-9ceb-dd04f1b1386d")
-	)
-	(wire
-		(pts
 			(xy 73.66 40.64) (xy 78.74 40.64)
 		)
 		(stroke
@@ -1711,17 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 82.55) (xy 124.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e00dcb18-cb01-4c34-934c-307bb6a19394")
-	)
-	(wire
-		(pts
-			(xy 171.45 44.45) (xy 175.26 44.45)
+			(xy 171.45 44.45) (xy 180.34 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1751,17 +1657,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 83.82) (xy 124.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec34a07e-3502-406d-82ee-93084ceea71b")
-	)
-	(wire
-		(pts
-			(xy 171.45 82.55) (xy 175.26 82.55)
+			(xy 171.45 82.55) (xy 180.34 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2046,73 +1942,6 @@
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6"
 					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 82.55 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e58bac9-4153-4149-b3de-130a8a2cbd05")
-		(property "Reference" "A5V_PG1"
-			(at 125.984 80.518 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LV_5V"
-			(at 125.984 77.978 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 119.38 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 124.46 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7f5cb4c-9308-491d-874a-b3e873b1c414")
-		)
-		(instances
-			(project "NCU"
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6"
-					(reference "A5V_PG1")
 					(unit 1)
 				)
 			)
@@ -2799,73 +2628,6 @@
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6"
 					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 110.49 40.64 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fffb351-9acd-4d3a-be11-d108c7802e0a")
-		(property "Reference" "LV_PG1"
-			(at 112.014 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LV_5V"
-			(at 112.014 36.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 105.41 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 110.49 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca09975b-87b6-498e-8593-0db906333cab")
-		)
-		(instances
-			(project "NCU"
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6"
-					(reference "LV_PG1")
 					(unit 1)
 				)
 			)
@@ -3983,73 +3745,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 175.26 43.18 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b570e647-6854-4c9c-9eec-51b4d29a2869")
-		(property "Reference" "USB_PWR_ST1"
-			(at 176.784 41.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LV_5V"
-			(at 176.784 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 170.18 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 175.26 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9eed5631-3de2-4d6b-8aba-12715e4c7ace")
-		)
-		(instances
-			(project "NCU"
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6"
-					(reference "USB_PWR_ST1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 39.37 20.32 0)
 		(unit 1)
@@ -4893,72 +4588,6 @@
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 175.26 83.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6761d5a-2caa-496c-82c4-509bbd81b236")
-		(property "Reference" "TP7"
-			(at 176.784 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3V3_PG"
-			(at 176.784 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae772e12-7182-46cf-beea-8a27539c4446")
-		)
-		(instances
-			(project "NCU"
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6"
-					(reference "TP7")
 					(unit 1)
 				)
 			)

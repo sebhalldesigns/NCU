@@ -1715,6 +1715,7 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 130.81 58.42 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1722,7 +1723,7 @@
 		(dnp no)
 		(uuid "2b61b005-2b53-4390-a560-430b4e340eab")
 		(property "Reference" "C87"
-			(at 134.112 57.15 0)
+			(at 127.508 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1732,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 133.858 59.69 0)
+			(at 127.762 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1740,7 +1741,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 131.7752 62.23 0)
+			(at 129.8448 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
