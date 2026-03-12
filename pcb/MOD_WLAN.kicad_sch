@@ -1928,10 +1928,22 @@
 		(uuid "c84a99f7-3766-4628-9829-af2b080e43d4")
 	)
 	(junction
+		(at 175.26 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ded0a17e-3994-4b42-b32e-6264ace59724")
+	)
+	(junction
 		(at 143.51 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9de5220-0ed7-4f68-ab30-6703fd25480b")
+	)
+	(junction
+		(at 175.26 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2e6cfa2-8940-4b50-9185-5f5bcf7f39db")
 	)
 	(junction
 		(at 143.51 87.63)
@@ -2181,6 +2193,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 53.34) (xy 175.26 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34abca84-92af-4fc3-80b7-a65afc6f52c7")
+	)
+	(wire
+		(pts
 			(xy 63.5 21.59) (xy 63.5 22.86)
 		)
 		(stroke
@@ -2191,7 +2213,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 59.69) (xy 176.53 59.69)
+			(xy 172.72 59.69) (xy 175.26 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2228,6 +2250,16 @@
 			(type default)
 		)
 		(uuid "3ddc45bf-f714-4adf-8c85-84aa2c267adb")
+	)
+	(wire
+		(pts
+			(xy 175.26 59.69) (xy 176.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46418409-7963-431c-b021-e41b9cec4062")
 	)
 	(wire
 		(pts
@@ -2451,6 +2483,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 57.15) (xy 176.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1a0f49-ea3e-4fcf-897f-d509fb514883")
+	)
+	(wire
+		(pts
 			(xy 52.07 69.85) (xy 52.07 73.66)
 		)
 		(stroke
@@ -2581,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 57.15) (xy 176.53 57.15)
+			(xy 161.29 57.15) (xy 175.26 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2668,6 +2710,16 @@
 			(type default)
 		)
 		(uuid "ed7f0e8b-13ea-4b61-8819-5684191f3164")
+	)
+	(wire
+		(pts
+			(xy 175.26 59.69) (xy 175.26 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2148e8d-1f21-4f57-adba-0858dc53f4bd")
 	)
 	(wire
 		(pts
@@ -4236,7 +4288,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "47uF"
 			(at 117.094 26.67 0)
 			(effects
 				(font
@@ -4490,6 +4542,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 175.26 62.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "baefff1e-c7b9-4cee-969a-84b0a9c89cc6")
+		(property "Reference" "TP22"
+			(at 177.8 66.8021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP_RX"
+			(at 177.8 64.2621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 175.26 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10b3301a-c152-4358-b8d0-8a6d18544c57")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/0cdbc80d-6682-4488-acea-b93c92a9f88d"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 80.01 77.47 0)
 		(unit 1)
@@ -4619,6 +4738,73 @@
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/0cdbc80d-6682-4488-acea-b93c92a9f88d"
 					(reference "#PWR0281")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 175.26 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c98f3e50-59e2-475b-896c-e29c7d0fb029")
+		(property "Reference" "TP21"
+			(at 177.8 48.7679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ESP_TX"
+			(at 177.8 51.3079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68e47bf1-a6cd-42ab-97a1-1b361e344973")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/0cdbc80d-6682-4488-acea-b93c92a9f88d"
+					(reference "TP21")
 					(unit 1)
 				)
 			)

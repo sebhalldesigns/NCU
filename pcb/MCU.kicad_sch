@@ -5473,18 +5473,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 45.72 223.52)
-		(end 106.68 271.78)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 9ca2968d-180c-4337-9076-3bd6363051d4)
-	)
 	(text_box "Solder jumper for boot recovery - bridge to enter system bootloader mode"
 		(exclude_from_sim no)
 		(at 80.01 52.07 0)
@@ -5504,27 +5492,6 @@
 			(justify left top)
 		)
 		(uuid "294fcdd6-0f78-439a-82e5-77bc18b00c7d")
-	)
-	(text_box "Status LEDs\nDebug"
-		(exclude_from_sim no)
-		(at 45.72 223.52 0)
-		(size 15.24 6.35)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b09412f8-0b5d-4e36-b7ba-72223d9d3843")
 	)
 	(junction
 		(at 266.7 101.6)
@@ -5701,10 +5668,6 @@
 		(uuid "67489a12-21b0-4045-add1-44a363468b8e")
 	)
 	(no_connect
-		(at 134.62 187.96)
-		(uuid "6b5c859c-602a-4ab5-9fec-37f13204ebff")
-	)
-	(no_connect
 		(at 134.62 106.68)
 		(uuid "6f25ed8f-4066-4501-8e83-dccb280b5efe")
 	)
@@ -5787,6 +5750,16 @@
 			(type default)
 		)
 		(uuid "0424abcb-4221-41d4-912d-ce69ae0bf3ca")
+	)
+	(wire
+		(pts
+			(xy 95.25 187.96) (xy 95.25 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a181d8-1cc6-4cd4-bff8-f2d43cac139e")
 	)
 	(wire
 		(pts
@@ -6190,16 +6163,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 238.76) (xy 81.28 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bbd594d-a450-45a6-95a3-2257c6d81853")
-	)
-	(wire
-		(pts
 			(xy 127 177.8) (xy 134.62 177.8)
 		)
 		(stroke
@@ -6507,6 +6470,16 @@
 			(type default)
 		)
 		(uuid "64c702a3-099d-4f7a-bb68-5243d347800e")
+	)
+	(wire
+		(pts
+			(xy 95.25 187.96) (xy 134.62 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6591a1ad-b21b-42ef-96fd-0ca952b16bba")
 	)
 	(wire
 		(pts
@@ -7060,7 +7033,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 247.65) (xy 81.28 248.92)
+			(xy 95.25 198.12) (xy 95.25 199.39)
 		)
 		(stroke
 			(width 0)
@@ -7500,7 +7473,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 256.54) (xy 81.28 257.81)
+			(xy 95.25 207.01) (xy 95.25 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8653,7 +8626,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 243.84 0)
+		(at 95.25 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8661,7 +8634,7 @@
 		(dnp no)
 		(uuid "0a6a0ee8-dab8-4069-9971-bc57ad6b4436")
 		(property "Reference" "R124"
-			(at 84.836 242.57 0)
+			(at 98.806 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8669,7 +8642,7 @@
 			)
 		)
 		(property "Value" "260R"
-			(at 85.598 244.856 0)
+			(at 99.568 195.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8677,7 +8650,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 79.502 243.84 90)
+			(at 93.472 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,7 +8659,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 243.84 0)
+			(at 95.25 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8695,7 +8668,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 243.84 0)
+			(at 95.25 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9264,7 +9237,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 81.28 252.73 90)
+		(at 95.25 203.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9272,7 +9245,7 @@
 		(dnp no)
 		(uuid "354544ce-687c-4791-8b99-41c616cba959")
 		(property "Reference" "D26"
-			(at 84.582 252.984 90)
+			(at 98.552 203.454 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9254,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 84.582 255.524 90)
+			(at 98.552 205.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9290,7 +9263,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 81.28 252.73 0)
+			(at 95.25 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9299,7 +9272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 252.73 0)
+			(at 95.25 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9308,7 +9281,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 81.28 252.73 0)
+			(at 95.25 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9317,7 +9290,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 252.73 0)
+			(at 95.25 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,7 +9516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 257.81 0)
+		(at 95.25 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9551,7 +9524,7 @@
 		(dnp no)
 		(uuid "5e00988b-22e1-46c0-b997-78d92c3848fd")
 		(property "Reference" "#PWR0413"
-			(at 81.28 264.16 0)
+			(at 95.25 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,7 +9533,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 261.874 0)
+			(at 95.25 212.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9568,7 +9541,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 257.81 0)
+			(at 95.25 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9577,7 +9550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 257.81 0)
+			(at 95.25 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9586,7 +9559,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 257.81 0)
+			(at 95.25 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
