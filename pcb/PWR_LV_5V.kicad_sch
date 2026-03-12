@@ -2109,6 +2109,16 @@
 		)
 		(uuid "460ff954-780d-49ba-ae8d-7c0804863e9a")
 	)
+	(label "LMR_SW"
+		(at 114.3 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a0d5ad3-cd77-4324-99da-c282a4ffea05")
+	)
 	(label "LMR_FB"
 		(at 137.16 67.31 0)
 		(effects
