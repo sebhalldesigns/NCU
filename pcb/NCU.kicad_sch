@@ -556,16 +556,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 196.85) (xy 177.8 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "098667c5-ffc9-4390-9a30-99e268d1223e")
-	)
-	(wire
-		(pts
 			(xy 21.59 134.62) (xy 21.59 135.89)
 		)
 		(stroke
@@ -6031,16 +6021,6 @@
 				(justify left top)
 			)
 		)
-		(pin "SD_WP" passive
-			(at 177.8 196.85 180)
-			(uuid "13391336-a182-4f39-b8ac-3b7052dc5e06")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SD_DAT0" passive
 			(at 177.8 181.61 180)
 			(uuid "d7b98858-4278-43e6-96e2-8b86f7c7b375")
@@ -8079,16 +8059,6 @@
 		(pin "SD_CMD" passive
 			(at 165.1 191.77 0)
 			(uuid "5904a19c-d38b-45a7-8d21-28e3ae00dd88")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SD_WP" passive
-			(at 165.1 196.85 0)
-			(uuid "716ef718-2da8-4d28-ac40-9f7e0019d865")
 			(effects
 				(font
 					(size 1.27 1.27)

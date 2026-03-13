@@ -2449,17 +2449,6 @@
 		)
 		(uuid "ad1ea76a-72d7-475a-a6d7-c5bf9c485cd4")
 	)
-	(hierarchical_label "SD_WP"
-		(shape passive)
-		(at 187.96 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b9db779c-8a78-4800-b70f-522501b81e10")
-	)
 	(hierarchical_label "SD_DAT2"
 		(shape passive)
 		(at 69.85 49.53 180)
