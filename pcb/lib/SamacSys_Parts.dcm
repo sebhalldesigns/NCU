@@ -186,4 +186,16 @@ K
 F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F2454985%7F1%7Fpdf%7FEnglish%7FENG_CD_2454985_1.pdf%7F2454985-2
 $ENDCMP
 #
+$CMP SF56K006VBAR2000
+D microSIM card connector, 6 pos, 1.27mm height, Push-push type
+K
+F https://www.jae.com/direct/topics/topics_file_download/topics_id=68884&ext_no=06&_lang=en&v=
+$ENDCMP
+#
+$CMP MEM2052-00-195-00-A
+D 9 (8 + 1) Position Card Connector Secure Digital - microSD Surface Mount, Right Angle Gold
+K
+F https://gct.co/files/drawings/MEM2052.pdf
+$ENDCMP
+#
 #End Doc Library
