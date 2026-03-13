@@ -3157,7 +3157,6 @@
 	(symbol
 		(lib_id "Switch:SW_DIP_x01")
 		(at 83.82 40.64 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3165,7 +3164,7 @@
 		(dnp no)
 		(uuid "1ab21614-9e2e-4685-a0ab-cb54ed3c9265")
 		(property "Reference" "SW1"
-			(at 75.692 36.322 0)
+			(at 91.948 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3174,7 +3173,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x01"
-			(at 80.772 36.068 0)
+			(at 86.868 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +3181,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:DS01254L01BE"
+		(property "Footprint" "SamacSys_Parts:EDS01SGNNTR04Q"
 			(at 83.82 40.64 0)
 			(effects
 				(font
