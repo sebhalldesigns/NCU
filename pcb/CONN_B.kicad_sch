@@ -2380,6 +2380,12 @@
 		(uuid "84fb51b9-d0ca-4bfc-9bb4-9d74ae33fac7")
 	)
 	(junction
+		(at 54.61 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0aef811a-25a4-4851-97b9-61cc4e475c2e")
+	)
+	(junction
 		(at 175.26 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2390,12 +2396,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55d5fffb-22d0-438d-a579-956b111ebea5")
-	)
-	(junction
-		(at 54.61 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6021498d-2b12-45de-819f-b6e515eec213")
 	)
 	(junction
 		(at 137.16 52.07)
@@ -2533,16 +2533,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 57.15) (xy 49.53 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14a6db0c-0b7b-4d75-b2ad-902e5f3db3c1")
-	)
-	(wire
-		(pts
 			(xy 114.3 59.69) (xy 120.65 59.69)
 		)
 		(stroke
@@ -2553,6 +2543,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 31.75) (xy 66.04 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18eb4766-2e84-4464-b2c9-56b9213270b3")
+	)
+	(wire
+		(pts
 			(xy 132.08 49.53) (xy 151.13 49.53)
 		)
 		(stroke
@@ -2560,26 +2560,6 @@
 			(type default)
 		)
 		(uuid "1a5870ab-2398-4559-8d94-66bedf0d837e")
-	)
-	(wire
-		(pts
-			(xy 54.61 31.75) (xy 54.61 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d61e525-eebc-4543-868d-ee289880ad24")
-	)
-	(wire
-		(pts
-			(xy 59.69 57.15) (xy 88.9 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec6a712-13e1-444e-94cb-d768cd8f284c")
 	)
 	(wire
 		(pts
@@ -2613,6 +2593,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 64.77) (xy 54.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe804bc-e171-4659-8d89-49956740c2d2")
+	)
+	(wire
+		(pts
 			(xy 66.04 31.75) (xy 66.04 35.56)
 		)
 		(stroke
@@ -2620,6 +2610,16 @@
 			(type default)
 		)
 		(uuid "3237c4f4-0706-4e4a-a172-7569e2eccf57")
+	)
+	(wire
+		(pts
+			(xy 44.45 59.69) (xy 49.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d56599-d727-4dcc-a8d3-4e3b766327c1")
 	)
 	(wire
 		(pts
@@ -2743,6 +2743,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 59.69) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba7e6e6-d279-43f1-8027-6bfecdbcc8ee")
+	)
+	(wire
+		(pts
 			(xy 121.92 57.15) (xy 147.32 57.15)
 		)
 		(stroke
@@ -2803,7 +2813,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 31.75) (xy 66.04 31.75)
+			(xy 49.53 31.75) (xy 54.61 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2993,16 +3003,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 64.77) (xy 54.61 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98ecd2c9-916b-4df9-a579-7bb672780bfe")
-	)
-	(wire
-		(pts
 			(xy 66.04 35.56) (xy 68.58 35.56)
 		)
 		(stroke
@@ -3013,13 +3013,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 31.75) (xy 54.61 31.75)
+			(xy 54.61 31.75) (xy 54.61 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ce3d274-bd5f-4fdb-a848-2c7bf7b692a8")
+		(uuid "99be90d5-2aca-4431-9807-06b345a0605d")
 	)
 	(wire
 		(pts
@@ -3030,6 +3030,16 @@
 			(type default)
 		)
 		(uuid "ae6483e4-1703-494b-89cd-e4a96343e624")
+	)
+	(wire
+		(pts
+			(xy 44.45 57.15) (xy 49.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8f66745-226d-4e8d-8d85-ee5988e15f7b")
 	)
 	(wire
 		(pts
@@ -3083,23 +3093,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 59.69) (xy 88.9 59.69)
+			(xy 59.69 57.15) (xy 88.9 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d341065b-8bdc-402d-8372-3e989f0004d7")
-	)
-	(wire
-		(pts
-			(xy 44.45 59.69) (xy 49.53 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e139ee95-3d70-4b44-b3bb-a136f5260ed9")
+		(uuid "d197abb7-8985-4e21-92cc-182bd697d844")
 	)
 	(wire
 		(pts
@@ -5354,6 +5354,7 @@
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 54.61 57.15 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5361,7 +5362,7 @@
 		(dnp no)
 		(uuid "fd3e0496-85f8-43fb-850f-e678ac4ba7bd")
 		(property "Reference" "U1"
-			(at 49.022 61.722 0)
+			(at 60.198 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5370,7 +5371,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 37.592 63.5 0)
+			(at 71.628 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5379,7 +5380,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 55.88 63.5 0)
+			(at 53.34 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5391,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 55.88 65.405 0)
+			(at 53.34 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
