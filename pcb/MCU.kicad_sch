@@ -5560,12 +5560,6 @@
 		(uuid "a77e7021-c41d-46cd-9145-0d3079966448")
 	)
 	(junction
-		(at 120.65 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "baeaab80-1993-45ca-bf6a-668aae416a96")
-	)
-	(junction
 		(at 88.9 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7057,16 +7051,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 63.5) (xy 120.65 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c037ab1e-cc97-46e0-81b3-65816c0d013f")
-	)
-	(wire
-		(pts
 			(xy 266.7 101.6) (xy 279.4 101.6)
 		)
 		(stroke
@@ -7227,7 +7211,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 68.58) (xy 120.65 68.58)
+			(xy 78.74 68.58) (xy 134.62 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7314,16 +7298,6 @@
 			(type default)
 		)
 		(uuid "e867575f-9e6c-4508-ada5-e37a9255f90a")
-	)
-	(wire
-		(pts
-			(xy 120.65 68.58) (xy 134.62 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ead19673-071c-4ec6-a506-333fda53df89")
 	)
 	(wire
 		(pts
@@ -10024,73 +9998,6 @@
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/d2b1e1a0-8b64-49ff-b975-b40fa2d33dc6"
 					(reference "#PWR0408")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 120.65 63.5 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82ddca54-f151-411d-bd81-d9aa84cd7028")
-		(property "Reference" "TP19"
-			(at 122.174 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NRST"
-			(at 121.92 61.468 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 115.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 120.65 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ee6158c-f15f-4c5d-8568-2e2b308df7c7")
-		)
-		(instances
-			(project "NCU"
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/d2b1e1a0-8b64-49ff-b975-b40fa2d33dc6"
-					(reference "TP19")
 					(unit 1)
 				)
 			)
