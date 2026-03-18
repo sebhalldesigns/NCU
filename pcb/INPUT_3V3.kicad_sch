@@ -1009,7 +1009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 101.6 67.31 0)
 			(effects
 				(font
@@ -1406,7 +1406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 120.65 67.31 0)
 			(effects
 				(font

@@ -955,16 +955,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 24.13) (xy 31.75 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05b8fb1a-d176-4749-ad7a-a2f9bb24185e")
-	)
-	(wire
-		(pts
 			(xy 123.19 63.5) (xy 130.81 63.5)
 		)
 		(stroke
@@ -992,16 +982,6 @@
 			(type default)
 		)
 		(uuid "2011ab76-7088-468a-96db-e043cd218aa8")
-	)
-	(wire
-		(pts
-			(xy 31.75 24.13) (xy 30.48 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26178866-c9ac-4fc2-a30c-ada52570d7b8")
 	)
 	(wire
 		(pts
@@ -1302,17 +1282,6 @@
 			(type default)
 		)
 		(uuid "fe243661-bdc8-4943-a565-4ac800473893")
-	)
-	(hierarchical_label "AGND"
-		(shape passive)
-		(at 30.48 24.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "05c847bc-18a6-449f-907b-b12552f318a4")
 	)
 	(hierarchical_label "A5V"
 		(shape passive)
@@ -1851,71 +1820,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 31.75 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50e8b95a-2ddf-4879-938a-c97a4e5341dd")
-		(property "Reference" "#PWR0383"
-			(at 31.75 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 31.75 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 31.75 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6cea265-dc34-4e3f-ab13-755efca9f21d")
-		)
-		(instances
-			(project "NCU"
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/05e3be97-98f6-4518-a1a7-240d4da327e6/bd2125f3-b038-4fbf-8844-7722167ed0b9"
-					(reference "#PWR0383")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 63.5 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1997,7 +1901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "AGND"
+		(property "Value" "GND"
 			(at 123.19 68.58 0)
 			(effects
 				(font
