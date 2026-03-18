@@ -1035,4 +1035,56 @@ P 5 0 1 6 200 100 1000 100 1000 -200 200 -200 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model 490107670612
+#/1131359/1906612/2.50/6/2/Connector
+DEF 490107670612 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "490107670612" 650 200 50 H V L CNN
+F2 "490107670612" 650 100 50 H I L CNN
+F3 "https://www.we-online.com/catalog/datasheet/490107670612.pdf" 650 0 50 H I L CNN
+F4 "REDFIT IDC SKEDD Connector housing material: LCP color: black, 6 pins" 650 -100 50 H I L CNN "Description"
+F5 "10.45" 650 -200 50 H I L CNN "Height"
+F6 "710-490107670612" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/490107670612?qs=j%252B1pi9TdxUaookiSUpsQrA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "490107670612" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 800 -200 200 L 50 50 0 0 P
+X 2 2 0 -200 200 R 50 50 0 0 P
+X 3 3 800 -100 200 L 50 50 0 0 P
+X 4 4 0 -100 200 R 50 50 0 0 P
+X 5 5 800 0 200 L 50 50 0 0 P
+X 6 6 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 20021121-00010C4LF
+#/19057753/1906612/2.50/10/3/Connector
+DEF 20021121-00010C4LF J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "20021121-00010C4LF" 750 200 50 H V L CNN
+F2 "2002112100010C4LF" 750 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/20021121.pdf" 750 0 50 H I L CNN
+F4 "Headers & Wire Housings 1.27x1.27mm BTB, Hdr Unshrd, SMT, 10 Pos" 750 -100 50 H I L CNN "Description"
+F5 "5.7" 750 -200 50 H I L CNN "Height"
+F6 "649-202112100010C4LF" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/20021121-00010C4LF?qs=iIVTEDlrHA1ddfCJGH4Nhg%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Amphenol" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "20021121-00010C4LF" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
 #End Library

@@ -210,4 +210,16 @@ K
 F https://componentsearchengine.com/Datasheets/1/EDS02SNRNTR04Q.pdf
 $ENDCMP
 #
+$CMP 490107670612
+D REDFIT IDC SKEDD Connector housing material: LCP color: black, 6 pins
+K
+F https://www.we-online.com/catalog/datasheet/490107670612.pdf
+$ENDCMP
+#
+$CMP 20021121-00010C4LF
+D Headers & Wire Housings 1.27x1.27mm BTB, Hdr Unshrd, SMT, 10 Pos
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/20021121.pdf
+$ENDCMP
+#
 #End Doc Library

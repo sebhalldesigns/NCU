@@ -5,6 +5,318 @@
 	(uuid "09964f41-0932-4dfc-8eb5-321e4f434a07")
 	(paper "A5")
 	(lib_symbols
+		(symbol "0_SamacSys_Parts:20021121-00010C4LF"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "20021121-00010C4LF"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "2002112100010C4LF"
+				(at 19.05 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/20021121.pdf"
+				(at 19.05 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Headers & Wire Housings 1.27x1.27mm BTB, Hdr Unshrd, SMT, 10 Pos"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "Headers & Wire Housings 1.27x1.27mm BTB, Hdr Unshrd, SMT, 10 Pos"
+				(at 19.05 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "5.7"
+				(at 19.05 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "649-202112100010C4LF"
+				(at 19.05 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/20021121-00010C4LF?qs=iIVTEDlrHA1ddfCJGH4Nhg%3D%3D"
+				(at 19.05 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amphenol"
+				(at 19.05 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "20021121-00010C4LF"
+				(at 19.05 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "20021121-00010C4LF_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "20021121-00010C4LF_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 17.78 2.54) (xy 17.78 -12.7) (xy 5.08 -12.7) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0_SamacSys_Parts:6437288-4"
 			(pin_names
 				(offset 0.762)
@@ -636,201 +948,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "J7"
-				(at -6.35 1.2701 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030"
-				(at -6.35 -1.2699 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*TC2030*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_ARM_SWD_TagConnect_TC2030_0_0"
-				(pin power_in line
-					(at -2.54 10.16 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "SWDIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "TMS" bidirectional line)
-				)
-				(pin output line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "SWCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "TCK" output line)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "SWO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "TDO" input line)
-				)
-				(pin open_collector line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Conn_ARM_SWD_TagConnect_TC2030_0_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -2386,7 +2503,13 @@
 		(uuid "0aef811a-25a4-4851-97b9-61cc4e475c2e")
 	)
 	(junction
-		(at 175.26 40.64)
+		(at 179.07 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "470ce87b-3588-44fc-9105-76ea82e079b2")
+	)
+	(junction
+		(at 190.5 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b603f3e-609b-414c-aa5c-cbde60d44fb7")
@@ -2440,6 +2563,12 @@
 		(uuid "b8fc62eb-1c04-4d72-a082-25cc60a3e877")
 	)
 	(junction
+		(at 179.07 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0a06d63-c89f-4b65-9df1-ed6fa9534f2c")
+	)
+	(junction
 		(at 120.65 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2450,6 +2579,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe6e5eee-aa27-422f-a616-0402a0a3b0ec")
+	)
+	(no_connect
+		(at 176.53 57.15)
+		(uuid "0d501621-8c60-4adf-a9c2-0f979e71e2d6")
+	)
+	(no_connect
+		(at 153.67 57.15)
+		(uuid "ccd07d70-d0f5-4baa-8896-b50f5d908864")
 	)
 	(wire
 		(pts
@@ -2463,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 57.15) (xy 151.13 57.15)
+			(xy 147.32 59.69) (xy 153.67 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2553,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 49.53) (xy 151.13 49.53)
+			(xy 132.08 49.53) (xy 153.67 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2663,7 +2800,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 52.07) (xy 151.13 52.07)
+			(xy 137.16 52.07) (xy 153.67 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2703,6 +2840,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 49.53) (xy 180.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c1361a7-3185-4db2-ab93-41ff61162197")
+	)
+	(wire
+		(pts
 			(xy 20.32 25.4) (xy 20.32 24.13)
 		)
 		(stroke
@@ -2733,16 +2880,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 40.64) (xy 165.1 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a7aec39-1f03-467e-902c-c42da1874d0c")
-	)
-	(wire
-		(pts
 			(xy 59.69 59.69) (xy 88.9 59.69)
 		)
 		(stroke
@@ -2753,6 +2890,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 54.61) (xy 179.07 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9ad4e2-08a2-46ac-bdfe-bdf9ba95fd9c")
+	)
+	(wire
+		(pts
 			(xy 121.92 57.15) (xy 147.32 57.15)
 		)
 		(stroke
@@ -2760,6 +2907,16 @@
 			(type default)
 		)
 		(uuid "5fd89e11-8d4e-43ab-9266-0659c690a882")
+	)
+	(wire
+		(pts
+			(xy 147.32 59.69) (xy 147.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626641ce-346a-4995-a6a9-1120bde68c5d")
 	)
 	(wire
 		(pts
@@ -2783,7 +2940,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 38.1) (xy 175.26 40.64)
+			(xy 190.5 46.99) (xy 190.5 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2843,17 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 40.64) (xy 163.83 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dbbc662-df75-404a-af30-fd2cb8deb4bc")
-	)
-	(wire
-		(pts
-			(xy 175.26 49.53) (xy 175.26 50.8)
+			(xy 190.5 58.42) (xy 190.5 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2873,7 +3020,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 40.64) (xy 175.26 41.91)
+			(xy 190.5 49.53) (xy 190.5 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2913,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 40.64) (xy 175.26 40.64)
+			(xy 187.96 49.53) (xy 190.5 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3033,6 +3180,26 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 52.07) (xy 176.53 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bc61f2-4cb5-452c-9743-14209083e008")
+	)
+	(wire
+		(pts
+			(xy 176.53 54.61) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65d4234-b784-40d3-a373-368042aa21ff")
+	)
+	(wire
+		(pts
 			(xy 44.45 57.15) (xy 49.53 57.15)
 		)
 		(stroke
@@ -3093,6 +3260,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 59.69) (xy 176.53 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7001a3-5d5e-42d4-90bc-9b7e861f2444")
+	)
+	(wire
+		(pts
 			(xy 59.69 57.15) (xy 88.9 57.15)
 		)
 		(stroke
@@ -3100,6 +3277,16 @@
 			(type default)
 		)
 		(uuid "d197abb7-8985-4e21-92cc-182bd697d844")
+	)
+	(wire
+		(pts
+			(xy 179.07 62.23) (xy 179.07 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b230b3-4aff-4adb-a638-aae227561c6b")
 	)
 	(wire
 		(pts
@@ -3113,7 +3300,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 54.61) (xy 151.13 54.61)
+			(xy 142.24 54.61) (xy 153.67 54.61)
 		)
 		(stroke
 			(width 0)
@@ -3130,6 +3317,16 @@
 			(type default)
 		)
 		(uuid "f59b09d8-553d-495d-95d9-b7b1b9a9977f")
+	)
+	(wire
+		(pts
+			(xy 179.07 59.69) (xy 179.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6590911-7127-44d7-a184-4af42396e3af")
 	)
 	(wire
 		(pts
@@ -3912,7 +4109,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 175.26 45.72 0)
+		(at 190.5 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3920,7 +4117,7 @@
 		(dnp no)
 		(uuid "0c707d0a-c871-44f7-8dbd-2202ac920a0b")
 		(property "Reference" "C1"
-			(at 178.054 44.45 0)
+			(at 193.294 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3929,7 +4126,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 178.054 46.99 0)
+			(at 193.294 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3938,7 +4135,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 176.2252 49.53 0)
+			(at 191.4652 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3947,7 +4144,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 45.72 0)
+			(at 190.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3956,7 +4153,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 175.26 45.72 0)
+			(at 190.5 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4175,6 +4372,160 @@
 		)
 	)
 	(symbol
+		(lib_id "0_SamacSys_Parts:20021121-00010C4LF")
+		(at 176.53 49.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "444106a5-da05-42c1-874d-51615e7a2d40")
+		(property "Reference" "J10"
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20021121-00010C4LF"
+			(at 165.1 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "2002112100010C4LF"
+			(at 157.48 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/20021121.pdf"
+			(at 157.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Headers & Wire Housings 1.27x1.27mm BTB, Hdr Unshrd, SMT, 10 Pos"
+			(at 176.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Headers & Wire Housings 1.27x1.27mm BTB, Hdr Unshrd, SMT, 10 Pos"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.7"
+			(at 157.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "649-202112100010C4LF"
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/20021121-00010C4LF?qs=iIVTEDlrHA1ddfCJGH4Nhg%3D%3D"
+			(at 157.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol"
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "20021121-00010C4LF"
+			(at 157.48 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "fe59aa4e-3927-4e15-921c-c63eccaec73f")
+		)
+		(pin "5"
+			(uuid "86ad9d8e-8dfc-4b03-90eb-8cd05a88b55b")
+		)
+		(pin "7"
+			(uuid "24795702-ab31-4ca4-940b-4b2593a513e9")
+		)
+		(pin "10"
+			(uuid "d33307bd-5f7d-46e0-9247-54002339d877")
+		)
+		(pin "3"
+			(uuid "36d28c93-5ab5-486b-8eaa-23904e4a2510")
+		)
+		(pin "1"
+			(uuid "501c63ec-b753-4e9d-8f7e-a3b5dddc55d5")
+		)
+		(pin "2"
+			(uuid "b703ca81-2c1d-4cf0-b4c5-5a5ff70b4075")
+		)
+		(pin "4"
+			(uuid "12e09af4-9002-49e3-9bb5-04271e2c20a9")
+		)
+		(pin "6"
+			(uuid "43788673-40ac-40c8-8945-3ae03fbb0df3")
+		)
+		(pin "8"
+			(uuid "ef19332d-a9a4-4047-ae1b-af5b82b9d529")
+		)
+		(instances
+			(project ""
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 54.61 67.31 0)
 		(unit 1)
@@ -4234,88 +4585,6 @@
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
 					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030")
-		(at 161.29 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "660cd41a-b252-4dab-ab8b-cee9c16371c9")
-		(property "Reference" "J4"
-			(at 157.734 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TagConnect"
-			(at 149.86 42.926 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
-			(at 161.29 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
-			(at 161.29 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
-			(at 161.29 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "48ae7a5b-0286-4e0d-b25e-795ad1b54ec3")
-		)
-		(pin "3"
-			(uuid "969137e2-4bdc-4950-819a-1e06bd8c015b")
-		)
-		(pin "1"
-			(uuid "bd99731f-c3bc-4523-aeeb-65d04424fd2c")
-		)
-		(pin "4"
-			(uuid "550b0580-8544-4c79-8562-cfd4e59b9003")
-		)
-		(pin "5"
-			(uuid "647646f9-301e-4df0-8a73-07dd8ab7dd40")
-		)
-		(pin "6"
-			(uuid "4c93b425-20cd-4d67-bb08-f4541be616f0")
-		)
-		(instances
-			(project "NCU"
-				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/58530478-b11f-47ae-90e9-56fd185c9f38"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4521,7 +4790,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 168.91 40.64 0)
+		(at 184.15 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -4530,7 +4799,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d739bfc-2ea3-4fa6-84bf-2c683e8fff49")
 		(property "Reference" "JP5"
-			(at 168.91 34.29 0)
+			(at 184.15 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,15 +4807,16 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 168.91 36.83 0)
+			(at 184.15 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 168.91 40.64 0)
+			(at 184.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +4825,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 40.64 0)
+			(at 184.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,7 +4834,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 168.91 40.64 0)
+			(at 184.15 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4936,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 62.23 0)
+		(at 179.07 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4674,7 +4944,7 @@
 		(dnp no)
 		(uuid "ba73043c-6a24-43f9-8b83-47d017a2b245")
 		(property "Reference" "#PWR052"
-			(at 163.83 68.58 0)
+			(at 179.07 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4953,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 66.294 0)
+			(at 179.07 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,7 +4961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 62.23 0)
+			(at 179.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4700,7 +4970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 62.23 0)
+			(at 179.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4709,7 +4979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 62.23 0)
+			(at 179.07 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +5221,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 175.26 38.1 0)
+		(at 190.5 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4959,7 +5229,7 @@
 		(dnp no)
 		(uuid "e0e8ab8e-8ebb-4fe2-bd81-b9287b2dff30")
 		(property "Reference" "#PWR053"
-			(at 175.26 41.91 0)
+			(at 190.5 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +5238,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 175.006 34.036 0)
+			(at 190.246 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +5246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 38.1 0)
+			(at 190.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4985,7 +5255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 38.1 0)
+			(at 190.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +5264,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 175.26 38.1 0)
+			(at 190.5 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,7 +5558,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 175.26 50.8 0)
+		(at 190.5 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5296,7 +5566,7 @@
 		(dnp no)
 		(uuid "fcd408b2-e230-44c5-a3e2-715e1d8417c2")
 		(property "Reference" "#PWR054"
-			(at 175.26 57.15 0)
+			(at 190.5 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 54.864 0)
+			(at 190.5 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5313,7 +5583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 50.8 0)
+			(at 190.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5322,7 +5592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 50.8 0)
+			(at 190.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5331,7 +5601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 175.26 50.8 0)
+			(at 190.5 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
