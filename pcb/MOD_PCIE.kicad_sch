@@ -5112,7 +5112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 228.346 89.916 0)
 			(effects
 				(font
