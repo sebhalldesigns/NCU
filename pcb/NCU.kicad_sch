@@ -8106,7 +8106,7 @@
 			)
 		)
 		(pin "12V_IO" passive
-			(at 139.7 95.25 180)
+			(at 139.7 102.87 180)
 			(uuid "157e1818-18b6-484e-b040-f27b1cfb5c29")
 			(effects
 				(font

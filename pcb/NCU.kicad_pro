@@ -71,8 +71,63 @@
           "min_clearance": 0.2
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "copper_edge_clearance|52940000|117960000|a7736cef-55e6-4c85-8f7e-c5d71eb69a4b|c6617f9d-474d-4168-95fb-aa8c5ebbcd8c",
+          ""
+        ],
+        [
+          "copper_edge_clearance|52940000|132060000|a7736cef-55e6-4c85-8f7e-c5d71eb69a4b|5c333d82-13eb-4d08-82f7-ef689fab7487",
+          ""
+        ],
+        [
+          "starved_thermal|118384067|106250000|24483f8f-24fb-4a28-88d3-121a6419fd88|12491b83-daea-41d3-8f16-35a815300007|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|122790000|66650000|026863f2-cb6b-4c2f-b735-af799a328bc8|6c1400dc-21ca-42c4-b7da-9b9af7643997|In1.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|143743750|107340000|24483f8f-24fb-4a28-88d3-121a6419fd88|65d96955-249e-4de2-89d2-d189cd7299f1|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|85600000|77644000|24483f8f-24fb-4a28-88d3-121a6419fd88|770d9def-e62c-4ccd-81b9-b126b708bf07|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|85600000|82144000|24483f8f-24fb-4a28-88d3-121a6419fd88|19e6bfa9-3015-4c50-b964-db11348341db|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|85612500|91144000|24483f8f-24fb-4a28-88d3-121a6419fd88|818c4e16-71e1-424f-98b4-d348f3a22021|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|85625000|95594000|24483f8f-24fb-4a28-88d3-121a6419fd88|688429e0-8abf-433a-b990-9fe2a0d98bc5|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|85637500|104594000|24483f8f-24fb-4a28-88d3-121a6419fd88|abf3801b-b38e-442e-9b18-3bcc48a0b21d|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|85650000|100094000|24483f8f-24fb-4a28-88d3-121a6419fd88|0706f0cf-d30c-4715-97ad-16924ee2c973|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|85650000|109094000|24483f8f-24fb-4a28-88d3-121a6419fd88|fe565035-9f93-4ef1-96dd-eaffdf353d1a|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -200,7 +255,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -227,7 +284,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
