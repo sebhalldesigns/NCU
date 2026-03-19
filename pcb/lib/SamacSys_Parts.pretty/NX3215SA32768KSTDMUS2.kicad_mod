@@ -1,35 +1,233 @@
-(module "NX3215SA32768KSTDMUS2" (layer F.Cu)
-  (descr "NX3215SA-32.768K-STD-MUS-2-1")
-  (tags "Crystal or Oscillator")
-  (attr smd)
-  (fp_text reference Y** (at 0.000 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "NX3215SA32768KSTDMUS2" (at 0.000 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.6 -0.75) (end 1.6 -0.75) (layer F.Fab) (width 0.2))
-  (fp_line (start 1.6 -0.75) (end 1.6 0.75) (layer F.Fab) (width 0.2))
-  (fp_line (start 1.6 0.75) (end -1.6 0.75) (layer F.Fab) (width 0.2))
-  (fp_line (start -1.6 0.75) (end -1.6 -0.75) (layer F.Fab) (width 0.2))
-  (fp_line (start -2.75 -1.9) (end 2.75 -1.9) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.75 -1.9) (end 2.75 1.9) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.75 1.9) (end -2.75 1.9) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -2.75 1.9) (end -2.75 -1.9) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -0.4 -0.75) (end 0.4 -0.75) (layer F.SilkS) (width 0.1))
-  (fp_line (start -0.4 0.75) (end 0.4 0.75) (layer F.SilkS) (width 0.1))
-  (fp_line (start -2.2 -0) (end -2.2 -0) (layer F.SilkS) (width 0.1))
-  (fp_line (start -2.3 -0) (end -2.3 -0) (layer F.SilkS) (width 0.1))
-  (fp_arc (start -2.25 -0) (end -2.200 -0) (angle -180) (layer F.SilkS) (width 0.1))
-  (fp_arc (start -2.25 -0) (end -2.300 -0) (angle -180) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at -1.250 -0 0) (size 1.000 1.800) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.250 -0 0) (size 1.000 1.800) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\seb\\NCU\\lib\\SamacSys_Parts.3dshapes\\NX3215SA-32.768K-STD-MUS-2.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 90 -180 0))
-  )
+(footprint "NX3215SA32768KSTDMUS2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "NX3215SA-32.768K-STD-MUS-2-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "c2d9911b-63db-4d7f-a658-3a6094b49917")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "NX3215SA32768KSTDMUS2"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "39f56df8-4875-4e65-a0e4-b612a4b05917")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64436ec2-4e15-47b9-bb0d-e299cb7e94e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "593936d3-a3a0-481f-b44d-9210013afae7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.3 0)
+		(end -2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5eae7d8-c908-4e74-8938-37bfebe80231")
+	)
+	(fp_line
+		(start -2.2 0)
+		(end -2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8784becd-1667-48e4-a422-21684d37a0a5")
+	)
+	(fp_line
+		(start -0.4 -0.75)
+		(end 0.4 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3863622a-0e83-4f05-802a-13227678cc55")
+	)
+	(fp_line
+		(start -0.4 0.75)
+		(end 0.4 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e3ca72c-31c6-4b81-b5b1-ffe99e340db3")
+	)
+	(fp_arc
+		(start -2.3 0)
+		(mid -2.25 -0.05)
+		(end -2.2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0725df00-2724-4565-b643-ec67fd353d5b")
+	)
+	(fp_arc
+		(start -2.2 0)
+		(mid -2.25 0.05)
+		(end -2.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b017c460-f472-48a8-a3e9-2f80f75d050f")
+	)
+	(fp_line
+		(start -2.75 -1.9)
+		(end 2.75 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f907a0d0-f846-466c-ba96-b943ddc6ee4e")
+	)
+	(fp_line
+		(start -2.75 1.9)
+		(end -2.75 -1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4a7764a-eeff-4f58-a2e9-8f346cb91a72")
+	)
+	(fp_line
+		(start 2.75 -1.9)
+		(end 2.75 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "efa18ea5-58eb-4490-a27f-8c21937315db")
+	)
+	(fp_line
+		(start 2.75 1.9)
+		(end -2.75 1.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6d5508c-85d7-41cb-a18e-4460451ccb30")
+	)
+	(fp_line
+		(start -1.6 -0.75)
+		(end 1.6 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d59bb625-08ba-424d-b044-41778d85b1c5")
+	)
+	(fp_line
+		(start -1.6 0.75)
+		(end -1.6 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "49f8708b-7ae7-4a54-ac2b-41ce3fe0bb5c")
+	)
+	(fp_line
+		(start 1.6 -0.75)
+		(end 1.6 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "28d236f7-868a-49cd-9d13-c5b37e283c11")
+	)
+	(fp_line
+		(start 1.6 0.75)
+		(end -1.6 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "889fdc37-0e29-4972-a914-a929c59ce18d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cd2d4e70-3d8b-4628-b242-7a523311664f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.25 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5e1e892f-ecc8-402c-906d-e0df17797df5")
+	)
+	(pad "2" smd rect
+		(at 1.25 0)
+		(size 1 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e1946966-74ef-423c-a953-d5d9f429280f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/SamacSys_Parts.3dshapes/NX3215SA-32.768K-STD-MUS-2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -180 0)
+		)
+	)
 )

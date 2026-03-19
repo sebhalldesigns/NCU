@@ -451,7 +451,7 @@
 		(uuid "0d371a78-6320-435c-a211-a68f09b34872")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\seb\\NCU\\lib\\SamacSys_Parts.3dshapes\\6437288-4.stp"
+	(model "lib/SamacSys_Parts.3dshapes/6437288-4.stp"
 		(offset
 			(xyz 8.709999907 -34.15999933 14.33999994)
 		)

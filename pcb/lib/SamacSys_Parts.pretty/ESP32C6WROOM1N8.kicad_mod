@@ -469,7 +469,7 @@
 		(uuid "041941ea-2c0d-4e38-85b0-a5d81d934a9a")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\seb\\NCU\\lib\\SamacSys_Parts.3dshapes\\ESP32-C6-WROOM-1-N8.stp"
+	(model "${KIPRJMOD}/lib/SamacSys_Parts.3dshapes/ESP32-C6-WROOM-1-N8.stp"
 		(offset
 			(xyz 0 0.04999999999 0.009999999626)
 		)

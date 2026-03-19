@@ -222,4 +222,16 @@ K
 F https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/20021121.pdf
 $ENDCMP
 #
+$CMP LAN8742A-CZ
+D Microchip LAN8742A-CZ Ethernet Transceiver, IEEE 802.3, IEEE 802.3u, 10 Mbps, 100 Mbps 1.62  3.6 V, 24-Pin SQFN
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/8742a.pdf
+$ENDCMP
+#
+$CMP PT61017PEL
+D Audio Transformers / Signal Transformers LAN 10/100 Tin Potted
+K
+F http://www.bourns.com/docs/Product-Datasheets/pt61017pel.pdf
+$ENDCMP
+#
 #End Doc Library
