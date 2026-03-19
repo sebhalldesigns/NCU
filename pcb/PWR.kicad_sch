@@ -4407,16 +4407,6 @@
 				(justify left)
 			)
 		)
-		(pin "AGND" passive
-			(at 107.95 91.44 0)
-			(uuid "66dd228f-6fcb-4869-9039-2aded81771bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "3V3" passive
 			(at 82.55 86.36 180)
 			(uuid "77122db8-5672-4bb4-9ced-a51fe7bb97db")

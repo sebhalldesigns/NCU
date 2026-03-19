@@ -6247,7 +6247,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 91.44) (xy 220.98 91.44)
+			(xy 233.68 91.44) (xy 231.14 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6814,6 +6814,16 @@
 			(type default)
 		)
 		(uuid "a01cfdab-d9df-48f4-8891-e45d9c1ab014")
+	)
+	(wire
+		(pts
+			(xy 223.52 91.44) (xy 220.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20d9dab-e0a7-463d-aa5e-23b567deb0c9")
 	)
 	(wire
 		(pts
@@ -7832,7 +7842,7 @@
 	)
 	(hierarchical_label "USB_VBUS"
 		(shape passive)
-		(at 228.6 91.44 0)
+		(at 233.68 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9003,6 +9013,73 @@
 			(project "NCU"
 				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/d2b1e1a0-8b64-49ff-b975-b40fa2d33dc6"
 					(reference "#PWR0422")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 227.33 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26d25a6a-f29f-454f-aae6-885706a9dfeb")
+		(property "Reference" "R46"
+			(at 225.552 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 229.616 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 227.33 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 227.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93dff0bd-7f08-4121-ae2c-e5419c5008a3")
+		)
+		(pin "2"
+			(uuid "8ee79215-5c37-467b-ab78-779af609ae48")
+		)
+		(instances
+			(project "NCU"
+				(path "/3aee14c3-5480-4f7c-989e-3fef81779034/d2b1e1a0-8b64-49ff-b975-b40fa2d33dc6"
+					(reference "R46")
 					(unit 1)
 				)
 			)
