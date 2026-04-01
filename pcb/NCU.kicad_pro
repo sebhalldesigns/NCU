@@ -668,7 +668,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "NCU.step",
       "svg": "",
       "vrml": ""
     },

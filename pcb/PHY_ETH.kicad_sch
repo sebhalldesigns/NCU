@@ -5037,7 +5037,7 @@
 				)
 			)
 		)
-		(property "Value" "270R"
+		(property "Value" "270"
 			(at 110.998 117.094 0)
 			(effects
 				(font
@@ -5182,7 +5182,7 @@
 				)
 			)
 		)
-		(property "Value" "270R"
+		(property "Value" "270"
 			(at 123.698 116.586 0)
 			(effects
 				(font
@@ -5448,7 +5448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 204.724 52.07 0)
 			(effects
 				(font
@@ -5583,7 +5583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 84.074 93.98 0)
 			(effects
 				(font
@@ -5850,7 +5850,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1n"
 			(at 58.674 111.76 0)
 			(effects
 				(font
@@ -6120,7 +6120,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 125.984 57.15 0)
 			(effects
 				(font
@@ -6189,7 +6189,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8pF"
+		(property "Value" "8p"
 			(at 186.944 118.11 0)
 			(effects
 				(font
@@ -6573,7 +6573,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49.9"
 			(at 110.744 53.34 0)
 			(effects
 				(font
@@ -6917,7 +6917,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 137.414 57.15 0)
 			(effects
 				(font
@@ -7252,7 +7252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "75"
 			(at 51.054 95.25 0)
 			(effects
 				(font
@@ -7519,7 +7519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "75R"
+		(property "Value" "75"
 			(at 57.404 100.33 0)
 			(effects
 				(font
@@ -7588,7 +7588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "470p"
 			(at 178.054 52.07 0)
 			(effects
 				(font
@@ -7789,7 +7789,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 192.024 52.07 0)
 			(effects
 				(font
@@ -7924,7 +7924,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49.9"
 			(at 103.124 59.69 0)
 			(effects
 				(font
@@ -8059,7 +8059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8pF"
+		(property "Value" "8p"
 			(at 175.514 118.11 0)
 			(effects
 				(font
@@ -8944,7 +8944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49.9"
 			(at 87.884 59.69 0)
 			(effects
 				(font
@@ -9079,7 +9079,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9R"
+		(property "Value" "49.9"
 			(at 95.504 53.34 0)
 			(effects
 				(font

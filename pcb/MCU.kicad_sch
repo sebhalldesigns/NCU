@@ -8573,7 +8573,7 @@
 				)
 			)
 		)
-		(property "Value" "260R"
+		(property "Value" "620"
 			(at 99.568 195.326 0)
 			(effects
 				(font
@@ -9183,7 +9183,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1pF"
+		(property "Value" "5.1p"
 			(at 358.14 83.82 0)
 			(effects
 				(font
@@ -9330,7 +9330,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1pF"
+		(property "Value" "5.1p"
 			(at 332.74 83.82 0)
 			(effects
 				(font
@@ -9661,7 +9661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 78.74 74.93 0)
 			(effects
 				(font
@@ -10194,7 +10194,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2pF"
+		(property "Value" "8.2p"
 			(at 332.74 45.72 0)
 			(effects
 				(font
@@ -11151,7 +11151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8.2pF"
+		(property "Value" "8.2p"
 			(at 358.14 45.72 0)
 			(effects
 				(font

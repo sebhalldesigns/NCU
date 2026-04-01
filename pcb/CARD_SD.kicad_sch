@@ -3169,7 +3169,7 @@
 				)
 			)
 		)
-		(property "Value" "10R"
+		(property "Value" "10"
 			(at 42.672 51.816 0)
 			(effects
 				(font
@@ -3939,7 +3939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 36.068 63.5 0)
 			(effects
 				(font
@@ -4075,7 +4075,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 48.006 63.5 0)
 			(effects
 				(font
