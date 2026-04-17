@@ -1875,7 +1875,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "077bd8de-74ce-4b31-9171-180e5040b161")
 		(property "Reference" "R117"
@@ -2919,7 +2919,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "88.7k"
+		(property "Value" "0"
 			(at 135.89 67.3099 0)
 			(effects
 				(font
